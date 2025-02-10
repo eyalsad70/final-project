@@ -1,0 +1,44 @@
+
+in order to run this package you need the following access-keys / tokens
+
+note that AWS_ACCESS_KEY_ID & AWS_SECRET_ACCESS_KEY are required for S3 storage. 
+if not set, app will use local storage and still work ok. this is under flag 'json_local_repository' in the code
+
+#####  Local deployment on windows desktop:
+in windows powershell you should do the following to set those keys as environmant variables:
+
+1. create a file env_set.ps1 with the following content:
+
+$env:TELEGRAM_BOT_TOKEN="your telegram token"
+$env:RAPID_API_KEY="your rapid api key3b"
+$env:GOOGLE_PLACES_KEY="your google place key"
+$env:AWS_ACCESS_KEY_ID="your key (if you want remote storage on S3)"
+$env:AWS_SECRET_ACCESS_KEY="your secret (if you want remote storage on S3)"
+
+2. run the following on PS terminal to get temporary admin rights to run the env file -> 
+    Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+
+3. run ps1 file (wherever you saved it) on PS terminal
+    ./env_set.ps1
+
+now you can start project 'main'
+
+
+
+# Docker file - Bot is currently using SQL-Lite due to connectivity issues with MS SQL server. 
+1. build docker image using the DockerFile
+    $ docker build -f DockerFile -t my_travel_app_image .
+2. run the docker as follows:
+option a: 
+docker run -d \
+    -e TELEGRAM_BOT_TOKEN="your_actual_bot_token" \
+    -e RAPID_API_KEY="your_actual_key" \
+    -e GOOGLE_PLACES_KEY="your_actual_google_cloud_key \
+    -e AWS_ACCESS_KEY_ID="your_aws_access_key" \
+    -e AWS_SECRET_ACCESS_KEY="your_aws_secret_key" \
+    my_travel_app_image
+option b:
+create '.env' file with all the token\key definitions and run:
+docker run --env-file ../docker_env my_travel_app_image
+
+to remove running containers use -> docker rm $(docker ps -a -q)
