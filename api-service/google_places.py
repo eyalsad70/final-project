@@ -100,8 +100,7 @@ def get_places_in_route(route_dict, place_type, fetch_details = False, max_place
             
             if place_type in db_tables:
                 # note that 'get record' returns all matching records, but since 'place-id' is unique we'll get only 1 record
-                x,y, place_record = db.get_record(db_tables[place_type], {'place_id' : place_id}, False )
-                # place_record = db.get_record(db_tables[place_type], {'place_id' : place_id}, True )
+                place_record = db.get_record(db_tables[place_type], {'place_id' : place_id} )
                 if place_record:
                     place_data = db.convert_record(place_record)[0]
                     removed_value = place_data.pop("created_at", None)  # Removes creation time which is in datetime format and not needed
@@ -145,7 +144,7 @@ def get_places_in_route(route_dict, place_type, fetch_details = False, max_place
                 if place_type in db_tables:
                     # rating_type = type(place_data["rating"])
                     # print(f"type: {rating_type}")
-                    db.insert_record(db_tables[place_type], place_data, False)
+                    db.insert_record(db_tables[place_type], place_data)
                     
             places.append(place_data)
             collected_places += 1

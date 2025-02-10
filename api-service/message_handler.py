@@ -8,6 +8,7 @@ import google_places
 from heremaps_attractions import fetch_attractions_from_route
 import common_utils.kafka_common as kfk
 from common_utils.kafka_producer import send_request_to_queue
+import common_utils.db_utils as db
 
 
 def send_places_data_to_queue(original_message, place_type, places_data, topic_name):
@@ -32,6 +33,8 @@ def process_message(json_message):
     
     places = dict()
     was_sent = False
+    
+    db.connect_db()
     
     # if user requested fueling breaks (note that google api gives limited data so we are enriching it using statics tables through an intermediate queue)
     if json_message[UserRequestFieldNames.FUEL_REQUIRED.value]:
@@ -62,6 +65,8 @@ def process_message(json_message):
         place_type = BreakPointName.NONE.value
         was_sent = send_places_data_to_queue(json_message, place_type, None, topic_name)
 
+    db.disconnect_db()
+    
     return was_sent
             
     """ TBDs :
@@ -70,6 +75,6 @@ def process_message(json_message):
 
 if __name__ == "__main__":
     # Load the JSON file
-    with open("route_data.json", "r", encoding="utf-8") as file:
+    with open("route_request_haifa_tel aviv.json", "r", encoding="utf-8") as file:
         data = json.load(file)  # Parse JSON
         process_message(data)

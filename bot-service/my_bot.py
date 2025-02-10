@@ -27,16 +27,11 @@ bot_name = "route-planner-101-bot"
 bot_url_get_updates = f'https://api.telegram.org/bot{test_token}/getUpdates'
 #print(bot_url_get_updates)
 
-def send_welcome_message():
+def send_message(text):
     # put your chat id and send a message
     bot_url = f'https://api.telegram.org/bot{test_token}/'
     chat_id = 6550133750  # int(keys_loader.load_private_key("telebot_id"))
 
-    current_time = time.localtime()
-    time_string = time.strftime("%Y-%m-%d %H:%M:%S", current_time)
-
-
-    text = f'Wake up!! Its {time_string}'
     url = bot_url + f'sendMessage?chat_id={chat_id}&text={text}'
     print(url)
     logger.info(url)
@@ -48,6 +43,14 @@ def send_welcome_message():
     message = json.loads(resp.text)['result']
     print(message)
     logger.info(message)
+    
+    
+def send_welcome_message():
+    current_time = time.localtime()
+    time_string = time.strftime("%Y-%m-%d %H:%M:%S", current_time)
+
+    text = f'Wake up!! Its {time_string}'
+    send_message(text)
     
 ###################################################################################################
 

@@ -2,7 +2,7 @@ import requests
 import json
 import os
 import common_utils.translator as tr  # Correct import
-from common_utils.virtual_route_planner_logger import logger
+from common_utils.local_logger import logger
 
 # HereMaps API Key from environment variable
 API_KEY = os.getenv('HEREMAPS_ATTRACTIONS_KEY')
@@ -104,7 +104,6 @@ def get_attractions(waypoints, max_results=20):
 
     return attractions
 
-
 def fetch_attractions_from_route(route_data, max_results=20):
     """
     Fetches attractions along a predefined route given as JSON input.
@@ -138,7 +137,7 @@ def fetch_attractions_from_route(route_data, max_results=20):
 
 if __name__ == "__main__":
     # Example JSON input (simulating route_dictionary)
-    route_dict = {
+    route_json = {
         "user_id": 6550133750,
         "createdAt": "08/02/2025 23:11:13",
         "origin": "תל אביב",
@@ -172,6 +171,6 @@ if __name__ == "__main__":
                 "lng": 34.657037
             }
         ]
-    }
-        
-    fetch_attractions_from_route(route_dict, max_results=20)
+    }    
+    
+    fetch_attractions_from_route(route_json, max_results=20)
