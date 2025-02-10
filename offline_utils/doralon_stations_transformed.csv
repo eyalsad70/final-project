@@ -1,0 +1,246 @@
+Station NAME,Services,Latitude,Longitude,Address,Product98,Productgas,Producturea,Iselectric,Car_wash,Store
+Umm al -Fahm,Urea,32.558540801411,35.140286929295,Umm al -Fahm,False,False,True,False,False,False
+Umm al -Fahm Center,,32.51115367,35.14992248,Ein Jarrarm Om El Fahm,False,False,False,False,False,False
+Light Judah,"Fuel 98, gas",32.02173979,34.86487627,The 17th -light factory,True,False,False,False,False,False
+Or Yehuda North,,32.03434753418,34.84884644,Factory 4 Light Yehuda,False,False,False,False,False,False
+Lies,"Uriah, mini super oak, electric charging",31.31695123,34.5255356,"Route 471, Uri Tsalim Junction, 9km south of Ofakim",False,False,True,True,False,True
+Ahitov Session,In the kibbutz and in the seat,32.387160893047,34.989569902196,Ahitov Session - Center,False,False,False,False,False,False
+Ee,"Uriah, gas, mini oak, electric charging",29.57770729,34.96698761,Kibbutz Eilot after the checkpoint at the exit from Eilat 08-6318808,False,False,True,True,False,True
+Beams,"Urea, mini super oak",32.71319008,35.54673958,"Road 92, Alumum Junction",False,False,True,False,False,True
+Oak in the Sea of ​​Galilee,A super aloni mini,32.768253725415,35.549818700278,"Eliezer Kaplan 1307 Tiberias, Route 90 in front of my father -in -law",False,False,False,False,False,True
+Alfie Menashe,,32.17388,35.01079,"Arbel Alfei Menashe St., Kalkiliya road",False,False,False,False,False,False
+Elkana,"Urea, mini super oak",32.1119464,35.03545004,PD.199 DNEphraim Elkana,False,False,True,False,False,True
+Ashdod ET northern,Urea,31.832029,34.680392,Science 4 ETAshdod North,False,False,True,False,False,False
+Ashdod Ort,"Fuel 98, oak",31.81354188,34.64869022,ORT 18 Ashdod,True,False,False,False,False,False
+Ashdod Opera House,,31.812813,34.654642,Road S near Pavilion wines.The orgas 25,False,False,False,False,False,False
+Ashdod from Mr.,"A super aloni, car washing",31.77953,34.65942,Menachem Bedt for Southern Ashdod Exit (up to the Lum),False,False,False,False,True,True
+Ashdod wool,,31.8100333214,34.6598482132,"Weizmann St. Ashdod, near Home Center",False,False,False,False,False,False
+Ashdod Rum Sheffer,Fuel 98,31.81232,34.66684,"Work 43, Ashdod",True,False,False,False,False,False
+Ashkelon Introduction,Urea,31.65904932,34.60073766,"At the entrance to Ashkelon, a demon.Ben Gurion",False,False,True,False,False,False
+Ashkelon Amica,"Fuel 98, oak",31.67644592,34.5760768,"Ben Zvi Boulevard 16, Ashkelon (Afridr)",True,False,False,False,False,False
+Ashkelon IDF,"Uriah, oak",31.6644496904,34.5910549164,29 Ashkelon St.,False,False,True,False,False,False
+Beer Tuvia,Urea,31.73771,34.725511,A.Beer Tuvia,False,False,True,False,False,False
+Beer Sheva Big,Oak,31.24583995,34.8135488,64 Be'er Sheva Engineering St.,False,False,False,False,False,False
+Beer Sheva Old City,"Urea, gas, oak",31.23798828,34.79363683,Hebron Beer Sheva,False,False,True,False,False,False
+Beer Sheva Train,"Urea, mini super oak",31.25722303,34.81390656,Joshua Jacket 4 Beer Sheva,False,False,True,False,False,True
+Pagan house,"Fuel 98, urea, mini oak, car washing, electric charging",31.99003199,34.82951626,"Beit Dagon Junction, Route 44-PO. 34 Ben Gurion Airport",True,False,True,True,True,True
+House of the method,"Uriah, gas, mini oak, electric charging",32.54428347,35.43389642,"Route 71, Kibbutz Beit Hatash",False,False,True,True,False,True
+Kibbutz seed house,In the kibbutz and in the seat,32.69062831807,35.57524662949,Kibbutz Beit seed - north,False,False,False,False,False,False
+Beit Yehoshua Moshav,In the kibbutz and in the seat,32.261734004959,34.870168608735,Beit Yehoshua Session - Center,False,False,False,False,False,False
+Rainbow House,"Uriah, mini super oak, electric charging",32.7055,35.41037,Golani Junction south-Battle Ball,False,False,True,True,False,True
+Beit Shemesh,"Uriah, oak",31.77079,34.99755,A.A good mountain Beit Shemesh,False,False,True,False,False,False
+Bnei Barak Crimson,,32.0914,34.82435,Jabotinsky 5 Bnei Brak,False,False,False,False,False,False
+Bnei Barak Stadium,"Fuel 98, urea, mini super oak, car washing",32.10027286,34.82851582,"Operation Kadesh 60 Bnei Brak, in front of Ayalon Mall",True,False,True,False,True,True
+Bnei Barak Jabotinsky,"Oak, car washing",32.09281664,34.84220382,Jabotinsky 137 Bnei Brak,False,False,False,False,True,False
+South south,"Urea, gas, oak",31.81784532,34.70086165,Road 42 Ashdod Ashkelon toward the south in front of the southern southern entrance,False,False,True,False,False,False
+Sons of Dror,"Urea, mini super oak",32.25990556,34.89484219,"Bnei Dror Junction, near Druir Mall",False,False,True,False,False,True
+Sons Zion,"Urea, electric charging",32.21975,34.88245,"Road 4, at the entrance to Bnei Zion",False,False,True,True,False,False
+Bnei Zion Podtrack,,32.22018524,34.88245576,Bnei Zion Entrance from Route 4,False,False,False,False,False,False
+The sons of Ram,"Uriah, gas, oak, electric charging",31.77261829,34.78096199,Road 40 from junction towards Kenny Junction in Moshav Bnei Ram,False,False,True,True,False,False
+Binyamina West,"Fuel 98, urea, gas, mini oak, electric charging",32.5083141041,34.9320816994,"Railway neighborhood, West Binyamina entry",True,False,True,True,False,True
+Beit Hakerem Valley (Majdal Chrome),"Fuel 98, urea, gas, mini oak, car washing",32.91475452,35.25483869,"Road 85 Acre - Carmiel, Beit Hakerem Valley",True,False,True,False,True,True
+Clear Soldier Moshav,In the kibbutz and in the seat,31.555819313669,34.649748995153,Clear Seat Soldier -Lede Sderot,False,False,False,False,False,False
+Her knees,"Uriah, oak",31.66559062,34.62424791,"Road 35 Company- Ashkelon, 1 km West of Givati ​​Junction, Session of her knees",False,False,True,False,False,False
+Bat Yam,,32.02582,34.74906,R. Jerusalem 42 Bat Yam,False,False,False,False,False,False
+Bat Yam Healy,Fuel 98,32.00579834,34.74389076,Communities 10 Bat Yam,True,False,False,False,False,False
+Jet,Urea,32.38873,35.04337,"Road 574, JAT 42 1000 Baka al -Arabia",False,False,True,False,False,False
+Galia,"Urea, mini super oak",31.87676,34.76201,"Galia Moshav, Rehovot-Yavne Road",False,False,True,False,False,True
+Backs,"Uriah, gas, mini super oak",31.50469,34.5902,"Gabi Junction, Yad Mordechai-Sderot",False,False,True,False,False,True
+Geva Carmel Moshav,In the kibbutz and in the seat,32.66431752664,34.955413571086,Geva Carmel,False,False,False,False,False,False
+Hill Hill Kibbutz,In the kibbutz and in the seat,32.09889615223,34.918839844274,Kibbutz Givat Hospital,False,False,False,False,False,False
+Givat Ada,"Gas, mini super oak",32.50924745,34.95870109,Givat Ada Junction Binyamina Givat Ada,False,False,False,False,False,True
+Hill Oz,"Fuel 98, urea, gas, mini oak, electric charging",32.57334215,35.19688911,Megiddo junction,True,False,True,True,False,True
+Gonen Kibbutz,In the kibbutz and in the seat,33.124484501705,35.646065888514,Kibbutz Gonen - Supreme Galilee,False,False,False,False,False,False
+Gilon,"Fuel 98, urea, mini super oak",32.9156521,35.22664521,"Gilon Junction, on Carmiel Acre Road",True,False,True,False,False,True
+Northern Garden,"Fuel 98, urea, mini super oak",33.22361,35.61587,Between a node and the Banias Junction Route 99 (Maayan Baruch),True,False,True,False,False,True
+Garden Yavne,"Uriah, mini super oak, car washing, electric charging",31.78700054,34.6768545,Ashkelon Road Tel Aviv - Road 4 08-8654435,False,False,True,True,True,True
+Gardens,"Urea, mini super oak",32.50993,35.52132,Hamadia junction (Roman bridge),False,False,True,False,False,True
+Volcano Books Junction,"Fuel 98, urea, gas, oak",32.22532,34.8302,"Volcanic Service Road, near Book Junction",True,False,True,False,False,False
+The Ziv bridge,"Fuel 98, urea, mini oak, car washing, electric charging",33.04454198,35.10694597,"Nahariya Rosh Hanikra, Route 4",True,False,True,True,True,True
+Kibbutz bridge,In the kibbutz and in the seat,32.71914687372,35.544222807432,Kibbutz Bridge - North,False,False,False,False,False,False
+A speech,"Fuel 98, urea, gas, mini oak, electric charging",31.42203,34.78612,A desert junction,True,False,True,True,False,True
+Degania A Kibbutz,In the kibbutz and in the seat,32.707600065912,35.576025750415,Kibbutz Degania A - North,False,False,False,False,False,False
+Dalit to Carmel,"Uriah, oak",32.6918537,35.04981396,Dalit Al Carmel-Center,False,False,True,False,False,False
+Hon,"Mini super oak, electric charging",32.72458,35.62012,Kibbutz Hun,False,False,False,True,False,True
+The Samuel Garden booth,Super Alonic,32.4486077225666,34.954902499777,Kibbutz Gan Shmuel,False,False,False,False,False,True
+The sow,"Uriah, mini super oak, car washing",32.64582,35.12539,Kibbutz Hazor,False,False,True,False,True,True
+The anchor kibbutz,In the kibbutz and in the seat,32.360197106482,34.90780158586,The anchor kibbutz,False,False,False,False,False,False
+Zichron Yaacov,"Uriah, oak",32.5560804,34.9587728,"Memory Road in Binyamina, in front of the generous gardens",False,False,True,False,False,False
+Zichron Yaacov Light Memorial,"Uriah, oak, electric charging",32.56933,34.93621,Memory Junction 4 (at the entrance to the complex in front of memory),False,False,True,True,False,False
+Hasharon Hasharon,"Fuel 98, urea, oak, car washing",32.3604,34.861819,Route 2 from the Hasharon Hasharon interchange,True,False,True,False,True,False
+Hadera A. Industry,Oak,32.45544,34.90925,Friedlander AT St.Hadera in front of Alliance,False,False,False,False,False,False
+Hadera East,"Fuel 98, urea, mini super oak",32.441406,34.933079,"77th Alessa St. Hadera, near Maccabi Fire",True,False,True,False,False,True
+Hadera bypasses Hadera,"Urea, mini super oak",32.45455,34.94013,A bypassing Hadera (toward North and Route 6),False,False,True,False,False,True
+Hadera Park Hadera,"Uriah, oak",32.41375,34.90429,Old Hadera-TA road,False,False,True,False,False,False
+Holon through the seven,"Fuel 98, urea, mini super oak, car washing",32.027733974904,34.797741839679,"Seven 20, Holon",True,False,True,False,True,True
+Holon Sedan,Oak,32.020345,34.803794,The 1stder 1st Holon,False,False,False,False,False,False
+Law,"Gas, mini super oak",32.86741,35.53034,"Route 90, between Migdal Junction and Kfar Nahum junction, law 1101",False,False,False,False,False,True
+Haifa Grand Canyon,"Fuel 98, oak",32.78870529,35.00720537,Over Grand Canyon in Haifa Simcha Golan Street,True,False,False,False,False,False
+Haifa Independence,"Uriah, oak",32.82486,34.99095,158 Independence St. Haifa (in front of the Beit Dagon),False,False,True,False,False,False
+Haifa marble,,32.80826969,35.0592508,34m marble St..Haifa,False,False,False,False,False,False
+Haifa Oil Beach,"Uriah, oak",32.80671374879,35.01677600183,Ophir Street 35 Haifa Hadar Edri,False,False,True,False,False,False
+Haifa Julius Simon,"Urea, car washing",32.817531662765,35.047979720587,Via Julius Simon 42 Corner Katzenstein 1 Haifa Bay,False,False,True,False,True,False
+Haifa bypasses Kiryat,"Fuel 98, urea, gas, mini super oak",32.804,35.0166,2 Halacha Street Haifa,True,False,True,False,False,True
+Haifa Freud,Oak,32.790037,34.964962,2 Fliman St. (Matam Junction) Haifa Mall,False,False,False,False,False,False
+Haifa Blvd Histadrut,"Fuel 98, gas, mini oak, car washing",32.8073725452,35.06376973,Histadrut 196 Haifa,True,False,False,False,True,True
+Haifa Haifa Gates,"Uriah, gas, mini oak, electric charging",32.7880682475,35.038189888,16th Poster Post Street Post,False,False,True,True,False,True
+Hemded,"Uriah, oak",31.677847023911,34.635124287904,Road 35 toward Ashkelon,False,False,True,False,False,False
+Hatzor Galilee,Oak,32.98235,35.55262,"Honi Circle Street, Hatzor Galilee",False,False,False,False,False,False
+Hatzor Central Station,,32.98058,35.55535,DAHatzor Central Station,False,False,False,False,False,False
+earing,A super aloni mini,32.4705928,35.0391716,Through the country 2 Hanan Moore Mall,False,False,False,False,False,True
+Tiberias Central Station,"Urea, mini super oak",32.7878,35.53553,100 Jordan Street,False,False,True,False,False,True
+Taibeh,Urea,32.2558721548,34.9669718,Taibeh Road - Star Yair,False,False,True,False,False,False
+Carmel Castle,"Fuel 98, oak",32.7686200554,34.9669718742,"1 Craft Street, Carmel Castle",True,False,False,False,False,False
+Tal Dawn,"Uriah, mini super oak, electric charging",31.80935,34.90007,"Road 3, Moshav Tal Dawn",False,False,True,True,False,True
+Yavneel,,32.71196541,35.49986798,Yavneel Chief Road,False,False,False,False,False,False
+Will build a CPA,"Fuel 98, urea, mini super oak",31.89008,34.73218,"Yavne interchange, road 4 Shidlovsky",True,False,True,False,False,True
+Yavne Gate Yavne,"Uriah, oak",31.86353,34.74323,"5th Mass, a south-southern exit from the city",False,False,True,False,False,False
+Hand gave,"Urea, mini super oak",31.64584315,34.70574014,Route 35 at the entrance to Yad Nathan (in Kiryat Gat area),False,False,True,False,False,True
+Jewish,"Fuel 98, urea, oak",32.026,34.89865,Altalf 1 ETJewish,True,False,True,False,False,False
+Jezreel,"Fuel 98, urea, gas, mini oak, electric charging",32.557882219213,35.32301902771,Road number 675 at the entrance to Kibbutz Jezreel,True,False,True,True,False,True
+Foundations,"Uriah, oak, electric charging",31.81041,34.86039,Road 3 at the entrance to a elemental seat,False,False,True,True,False,False
+Will,"Fuel 98, urea, mini oak, car washing, electric charging",32.89971851,35.17006201,Kibbutz Yasur Route 70 DN Misgav,True,False,True,True,True,True
+Will,Oak,32.68461355,35.27628496,"Yifra Chief Road, between Nahalal Junction and Nazareth",False,False,False,False,False,False
+universe,"Fuel 98, urea, gas, mini oak, car washing, electrical charging",32.2485425,34.83574562,"Haifa Road Tel Aviv, Kibbutz Yakum.",True,False,True,True,True,True
+Yokneam,"Fuel 98, gas, mini oak, electric charging",32.667587,35.107243,The momentum 2,True,False,False,True,False,True
+Jerusalem gardens Sakharov,"Fuel 98, urea, oak, electric charging",31.7948447,35.18743889,Givat Shaul Street (right in Sakharov gardens),True,False,True,True,False,False
+Jerusalem Beer,"Uriah, oak",31.790454076512,35.197996832832,"Weizman 1, Jerusalem",False,False,True,False,False,False
+Jerusalem vehicles,"Fuel 98, urea, mini super oak",31.75334,35.21283,5 ATAs.Jerusalem Talpiot,True,False,True,False,False,True
+Jerusalem Mandelbaum,Urea,31.7855592,35.22899457,Jerusalem Mandelbaum Gate.PD.19015 Jerusalem 31190,False,False,True,False,False,False
+Jerusalem Atarians,"Urea, mini super oak",31.855391,35.216607,1 A. A. A.Jerusalem Atarks,False,False,True,False,False,True
+Jerusalem preceded,"Urea, car washing",31.80194,35.24608,Road Ma'aleh Adumim KM after the French Hill,False,False,True,False,True,False
+Jerusalem Ramat Rachel,"Uriah, mini super oak, car washing",31.74057579,35.21362114,160 Hebron Road St. Jerusalem,False,False,True,False,True,True
+Jerusalem Talpiot,"Urea, gas",31.74502,35.2137136459,"Via Baram 1 Talpiot, Jerusalem (AR)",False,False,True,False,False,False
+Gossip,"Fuel 98, urea, gas",32.9456145,35.17023967,"PD.118, Kfar Yarka 24967",True,False,True,False,False,False
+Straight session,In the kibbutz and in the seat,31.919237073448,34.84657572691,A straight seat,False,False,False,False,False,False
+Kibbutz President's Village,In the kibbutz and in the seat,32.981962977057,35.596708709527,Kibbutz Kfar President - North,False,False,False,False,False,False
+Truman village,"Urea, mini super oak",31.98347,34.91695,"Truman Village 1, Route 453 Ben Gurion Airport",False,False,True,False,False,True
+Kfar Yona,"Fuel 98, urea, mini super oak",32.321676713192,34.921097197868,Independence 57 Kfar Yona,True,False,True,False,False,True
+Kfar Saba,"Fuel 98, urea, mini super oak",32.1720027924,34.9243569374,IMI 1 Kfar Saba,True,False,True,False,False,True
+Kfar Saba East,Urea,32.17727337,34.92762139,A.CPA East,False,False,True,False,False,False
+Gaza village,"Uriah, mini super oak, electric charging",31.476878243,34.5358872414,"Kibbutz Kfar Gaza, Route 232 DNNegev 85142",False,False,True,True,False,True
+A rift village,Urea,32.49995,35.06127,Kfar Karai Chief Road,False,False,True,False,False,False
+Carmiel,"Fuel 98, urea, mini super oak, car washing",32.9217602,35.30908072,A.Carmiel Factory St.,True,False,True,False,True,True
+blade,"Urea, mini super oak",31.34479,34.86865,Lehavim-Shouk-Road 31,False,False,True,False,False,True
+Live flames,"Uriah, mini super oak, electric charging",32.39666,35.00647,"Route 581, Kibbutz Lavim Habib",False,False,True,True,False,True
+Blades,Urea,31.3738497432,34.807333726687,Lehavim junction.PD.30 blades 85338,False,False,True,False,False,False
+Lod,A super aloni mini,31.960001621916,34.899083184271,Dad Hillel Silver 13 Lod,False,False,False,False,False,True
+Latron,"Uriah, gas, mini oak, electric charging",31.83682,34.97707,"Latron interchange, Armored Museum, Route 3",False,False,True,True,False,True
+Lachish Moshav,In the kibbutz and in the seat,31.57077624273,34.846066710962,Lachish seat - south,False,False,False,False,False,False
+Nazareth's introductions,"Urea, gas",32.4129,35.1754,ET Nazareth Reina,False,False,True,False,False,False
+Citrus towers,"Uriah, oak",32.45969,34.96494,Through Pica Pardes Hanna,False,False,True,False,False,False
+Magdians of the seat,In the kibbutz and in the seat,32.734939807975,34.96262171551,Magdad Seat,False,False,False,False,False,False
+Valley Tower,Urea,32.66247,35.23598,"Road 73, Entrance to Migdal Valley Migdal",False,False,True,False,False,False
+Magel East (south of the north),"Fuel 98, urea, gas, mini oak, electric charging",32.37966,35.01776,A cross -country road from East,True,False,True,True,False,True
+West Sound (north to south),"Fuel 98, urea, gas, mini oak, electric charging",32.380809554,35.016976117,Road 6 Kibbutz Magal,True,False,True,True,False,True
+intelligence,,31.91027831,35.01380521,Zechariah Prophet St. The Hasmonean Corner - Intelligence,False,False,False,False,False,False
+Moran,Oak,32.92673103,35.39328223,"Carmiel-Safed Road, at the entrance to the village of Moran",False,False,False,False,False,False
+From seed,"Uriah, mini super oak, electric charging",32.64954835,35.29119047,Road 60 Entrance to Kibbutz Mizra,False,False,True,True,False,True
+From a seat bacteria,In the kibbutz and in the seat,32.40093656259,34.86835091321,Moshav Kukkat - North,False,False,False,False,False,False
+Carmel tunnels,"Urea, mini super oak",32.790237413,35.030711889,The ruby ​​4 checks Haifa,False,False,True,False,False,True
+Maoz Haim Kibbutz,In the kibbutz and in the seat,32.494381796392,35.54999765532,Kibbutz Maoz Haim - North,False,False,False,False,False,False
+Ma'aleh Red Blossiel Rock,"Uriah, oak",31.7865880324,35.3127837181,"Ma'aleh Adumim, Create 38",False,False,True,False,False,False
+The cost of the city,"Fuel 98, mini oak",33.020628793,35.2812194824,"The factory 1, her square her square",True,False,False,False,False,True
+sulcus,"Urea, mini super oak",32.46679,35.01793,Route 574 at the entrance to Kibbutz Manni,False,False,True,False,False,True
+Looking forward to Jericho,Oak,31.81902582,35.3893631,At the entrance to the settlement of Jericho on Route 1,False,False,False,False,False,False
+Mitzpe Ramon,"Uriah, gas, mini oak, electric charging",30.62754,34.8061,Catom Mount 1 at the entrance to Mitzpe Ramon - 98,False,False,True,True,False,True
+Merr in chewed,Fuel 98,32.860828,35.46133,Village Mr. T.466 Focus 20128,True,False,False,False,False,False
+Hasharon Guard,"Uriah, oak, car washing, electric charging",32.35787,34.90771,Anchor Junction Highway 4 at the entrance to Kibbutz Mishmar Hasharon,False,False,True,True,True,False
+Super Hasharon Guard,Super Alonic,32.35844358,34.90764865,"Anchor junction, Route 4",False,False,False,False,False,True
+prop,"Uriah, gas, mini super oak",31.66335,34.62431,"Road 35, Ashkelon Road, Kiryat Gat",False,False,True,False,False,True
+נגבה,A super aloni mini,31.69128,34.68135,Road 3 in front of Julis base,False,False,False,False,False,True
+Nahura,"Uriah, mini super oak, electric charging",31.693258374458,34.681688321304,Road 352 at the entrance to Nahura Moshav,False,False,True,True,False,True
+Nahalal seat,In the kibbutz and in the seat,32.694255590457,35.2053633388072,Nahalal seat,False,False,False,False,False,False
+Nahariya,"Fuel 98, oak",33.000548,35.097005,Ghetto fighters 49 ETSouthern Nahariya,True,False,False,False,False,False
+Neve Yark,"Fuel 98, urea, gas, mini oak, car washing",32.13725,34.9167,"Entrance to Neve Yark Moshav, Route No. 40",True,False,True,False,True,True
+Neve Yark,Super Alonic,32.134231061652,34.923753566234,Neve Yark Session - Center,False,False,False,False,False,True
+Nordia,In the kibbutz and in the seat,32.317888647071,34.896062168478,Nordia seat,False,False,False,False,False,False
+great grandchild,"Uriah, oak",32.6395687,35.34455423,"At the entrance to Kfar Nin, in front of Kibbutz Debra",False,False,True,False,False,False
+Nir Eliyahu,"Uriah, oak",32.1935178,34.95243892,"Route 55, between Neve Yamin and Eyal Junction, Kibbutz Nir Eliyahu",False,False,True,False,False,False
+Nir Boys,"Urea, mini super oak",31.678189,34.7662987,Nir Boys (Station+Oak),False,False,True,False,False,True
+Ness Ziona,A super aloni mini,31.92881319,34.79836885,Weizman 37 Ness Ziona 70400,False,False,False,False,False,True
+Naan East (south of north),"Fuel 98, urea, mini oak, electric charging",31.882303855271,34.8796676266,Route 6 between Eagles and Masmia interchange,True,False,True,True,False,True
+West Na'an (north southern),"Fuel 98, urea, mini oak, electric charging",31.882306214299,34.878607884269,Route 6 between Eagles and Masmia interchange,True,False,True,True,False,True
+Nazareth City,,32.6968927051,35.2920097157,"Nazareth Chief Road, Paul VI (Zoabi)",False,False,False,False,False,False
+Nazareth bypasses,,32.6913757,35.2985727,Nazareth Industrial Area,False,False,False,False,False,False
+Ben Gurion Airport,"Fuel 98, urea, mini super oak, car washing",31.9911161521,34.9041223526,Ben Gurion Airport,True,False,True,False,True,True
+Netanya Mexico,"Uriah, oak",32.32256,34.88243,AT Northern Netanya 54 Daraf Forest Corner of Degania,False,False,True,False,False,False
+Netanya City Days,"Fuel 98, Super Oak, Electric Charging",32.282354410871,34.846276845744,Ben Gurion through 172 Netanya,True,False,False,True,False,True
+Netanya Kiryat Hasharon,"Fuel 98, mini oak",32.31194523,34.87017339,"Boulevard to Hantos 8, Kiryat Hasharon, Netanya",True,False,False,False,False,True
+Super Front Hadera,"Fuel 98, urea, oak",32.45568776,34.9086001,Friedlander 1 room,True,False,True,False,False,False
+Jumble,,32.82907,35.18213,Road 781,False,False,False,False,False,False
+Highlight,"Fuel 98, urea",32.729220938079,35.259366659164,A road bypassing a highway,True,False,True,False,False,False
+Ein Carmel,"Uriah, gas, mini oak, car washing",32.6773,34.96138,Entrance to Kibbutz Ein Carmel-Mall Nahal Cave,False,False,True,False,True,True
+Ein Shemer,"Oak, car washing, electric charging",32.4659678,34.9919583,Karkur Junction 65,False,False,False,True,True,False
+Ein Shemer Super,Super Alonic,32.464548334645,34.99448800333,Menashe junction (Karkur) Route 65,False,False,False,False,False,True
+Einat,"Fuel 98, urea, gas, mini oak, car washing, electrical charging",32.089160756075,34.944346900042,"Road 444, near Kibbutz Einat",True,False,True,True,True,True
+Einat Market,In the kibbutz and in the seat,32.089169688597,34.944016510786,"Road 444, near Kibbutz Einat",False,False,False,False,False,False
+Einat Super,Super Alonic,32.089169688597,34.944016510786,"Road 444, near Kibbutz Einat",False,False,False,False,False,True
+Acre,"Fuel 98, urea, gas, mini super oak",32.90012717,35.09111775,"Acre Haifa Road, Route 4Acre near the Gulf Ein Junction",True,False,True,False,False,True
+Amiad,"Fuel 98, urea, gas, mini oak, electric charging",32.92555439,35.54323912,Entrance to Kibbutz Amiad,True,False,True,True,False,True
+Afula ET,"Urea, car washing",32.60003,35.29658,The drawing 5,False,False,True,False,True,False
+Afula Canyon,,32.60455638,35.29369416,Joshua Hankin 15,False,False,False,False,False,False
+Arad,"Fuel 98, urea, mini oak, car washing, electric charging",31.24845,35.19788,Hebron 140 entry north of Arad,True,False,True,True,True,True
+Arad Sheila,,31.2480116997,35.1972770691,Shamir 4 at the entrance to Arad's Arad,False,False,False,False,False,False
+Appella Center,,32.49536,35.09286,Chief Road Ahra,False,False,False,False,False,False
+Pardes Hanna,,32.480401,34.97346927,Handib Pardes Hanna,False,False,False,False,False,False
+Petah Tikva Basel,Oak,32.09745183,34.86707329,7 Basl St. Kiryat Arie Petah,False,False,False,False,False,False
+Petah Tikva Blinson (DS),"Fuel 98, mini oak",32.09117265,34.86468607,1st Denmark Street Petah Tikva (Blinson Hospital),True,False,False,False,False,True
+Petah Tikva Fiber,Oak,32.08965962,34.8570514,Fiber 17 Petah Tikva,False,False,False,False,False,False
+Petah Tikva Purple,Urea,32.10337,34.89638,Alexander Yanai 1 Petah Tikva,False,False,True,False,False,False
+Petah Tikva Ganim Junction,Urea,32.09706,34.90689,"Road 483 Rosh HaAyin, (Dick-Kfar Avraham)",False,False,True,False,False,False
+Petah Tikva Radak,"Oak, electric charging",32.09725,34.89569,Hiking St. 1 Petah Tikva,False,False,False,True,False,False
+Petah Tikva Park Daniv,,32.0975,34.85413,Will come from 21 Petah Tikva,False,False,False,False,False,False
+Opening,"Urea, mini super oak",31.86242258,34.89305562,"Route 44, Ramla interchange towards Nachshon Junction, near Carmi Joseph",False,False,True,False,False,True
+Dimona Junction,"Urea, car washing",31.06320952653,35.01951892681,Workers 1 Dimona Junction,False,False,True,False,True,False
+Goma junction,"Uriah, gas, mini oak, electric charging",33.17040836,35.57075953,"Route 90, Goma Junction - PO.518 Kiryat Shmona",False,False,True,True,False,True
+Hanania Junction,"Urea, mini super oak",32.916071048874,35.41642427445,Hanania Junction Highway 85,False,False,True,False,False,True
+Jubilee Junction,"Uriah, oak",32.86362773,35.2674939,"Road 805, Sakhnin - near Misgav Junction",False,False,True,False,False,False
+A junction of Masks,"Uriah, mini super oak, car washing, electric charging",32.03822,34.83059,"Sub -Junction, Tel Aviv Jude 461",False,False,True,True,True,True
+Ofer junction,A super aloni mini,32.6389926,34.95972194,"Ofer Junction, entrance to Moshav Kerem of Hallel (Ein Ayala)",False,False,False,False,False,True
+Cliffs,"Uriah, gas, mini oak, electric charging",30.48486775,35.17323327,Cliffs,False,False,True,True,False,True
+A bird,"Fuel 98, urea, mini oak, electric charging",32.7638400463,35.3227851432,On Route 77 between the leading junction and Golani Junction,True,False,True,True,False,True
+Super Oak Plant,Super Alonic,32.703202362752,35.583603649554,Compound in front of a plant violinist,False,False,False,False,False,True
+Safed Mitzpe Days,"Uriah, mini super oak, car washing",32.95515,35.5308,"Nof Galilee Street, Safed",False,False,True,False,True,True
+Tzrifin,"Oak, car washing",31.96920076,34.843181794,Road 44 Entrance to Hospital Assaf Harofe,False,False,False,False,True,False
+Yavne Group,"Uriah, gas, oak, electric charging",31.81935,34.7303,"Route 7, Beit Raban interchange",False,False,True,True,False,False
+Kishon CBS Superbus,Urea,32.794235667774,34.989613913217,Entry to Kishon Prison,False,False,True,False,False,False
+Kiryat Ata,"Urea, car washing",32.80300153,35.08211652,Zebulun 164 Kiryat Ata,False,False,True,False,True,False
+Kiryat Ata Center,Car washing,32.80429,35.09916,37 -kb Zebulun St..Athlete,False,False,False,False,True,False
+Kiryat Ata Superbus (Matron),Urea,32.836617791401,35.0832222503263,"City Ganim Industrial Area, Kiryat Ata",False,False,True,False,False,False
+Kiryat Gat,"Uriah, oak, car washing",31.60556716,34.7725792,"1 Creator Kiryat Gat, PO.885",False,False,True,False,True,False
+Kiryat Gat Boys,"Uriah, gas, mini super oak",31.619027,34.75781,16th Boys St. Kiryat Gat- continuing the Kings of Israel,False,False,True,False,False,True
+Kiryat Grape,Urea,31.80993147143,35.12101650238,Kibbutz Kiryat Grapes,False,False,True,False,False,False
+Kiryat McLon Bilo Antanner,Oak,31.85935,34.81488,breast.King Hassan 1 Kiryat MK,False,False,False,False,False,False
+Karni Samaria,Oak,32.175393,35.094311,Rehavam Sderot Ze'evi 1 Karni Samaria,False,False,False,False,False,False
+Rosh Ha'ayin,,32.10851969,34.96385181,Industrial Area Park Sybil Rosh HaAyin,False,False,False,False,False,False
+Rishon LeZion East,"Fuel 98, oak, car washing",31.94657897,34.81790301,Kalman Shore Corner Rabbi David Halevi Rishon LeZion,True,False,False,False,True,False
+Rishon LeZion West,Oak,31.99286,34.75525,Moshe server 32 Rishon LeZion,False,False,False,False,False,False
+Rishon LeZion is preserved,,31.97796084,34.80890251,Through the Maccabees 28 Rishon LeZion,False,False,False,False,False,False
+Shapiro Rishon LeZion,"Fuel 98, urea",31.9918880463,34.7537651062,Shapiro 15 ETRishon LeZion,True,False,True,False,False,False
+The latest streets,"Fuel 98, oak",31.897796269576,34.800040391603,The IDF 2 streets,True,False,False,False,False,False
+Science Park Streets,Oak,31.910859369505,34.807376783166,9 Oppenheimer St. in Science Park Rehovot,False,False,False,False,False,False
+Ramla Dukada,"Urea, mini super oak",31.934149883361,34.887522813105,Document 1 Ramla,False,False,True,False,False,True
+Ramat Gan Abba Hillel,"Fuel 98, oak, car washing",32.08496,34.8034,"11 Abba Hillel St., Ramat Gan",True,False,False,False,True,False
+Ramat Hasharon,,32.12773864,34.85906468,The 18th -Ramat Hasharon factory,False,False,False,False,False,False
+Ra'anana Renanim,"Oak, electric charging",32.19659178,34.87631098,Renans 5 Raanana,False,False,False,True,False,False
+Rakefet Rakefet,,32.19849,34.88256,Zarahin 26 Daphne Corner A. Raanana,False,False,False,False,False,False
+Segev Shalom,"Uriah, oak",31.22073116,34.8461859,Dimona Road Beer Sheva at the entrance to Segev Shalom,False,False,True,False,False,False
+SD HEAD,"Fuel 98, urea, gas, oak, car washing, electrical charging",32.15574253,34.94702092,"On Route 444 at the entrance to Moshav Shadi Hamad, near Gijulia and a Junction",True,False,True,True,True,False
+SD HEARD MUST,In the kibbutz and in the seat,32.155586410829,34.94707788437,On Route 444 in the seat of Dedi Hamed,False,False,False,False,False,False
+Shuft,,31.814154,35.229716,Shuft 13,False,False,False,False,False,False
+Shimron,"Uriah, oak",32.71340961,35.21298897,"Nahalal-Givat Ella, Zarzir House",False,False,True,False,False,False
+The North Gate,"Fuel 98, urea, gas, mini super oak",32.806367,35.074341,Through Haifa 52 Kiryat Ata Junction,True,False,True,False,False,True
+Shfaram,Urea,32.79812,35.18143,Shfaram Industrial Area Street,False,False,True,False,False,False
+Shfaram Canyon,,32.81732,35.15199,TD 386 Kfar Country 24963,False,False,False,False,False,False
+Tidhar,"Urea, mini super oak",31.377,34.61955,"Moshav Tidhar, Road 25",False,False,True,False,False,True
+Tel Aviv Dizengoff,Oak,32.07773,34.77187,Luria 8 Tel Aviv,False,False,False,False,False,False
+Tel Aviv via Namir,"Fuel 98, urea, mini super oak, car washing",32.1315833,34.795865,Via Namir 301 Tel Aviv,True,False,True,False,True,True
+Tel Aviv through Solomon,"Oak, car washing",32.05501,34.76553,Solomon 37 Tel Aviv,False,False,False,False,True,False
+Tel Aviv Lost,"Fuel 98, mini oak",32.06251901,34.78576183,Lost 24 Tel Aviv (entrance from Wall and Tower),True,False,False,False,False,True
+Tel Aviv SEO,A super aloni mini,32.085,34.7699,Hayarkon 65 Tel Aviv,False,False,False,False,False,True
+Tel Aviv Levinsky,,32.05805,34.77659,"Levinsky 84 Tel Aviv, near the old Central Station",False,False,False,False,False,False
+Tel Yitzhak,"Fuel 98, urea, gas, mini oak, car washing, electrical charging",32.25497,34.87504,At the entrance to Kibbutz Tel Yitzhak between the Bnei Dror junction and the Poleg junction,True,False,True,True,True,True
+Tel Monde,A super aloni mini,32.24821,34.91443,,False,False,False,False,False,True
+Tefen,Oak,32.98381704,35.28042057,A.Tefen toward Kfar Vradim,False,False,False,False,False,False
+Tarshiha of a season,"Urea, gas, oak",33.0177043,35.2627682,At the entrance to the Tarshiha,False,False,True,False,False,False

@@ -1,0 +1,314 @@
+name,Address,city,latitude,Longitude,Opening_hours,Product98,Productgas,Producturea,iselectric,Car_wash,Store
+Abu Kabir,Herzl 188,Tel Aviv - Jaffa,32.0460474,34.7679201,24/7,False,False,False,False,True,True
+Aviel (Superland),Maryland Blore near the Superland,Rishon Lezion,31.9806225,34.7423524,24/7,True,False,False,False,True,True
+Red Eilat,Six Days in front of transport plants,Eilat,29.5710852,34.9631727,24/7,False,True,False,True,True,True
+Ogola,Cadron 16 Afula Industrial Area,Afula,32.607365,35.2994485,Closed on Saturday,False,False,False,True,False,True
+Horizons,Herzl Boulevard,Horizons,31.318965,34.620072,Closed on Saturday,False,False,False,False,False,False
+Lights,Lights Mall-Blore President Corner Copelbitz,Light Akiva,32.5016899,34.9260347,Closed on Saturday,False,False,False,True,True,True
+Orly,Eye Generation 16 ((Banks Street),Haifa,32.8202257,34.9945524,24/7,False,False,False,False,False,True
+Orly Gahaha,Jonah Spindle 1 Road 4,Givat Shmuel,32.0814058,34.8455857,Closed on Saturday,True,False,False,False,False,True
+Illegal,A village of Ixal,Nazareth,32.6759916,35.3166028,Unknown,False,False,False,False,False,True
+Elon Bnei Brak,Hasmoneans 6,Bnei Brak,32.095286,34.8253,Closed on Saturday,False,False,False,False,False,True
+Field champion,Champion-Ramat Gan 15,Ramat Gan,32.0592117,34.8153404,24/7,True,False,False,True,False,True
+Elyashua,Route 40 in front,Hod Hasharon,32.15287,34.92181,24/7,True,False,False,True,False,True
+Allenby,Through Hebron 99,Jerusalem,31.7550788,35.2216248,24/7,True,False,False,False,False,False
+The new Afek,Regional Council space near Route 79,Afek,32.8266726,35.1327453,24/7,False,False,True,False,False,True
+Afridr Ashkelon,Zionia Square 10,Ashkelon,31.6747857,34.5700457,24/7,False,False,False,False,False,True
+Beer Sheva Stadium,Through Samson,Beer Sheva,31.2523107,34.7860451,24/7,False,False,False,False,False,True
+Kfar Saba Stadium,32 Hapoel Corner 32,Kfar Saba,32.1784603,34.9282406,24/7,True,False,False,True,False,False
+Petah Tikva Stadium,Gissin 37 Kiryat Aryeh,Petah Tikva,32.098127,34.8756774,24/7,True,False,False,False,False,False
+Exodus,Exodus 6,Ashkelon,31.6745737,34.5863693,24/7,False,False,False,True,False,True
+crimson,The Crimson Session in the Jordan Valley,crimson,32.1619408,35.5258447,Unknown,False,False,False,False,False,False
+Ariel,Entrance to Moriah Street in front of the University,Ariel,32.1024,35.20663,Closed on Saturday,True,False,False,False,False,True
+Ashdod City,Blind Books EL,Ashdod,31.8112906,34.6656861,24/7,False,False,False,True,True,True
+cluster,Protective Protector-Junction Protective,Beer Sheva,31.2908455,34.4322837,24/7,False,False,True,True,False,True
+Eshel Herzliya,Tel Aviv-Haifa Road from the boat interchange,Herzliya,32.1578923,34.8102571,24/7,True,False,False,True,False,True
+Ashkelon waves,Ashkelon-Shochlon-Ashkelon-Gaza,Ashkelon,31.6587853,34.6005614,24/7,False,True,False,True,False,True
+Ashkelon David,Ashkelon Junction,Ashkelon,31.6598074,34.6017303,24/7,False,False,False,True,False,False
+Ashkelon south,Lev 28 Blvd,Ashkelon,31.63101,34.55904,24/7,True,False,True,False,True,True
+Baka,Baka interchange - Road 6,Baka al-Grubia,32.4132929,35.029981,24/7,False,False,False,False,False,True
+Beer Sheva Center,Through Hebron 1,Beer Sheva,31.237341,34.793725,24/7,False,False,False,False,False,True
+Beer Sheva North,Jerusalem Boulevard in front of Be'er Sheva House,Beer Sheva,31.2452645,34.7816333,24/7,True,False,False,False,False,False
+Grape Bat Hefer,Route 5714 examined,Dug dug,32.35054,35.01395,24/7,False,False,True,True,False,False
+Bir al Amir,Al-Faunth Corner 1006 Street,"Bir al -Amir neighborhood, Nazareth",32.684246,35.285759,24/7,True,False,True,False,False,False
+Bir to a trap,Next to Shfaram,Bir al-Masu,32.77493,35.21411,Unknown,True,False,True,False,True,True
+House to,House to,House to,31.934297,35.221229,Closed on Saturday,False,False,False,False,False,False
+Beit Hakerem,Road 85 Acre Safed,Majd al -Chrome,32.9165858,35.2501053,24/7,False,True,True,False,False,True
+Hannah House,Jerusalem Road Ramallah,Jerusalem,31.8280221,35.2281256,Unknown,False,False,False,False,False,False
+Beit Yitzhak,Route 57 Hasharon Junction at the entrance to Nordia,Beit Yitzhak-Sha'ar dug,32.323356,34.898272,24/7,True,False,False,True,False,False
+Moore House,Route 40 between Bilwo Junction and Ramla,Ramla,31.9192679,34.8698848,24/7,False,False,False,False,False,True
+House of Kama,Beit Kama junction,House of Kama,31.442075,34.764195,24/7,False,True,True,True,False,True
+Beit Shean,King Saul 304,Beit Shean,32.5002277,35.4956246,Closed on Saturday,False,False,False,False,False,True
+Beit Shemesh,A road at the entrance to Beit Shemesh,Beit Shemesh,31.7558283,34.984434,Closed on Saturday,True,False,True,True,False,True
+Beit Shemesh node,AT northern,Beit Shemesh,31.754201,34.993301,Closed on Saturday,False,False,False,False,False,True
+Binyamina Bernicki,Road 4 Binyamina Junction,Binyamina,32.5170073,34.9295469,24/7,False,False,True,True,True,True
+In my eyes,Safed Acre Road,Tenant al-Assad,32.9250541,35.2764522,Unknown,False,False,False,False,False,False
+valley,Through Bethlehem 11,Jerusalem,31.7624482,35.2232589,24/7,False,False,False,False,True,True
+Torne Valley,Torne Valley,Torne,32.7696256,35.3715174,Unknown,False,False,False,False,False,False
+Clear,Road 40 - Road 4 Ram Junction - Kiryat Malachi,Kiryat Malachi,31.7548336,34.778953,24/7,False,False,False,True,False,True
+Bar-Kochba,Ben-Zvi Demon,Jerusalem,31.783729,35.2087493,Closed on Saturday,True,False,False,False,True,True
+Bat-waves,Jaffa 180 Haifa Road Tel Aviv,Haifa,32.8302571,34.9782369,24/7,False,False,True,False,False,True
+Saul Hill,Printing Hill Givat Saul,Jerusalem,31.7860438,35.1912237,Unknown,True,False,True,False,True,False
+Gabriel Herzl,Herzl St.,Ashdod,31.8145504,34.6553314,24/7,False,False,False,True,False,True
+Jadida,At the entrance to the village of Sahak-Jedida,Jadid-Sales,32.9253566,35.1324221,24/7,True,False,False,False,False,True
+A block of milk,At the entrance to a lump of milk from Safed,Jash (Milk block),33.017524,35.446011,24/7,False,False,True,False,False,True
+Guy-Iron,Megiddo Road Hadera Nahal Iron,A rift village,32.4982326,35.063878,24/7,True,False,True,True,False,True
+Revealed,Unterman neighborhood of Gilo,Jerusalem,31.7308645,35.1953432,24/7,False,False,False,False,False,True
+My age,Blore-Nail-Tamar Shore,Rishon Lezion,31.9458555,34.8177835,24/7,True,False,False,True,False,True
+Volcano,Jabotinsky 63,Petah Tikva,32.0918795,34.8596152,Unknown,True,False,True,False,False,False
+Grozenberg,Grozenberg 16,Tel Aviv - Jaffa,32.065968,34.7700469,Unknown,False,False,False,False,False,False
+Granot Galilee,Road No. 899 at 14,Granot Galilee,33.0622328,35.248367,Unknown,False,False,False,False,False,True
+The Aryan Bridge,Rice street corner of the Harry Bridge,Netanya,32.3116523,34.8704864,24/7,False,False,False,False,False,False
+David Bat Yam,Raziel Level President 5,Bat Yam,32.0145439,34.755817,24/7,False,False,False,False,False,True
+Uncle Arad,Samir St. 3 ET at the entrance to the city,Arad,31.248493,35.198193,24/7,False,False,False,True,False,True
+Dimona,Road in Sodom AT Dimona,Dimona,31.0616521,35.0189845,24/7,False,True,True,True,False,True
+Through the tunnels,Road 60 at the southern exit from Jerusalem,Jerusalem,31.72688,35.19473,Closed on Saturday,True,False,True,False,False,True
+Ashdod perfume,3st perfume,Ashdod,31.8194953,34.6621475,Closed on Saturday,False,False,False,False,False,True
+The grain,Stadium 13 near Home Center,Kiryat Haim Mail cells,32.8220558,35.0570346,24/7,False,False,False,True,True,True
+Hadas,Northern Login to Ibn Yehuda from Junction Kadimi Hadassim near the Hadassim boarding school,A Judah stone,32.2844139,34.8929533,24/7,False,False,False,False,False,False
+Hadar Carmel,The striker 25,Haifa,32.8118743,34.9985242,24/7,False,False,False,False,False,True
+Hod Hasharon,Through Ramatim 98,Hod Hasharon,32.1541417,34.8941496,24/7,False,False,False,False,False,False
+Yogeb,At the entrance to Yogev Yokneam-Magdo,Yogeb,32.5939784,35.1820288,24/7,False,False,False,True,False,True
+The pigeon,Shmutkin Corner Brochsky,Rishon Lezion,31.9737369,34.8105905,24/7,True,False,False,False,False,True
+Hiper Dudu Beer Jacob,IDF 22,Beer Jacob,31.9473828,34.8394409,Unknown,False,False,False,False,False,False
+Hypero Dudu Colony Petah,Mordechai Ben Dror 3,Petah Tikva,32.0999849,34.8881411,Unknown,False,False,False,False,False,False
+Hiper Dudu Mintz Petah,Benjamin Mintz 24,Petah Tikva,32.0751683,34.8901045,Unknown,False,False,False,False,False,False
+Hyper Dudu Slur Petah,Salor 5,Petah Tikva,32.089592,34.8824514,Unknown,False,False,False,False,False,False
+Hiper Dudu Kiryat Yam,Aeros 1,Kiryat Yam,32.8433972,35.0710191,Unknown,False,False,False,False,False,False
+Hayarkon,Via Namir 136,Tel Aviv - Jaffa,32.0967909,34.7943472,24/7,False,False,False,True,False,False
+King David,King David 19,Jerusalem,31.7751668,35.2225702,24/7,True,False,False,True,False,True
+The Nofer,Nofer 36 Raanana,Raanana,32.1948285,34.8833963,24/7,True,False,True,False,True,True
+Presidents,Through Presidents Road in House-House,Beer Sheva,31.2779185,34.79484,24/7,True,False,True,True,False,True
+The patrols,Road 4 Tel Aviv -Ashdod in front,Pagan house,32.0026081,34.8077773,24/7,True,True,True,True,False,True
+The decade,Wilzman Blvdman at the city to Tel Aviv,Jerusalem,31.7897726,35.1991854,Closed on Saturday,False,False,False,False,False,True
+Mount Carmel,Presidential Boulevard 132 Haifa Center,Haifa,32.803383,34.9862789,24/7,True,False,False,False,False,True
+Herzliya City,Rabbi Kook 74,Herzliya,32.1632815,34.8305467,24/7,False,False,False,False,False,False
+Peace,Through peace 13,Tel Aviv - Jaffa,32.0718626,34.7975191,24/7,True,False,False,False,False,False
+Hope,Through the 42 -neighborhood of Hope neighborhood,Tel Aviv - Jaffa,32.0540299,34.7873342,Closed on Saturday,False,False,False,False,False,True
+Ziv On,Through Pilot 126,Tel Aviv - Jaffa,32.0453072,34.8130371,Closed on Saturday,False,False,True,False,True,False
+Zach Rufin,Hadera-House Road near (at the entrance to Ruppin College),From a transgressor,32.3454167,34.9084071,24/7,True,False,False,True,False,True
+Habib Givat Shmuel,June Netanyahu 21,Givat Shmuel,32.075145,34.854613,Unknown,False,False,False,False,False,False
+belt,Road 444 Kibbutz Junction Holocaust,belt,32.1456069,34.9469717,24/7,False,False,False,False,False,True
+A room,Haifa-Hadera Road Hadera Junction,A room,32.4375151,34.9101603,24/7,False,False,True,True,False,True
+Hawasa,Through Bar Yehuda near the check -in check at the entrance to the eagle,Nesher (SH 0512),32.78415,35.0310223,Unknown,False,False,False,True,False,False
+Holon,Levi Eshkol Boulevard Kugel Square 1,Holon,32.0304332,34.7744083,24/7,True,False,False,False,False,True
+Carmel beach,Haifa Road - Tel Aviv at the exit from Haifa,Haifa,32.8035114,34.9580802,24/7,False,False,False,True,False,True
+Hofit,Beach Road - At the entrance to Vitkin village,Villain village,32.3842908,34.8668447,24/7,True,False,False,True,False,True
+Haifa east,Golani Brigade 64,Haifa,32.8051042,35.0090918,24/7,False,False,False,False,False,True
+A vegan,Oak 2 at the entrance to vegan,Kiryat Tivon,32.7154982,35.1249576,24/7,True,False,False,True,False,True
+Tiberias Illit,Weizman ET. New Tiberias Illit,Tiberia,32.7800545,35.5040242,24/7,False,False,False,True,False,True
+Tiberias City,Alhhhif,Tiberia,32.7920568,35.535373,Closed on Saturday,False,False,False,False,False,True
+topaz,Moshe Sena 199,Ramat Hasharon,32.1301668,34.8296483,24/7,True,False,False,True,True,False
+Good tip in Babylon,Babylonian 17,Tel Aviv,32.0945213,34.7984477,Unknown,False,False,False,False,False,False
+Good Tip Bruria Tel Aviv,Bruria 19,Tel Aviv,32.0780908,34.7987041,Unknown,False,False,False,False,False,False
+Good tip in the Herzliya,Which brush 31,Herzliya,32.1728726,34.8391569,Unknown,False,False,False,False,False,False
+Good tip Golomb Herzliya,Elijah Golomb 56,Herzliya,32.1738251,34.8462055,Unknown,False,False,False,False,False,False
+A good tip that waded fresh,Who cured 22,Raanana,32.1824982,34.8824259,Unknown,False,False,False,False,False,False
+castle,At the entrance to Kfar Tira from Kfar Saba,castle,32.2295395,34.9442731,24/7,True,False,False,False,False,True
+Carmel Castle,Carmels Azmiya Tirat Carmel,Carmel Castle,32.7709766,34.9655791,24/7,False,False,False,False,False,False
+Tal the bridge,Isaac Field 42,Tel Aviv - Jaffa,32.064728,34.788547,Unknown,True,False,False,False,False,False
+Tal Ofra,Tal Hamefir Junction at the entrance to Alfei Menashe,Alfie Menashe,32.1763999,34.9796498,24/7,True,False,False,False,True,True
+Yavne Green,The mighty 6,Will build,31.86366,34.74262,24/7,False,False,False,False,False,True
+Jewish,21,Yehud-Monoson,32.0301628,34.8990679,24/7,False,False,False,False,True,True
+Jezreelia,Via Simcha Golan Neve Shaanan,Haifa,32.788618,35.0124127,24/7,False,False,False,False,True,True
+Yama Mitzpe Ramon,David Ben Gurion Boulevard 2,Mitzpe Ramon,30.613453,34.80312,Unknown,False,False,False,False,False,False
+jasmine,Mill -in Industrial St.,Binyamina,32.5155451,34.9485187,24/7,False,False,False,True,False,True
+Yifat,At the entrance to Kibbutz Yifat,Yifat,32.6750313,35.221462,24/7,False,False,False,False,False,True
+stable,Gaha Bnei Brak by Coca -Cola,Bnei Brak,32.0739024,34.8431701,Closed on Saturday,True,False,False,False,False,True
+The new Yokneam,Industry 3 PO. 86 Yokneam Illit,Yokneam,32.661123,35.105782,24/7,False,False,False,False,False,True
+Gossip,City in front of,Gossip,32.95236,35.17834,24/7,False,False,False,False,False,True
+Jeremiah,Jeremiah 9,Tel Aviv - Jaffa,32.0950628,34.7751165,24/7,True,False,False,False,False,True
+Yair Star,Yair Star Road -Yigal,Yair Star,32.2205349,34.9819577,24/7,True,False,False,False,False,True
+Eagles wings,Akiva Azulay 1,Jerusalem,31.7889842,35.1893031,Closed on Saturday,True,False,False,True,True,True
+Kfar Yasif,Kfar Yasif,Kfar Yasif,32.9561061,35.160575,24/7,False,False,False,False,False,False
+Kfar Kana,At the entrance to the village of Kana near the licensing office,Kfar Kana,32.7503799,35.3363355,24/7,True,False,False,False,False,True
+Kfar Menda,Road 781 in front of Kfar Menda,Kfar Menda,32.8112853,35.2473185,24/7,False,False,False,False,False,True
+Kfar Saba East,Air -Khawi Knowledge near Route 55 Kfar Saba East,Kfar Saba,32.1662952,34.9279472,24/7,False,True,False,False,True,True
+Kfar Tavor,Road 65 Center Kfar Tavor toward North,Kfar Tavor,32.6854523,35.4197031,24/7,False,False,False,True,False,True
+Karkur,Pardes Hanna-Karkur Road Street Moshav,Pardes Hanna-Karkur,32.4728323,34.992931,24/7,False,False,False,False,False,True
+Carmi Negev Center,Through Masada Center Negev,Beer Sheva,31.2587163,34.7962999,24/7,False,False,True,False,False,False
+Carmiel,Ma'ale Kamat Karmiel Road Acre Safed,Carmiel,32.9277103,35.3250895,24/7,False,False,False,False,True,False
+Carmiel West,Dror 1 corner of the JNF,Carmiel,32.9189738,35.2837013,24/7,True,False,False,False,True,True
+The heart of the bay,Road 75 through valleys in front of the Gulf Heart Mall,Haifa,32.7894591,35.0374326,24/7,True,False,True,False,False,True
+Lod Wisotoki,Abba Hillel Silver St.,Lod,31.9648616,34.9004544,24/7,True,False,True,True,True,True
+Lod Yoseftal,Yiftach Brigade that Josephel Lod 6,Lod,31.9469441,34.8792412,24/7,False,False,False,False,True,True
+Learned,Country Club Continue Ibn Gvirol in front of Chen areas,Tel Aviv - Jaffa,32.1296076,34.7892616,Unknown,False,False,False,False,False,False
+For Eilat,Through the prairie 1,Eilat,29.5552326,34.9555432,24/7,True,False,True,True,True,True
+A hundred gates,Tribes of Israel 44,Jerusalem,31.785066,35.225213,Closed on Saturday,False,False,False,False,False,True
+Introduction Atlit,At the entrance to Atlit in front of the illegal immigrants,Atlit,32.7076922,34.9487158,24/7,False,True,False,True,False,True
+Introductions in the HS,At the northern entrance to the President.,Beer Sheva,31.2780296,34.7931417,24/7,False,False,False,False,False,True
+Nazareth's introductions,7000 Street,Nazareth,32.7208817,35.2955913,24/7,False,False,False,False,False,False
+Mevaseret Jerusalem,Mountain Landscape Landscape Mevaseret Zion,Jerusalem,31.7997409,35.1496676,Closed on Saturday,True,False,False,False,False,True
+Valley Tower,Science Blvd AT Ramat Gabriel 22,Valley Tower,32.6846891,35.2477402,24/7,False,False,False,False,False,True
+Majdal Chrome,Toward the entrance to the village,Majd al -Chrome,32.91731,35.2503139,Unknown,False,False,False,False,False,False
+intelligence,Industrial area in front of the cemetery.,intelligence,31.9235318,34.9897254,24/7,True,False,True,False,True,True
+Harel Intelligence,The mechanic 1 industrial zone will improve chin,Intelligence-Maccabim-Reut,31.889423,34.960295,Closed on Saturday,True,True,False,True,False,True
+Moyal,Fighters 62 in front of the Hospital,Holon,32.0375745,34.7617322,24/7,True,False,False,False,False,True
+Batya souvenir,Route 411 near the entrance to the Batya souvenir.,Batya souvenir,31.8393403,34.8475819,Unknown,False,False,False,False,False,True
+Lahav Ashdod warehouses,They are 2,Ashdod,31.7668098,34.630825,Unknown,False,False,False,False,False,False
+Be'er Sheva Lahav Warehouses,David Tuvihu 125,Beer Sheva,31.2507241,34.7710076,Unknown,False,False,False,False,False,False
+Lahav Wolfson TA,Fighters 11,Tel Aviv,32.0348183,34.7715269,Unknown,False,False,False,False,False,False
+Lahav warehouses will build,The model 16,Will build,31.8666097,34.7357739,Unknown,False,False,False,False,False,False
+Lahav warehouses as Canton Kiryat Ata,Katznelson 10,Kiryat Ata,32.804186,35.1080255,Unknown,False,False,False,False,False,False
+Galilee Land Lahav Warehouses,Harrod 1,Galilee view,32.6932845,35.3164722,Unknown,False,False,False,False,False,False
+Netanya Lahav Warehouses,Herzl 60,Netanya,32.3263227,34.8618541,Unknown,False,False,False,False,False,False
+Bahavia Baitha Kiryat Bialik warehouses,Fund Hydod 62,Kiryat Bialik,32.8343559,35.0883011,Unknown,False,False,False,False,False,False
+Lahav Kiryat Yam warehouses,Brazili 1,Kiryat Yam,32.8384989,35.0597549,Unknown,False,False,False,False,False,False
+Lahav Warehouses Hint Haifa,Hint Zalman Schneur 1,Haifa,32.7761854,35.0084523,Unknown,False,False,False,False,False,False
+Big Kiryat Ata Food Warehouses,The Histadrut 248,Kiryat Ata,32.811768,35.0724644,Unknown,False,False,False,False,False,False
+Timol Ashdod Food Warehouses,Guy Oni 1,Ashdod,31.7857994,34.6607627,Unknown,False,False,False,False,False,False
+Tirat Carmel Food Warehouses,Lehi 8,Carmel Castle,32.7672746,34.9673986,Unknown,False,False,False,False,False,False
+Carmiel food warehouses,Loud 104,Carmiel,32.9188833,35.2937945,Unknown,False,False,False,False,False,False
+Neve Ganim Food Warehouses,Through Acre 271,Kiryat Motzkin,32.8551395,35.0930905,Unknown,False,False,False,False,False,False
+Food Warehouses Savyon Petah,Haya Feinstein 11,Petah Tikva,32.1018791,34.883885,Unknown,False,False,False,False,False,False
+City Ashdod Food Warehouses,The boys 3,Ashdod,31.7949171,34.6394455,Unknown,False,False,False,False,False,False
+Kiryat Eliezer Food Warehouses,Shiraoff Square 4,Haifa,32.8258543,34.9825376,Unknown,False,False,False,False,False,False
+Kiryat Shmuel Food Warehouses,Dov Promer 14,Haifa,32.8426163,35.072391,Unknown,False,False,False,False,False,False
+Red Plain,Red Plain,Jerusalem,31.78545,35.334712,Closed on Saturday,True,False,False,False,False,False
+Poleg Licensing Institute,Israel's heroes AT Poleg,Netanya,32.2791129,34.8601663,Closed on Saturday,False,False,False,False,False,True
+sale,Safed Road - Acre near Kfar Barak,Jadid-Sales,32.9136133,35.1333916,24/7,False,False,True,False,False,True
+Mandelbaum,Center command 1,Jerusalem,31.7856587,35.2278815,24/7,True,False,False,False,True,True
+Comforting,Rada-Ness Ziona Road Road Garden Junction Removers,Rishon Lezion,31.9446477,34.800707,24/7,True,False,False,True,False,True
+Zion track,Beit Shemesh-Sha'ar Gate Guy,Zion track,31.8079743,35.0177458,24/7,True,True,True,True,False,True
+Ma'aleh Red,Jericho-YM Road through Temple Mount 1,Jerusalem,31.7718675,35.2997274,Unknown,False,False,False,True,False,False
+Degrees,MK MK Highlights Western Moral Entry,Maalot-Rishihahaa,33.0155218,35.2780565,24/7,True,False,True,False,False,True
+First west,7 Rosensky St. West Rishon LeZion,Rishon Lezion,31.9870717,34.7715137,24/7,True,False,False,False,True,True
+Arbel-Moker session,After a road tower between Czarmon and Tower,tower,32.8308346,35.503245,24/7,False,False,False,True,False,True
+Looking forward to Spring,On Route 781 Kfar Ablelin,Looking forward,32.828544,35.1999692,Unknown,True,False,False,False,False,False
+Observatory,Sapir Blvd Junction 77 entrance to Tiberias to the west.,Tiberia,32.790159,35.516669,24/7,False,False,False,False,False,True
+Looking forward,Road 65 toward Golani Junction,Torne,32.7944357,35.4042631,24/7,True,False,True,True,False,True
+Mirar,Road 807 describes,Mirar,32.87974,35.42852,24/7,False,False,True,False,False,True
+Neot Spring,Dubnov 7,Tel Aviv - Jaffa,32.0748351,34.7832914,Unknown,False,False,False,True,False,False
+oasis,Through Masada 266,Beer Sheva,31.2532847,34.7706864,24/7,False,True,False,False,True,True
+Nahariya,Road 4 in front of the entrance to Nahariya,Nahariya,32.9903804,35.0966168,24/7,True,False,True,True,False,True
+Nahariya ghetto fighters.,The industrial zone,Nahariya,33.00146,35.09743,24/7,True,False,False,False,True,True
+Neve Jacob,Through Ramallah,Jerusalem,31.836363,35.228262,Unknown,False,False,False,False,False,False
+Neve Oz,Through Yitzhak Rabin Degania near the Osem Factory 5,Petah Tikva,32.0893791,34.8618944,24/7,True,False,False,False,True,True
+Neve Tzedek,Eilat 35,Tel Aviv - Jaffa,32.0579088,34.7638739,Closed on Saturday,False,False,False,False,False,True
+Noya,Road 40 at the entrance to Kibbutz Givat Brenner,Brenner Hill,31.86631,34.81365,24/7,True,False,False,True,True,True
+Nordia,Road 4 south of the Sharon Junction,Nordia,32.3104847,34.9011821,24/7,False,False,False,False,False,False
+Nahalat Yehuda,Beit Dagan-Rishon Lezion in front of the veterinary institute,Rishon Lezion,31.9912406,34.8123289,24/7,True,True,True,False,True,False
+Natah,Route 77 the intersection leading to Tiberias,Expect Netofa,32.7641882,35.244715,Unknown,False,False,True,True,False,False
+Nir Galim,Ashdod's northern exit near Nir Galim,Ashdod,31.8272601,34.6752018,Closed on Saturday,True,False,True,False,False,True
+Nazareth Illit,Ma'ale Yitzhak 25,Nazareth Illit,32.7023752,35.3224768,24/7,False,False,False,False,False,True
+Nazareth Tree of olive,Paul Sixth High School,Nazareth,32.6978442,35.2932812,24/7,False,False,False,False,False,True
+New Netivot,The craftsmen 97,Netivot,31.4163159,34.590459,Closed on Saturday,False,False,False,True,False,False
+Netanya City,Herzl 48,Netanya,32.3271497,34.859999,Closed on Saturday,False,False,False,False,False,True
+groundsel,Judeazi-Junction- Savyon Junction,Light Judah,32.0333599,34.8667828,24/7,True,False,False,True,False,False
+Tire scale,Nahariya Road - Rosh Hanikra,Nahariya,33.0682752,35.1112318,Unknown,False,False,False,False,False,False
+Super Dosh Bat Yamon Bat Yam,Nissanbaum 33-35,Bat Yam,32.0128317,34.751789,Unknown,False,False,False,False,False,False
+Super Dosh Independence Bat Yam,Independence 10,Bat Yam,32.0220845,34.7412398,Unknown,False,False,False,False,False,False
+Super Dosh Holon,David Shaltiel,Holon,32.0029534,34.7724869,Unknown,False,False,False,False,False,False
+Super Dosh Mall Bat Yam,Yoseftal 92,Bat Yam,32.0153827,34.756178,Unknown,False,False,False,False,False,False
+Super Khbat Independence Petah,Independence 63,Petah Tikva,32.0747115,34.8709681,Unknown,False,False,False,False,False,False
+Super Kfar Kfar Ganim,Uncle Avitan 8,Petah Tikva,32.0739173,34.8640708,Unknown,False,False,False,False,False,False
+Super Kiryat Ono,Zidman 2,Kiryat Ono,32.0609114,34.8615647,Unknown,False,False,False,False,False,False
+Super Vineyard Ramot,The Winery 12,Rishon Lezion,31.974177,34.7793889,Unknown,False,False,False,False,False,False
+Stella Maris,Elijah Hakim 1 French Carmel,Haifa,32.8205351,34.9728442,Unknown,False,False,False,False,False,True
+Silver,Ashkelon Ashdod Road Silver Junction,Ashkelon,31.6837147,34.6102765,24/7,True,False,True,False,False,True
+Sakhnin,Main Street near the Licensing Office,Sakhnin,32.8600623,35.3106509,Unknown,False,False,False,False,False,False
+New Sakhnin,Galilee Street Sakhnin,Sakhnin,32.8602228,35.3142354,24/7,False,False,False,False,False,False
+Salma,Through Salma 27,Tel Aviv - Jaffa,32.054605,34.764016,Closed on Saturday,False,False,False,False,False,True
+A slave,Road in Mitzpe Ramon Site Site,Beer Sheva,30.792865,34.7689354,24/7,False,False,True,True,False,True
+Up to the hem,A. Until a day Ashdod Ashkelon,Ashdod,31.7660602,34.6664046,24/7,True,True,True,True,True,False
+Oz Bat Galim,Through Jaffa 196,Haifa,32.8305046,34.9766601,24/7,False,False,False,False,False,True
+Oz Tiberias,Galilee 37,Tiberia,32.785312,35.540925,Unknown,False,False,False,False,False,False
+Oz Netanya / Out,Netanya interchange North (Herzl 102),Netanya,32.3245737,34.8657332,24/7,False,False,False,False,False,True
+Oz Rishon Lezion,Herzl 15,Rishon Lezion,31.97205,34.8064504,Unknown,False,False,False,False,False,True
+Oz Ramat Gan.,Zabutinsky 37,Ramat Gan,32.0841789,34.8073694,24/7,True,False,False,False,True,True
+Osgia,Chief Road Oskia in the exit toward Haifa,Osgia,32.7267648,35.0560377,24/7,True,False,False,False,False,True
+A leader,At the entrance to the settlement,A leader,31.9558091,35.2564621,Closed on Saturday,False,False,False,False,False,True
+Bypass Nazareth,A road bypass Nazareth,Nazareth,32.6921101,35.2978763,24/7,True,False,False,True,False,True
+Bypass Ramla,Road bypasses Ramla via Jerusalem,Ramla,31.9319394,34.8747103,24/7,False,False,False,False,False,True
+Ezra Gabriel,Science ET Northern 32,Ashdod,31.8321577,34.681667,Closed on Saturday,False,False,True,False,False,True
+Azaria,Through Jericho,Jerusalem,31.772398,35.243658,Unknown,False,False,False,False,False,False
+Eye Vered,At the entrance to Ein Vered seat,Eye Vered,32.2606018,34.9280275,24/7,False,False,False,False,False,True
+Eye Hatzar,Arava Road Moshav Ein Hatzeva,Eye Hatzar,30.7992523,35.2441351,24/7,False,False,False,True,False,False
+Acre City,Through the four,Acre,32.9229387,35.0772096,24/7,True,False,False,False,False,True
+North Acre,Old Road Acre-Nahariya in front of the Galilee College,Acre,32.9364055,35.08304,24/7,False,False,False,False,False,True
+Elite Ramat Gan,The first 2,Ramat Gan,32.0824646,34.803212,24/7,False,False,False,False,False,True
+Ambez,South to a protective junction,Ambez,31.2475276,34.4087352,24/7,False,False,False,False,False,True
+Sara Valley,Near cosmos outdoor Lahav Sara Valley,Beer Sheva,31.2268324,34.8185066,24/7,False,False,True,True,False,True
+Afula City,A nine division,Afula,32.6116336,35.2870795,Closed on Saturday,False,False,False,True,False,False
+Atlit,Old Haifa-TA Road Atlit Junction,Atlit,32.7083637,34.9704126,Unknown,False,False,False,False,False,True
+"Paz ""Moses""",Rechtman Rehovot Carmen Gabrielov's Corner A. Cleaman Corner Corner,Streets,31.8889995,34.7834702,Closed on Saturday,True,False,False,False,False,True
+Paz Charge Eilat,Camus 1,Eilat,29.5560297,34.9589954,24/7,False,False,False,True,False,False
+Paz Light Yehuda,Jonathan Netanyahu 6,Light Judah,32.0221849,34.8582503,Closed on Saturday,True,False,False,False,False,True
+Paz Bar,Through Hebron near the craters,Beer Sheva,31.2509745,34.8207422,Unknown,True,False,True,False,False,False
+Paz Gedera,Menachem Begin St. before leaving for 3933,Gedra,31.79689,34.78128,24/7,True,True,False,True,True,True
+Paz Garden,Kaufman 7 in front of a hero home,Tel Aviv - Jaffa,32.0641358,34.7619018,24/7,True,False,False,False,False,True
+Paz Sycamore,House of Kama,House of Kama,31.46824,34.77488,24/7,True,False,True,True,False,True
+Paz Kurdni,Jerusalem Blvd,Kiryat Motzkin,32.85877,35.0907547,24/7,False,False,False,True,False,True
+Samaria Pearl,Karni Samaria (chair),Karni Samaria,32.17926,35.102953,Closed on Saturday,False,False,True,False,False,True
+A wolf summit,Moshe Dane- Pisgat Wolf,Jerusalem,31.8253728,35.2388003,Closed on Saturday,False,False,False,False,False,True
+Peki'in,Entrance to the House-Rama Junction,New Peki'in,32.993475,35.313071,24/7,True,False,False,False,False,True
+Pardes Hanna,Handyv St.,Pardes Hanna-Karkur,32.4817887,34.9730711,Unknown,False,False,False,False,False,False
+Parshmarket regional TA Tel Aviv,Uri Zvi Greenberg 25,Tel Aviv,32.1303052,34.7924311,Unknown,False,False,False,False,False,False
+Rashmmarket Galilee Sea Herzliya,Kibbutz Galilee Sea,Sea roll,32.1592005,34.8337647,Unknown,False,False,False,False,False,False
+The generous Rashmuda Herzliya,The generous 71,Herzliya,32.1705814,34.8316693,Unknown,False,False,False,False,False,False
+President President Raanana,Presidents 47,Raanana,32.1914077,34.8632884,Unknown,False,False,False,False,False,False
+A Jewish Parshmarket,Weizman 21,Jewish,32.0309969,34.8923509,Unknown,False,False,False,False,False,False
+Parshmarket Merom Neve RG,Haim Landau 7,Ramat Gan,32.0716561,34.828074,Unknown,False,False,False,False,False,False
+Rishmarket Rishon Lezor Ein Dor,Eye Generation 6,Rishon Lezion,31.9685617,34.8240311,Unknown,False,False,False,False,False,False
+Ramat Spring,Einstein 58,Tel Aviv,32.1130411,34.7987204,Unknown,False,False,False,False,False,False
+Petah Tikva City,Jabotinsky 6,Petah Tikva,32.0902523,34.8798555,24/7,False,False,False,False,False,True
+Petah Tikva North,Hayarkons 2,Petah Tikva,32.0973019,34.8961664,Closed on Saturday,False,False,False,False,False,True
+Sabra,Through Jerusalem 8,area,32.030091,34.794264,24/7,False,True,False,True,True,True
+The goddess of the goddess,Beit Shemesh Road - Yam,Jerusalem,31.6859286,34.9471356,24/7,True,False,False,True,False,True
+Eagles node,Through Bar Yehuda 89,eagle,32.7730965,35.0456373,Unknown,False,False,False,False,False,False
+A power junction,Route 90 with Route 899,Kiryat Shmona,33.12442,35.57012,24/7,True,True,True,False,True,True
+Netanya Junction,Haifa Road Tel Aviv at Netanya Junction North,Netanya,32.3208117,34.8660988,24/7,True,False,True,False,False,True
+Ram junction,Road 3 junction with Route 40 (Masmia Junction Kiryat Malachi),Kiryat Malachi,31.7615899,34.7857574,Closed on Saturday,False,False,False,False,False,True
+plant,Junction Junction Jordan,Tiberia,32.704136,35.586087,24/7,True,True,True,True,False,True
+Safed,Through Independence in front of Central Station Egged,Safed,32.96922,35.4974593,Closed on Saturday,False,False,False,False,False,True
+forward,Road 4 after Kadima Junction (toward north),forward,32.2873498,34.8980148,24/7,True,False,True,True,True,True
+Koop Ramla,Jerusalem Blvd,Ramla,31.9376942,34.8859655,24/7,False,False,False,True,False,True
+Kibbutz Postcards,Kibbutz Postcards 100,Tel Aviv - Jaffa,32.0483131,34.7766348,24/7,True,False,False,False,False,True
+Kate and recreation,Fliman Street Corner in front of Haifa Mall (MK),Haifa,32.7908834,34.9641925,24/7,True,False,False,False,False,True
+Caesarea,The coastal road,Caesarea,32.4759125,34.8941038,24/7,True,False,False,True,True,True
+Katzrin,No. 4,Katzrin,32.98694,35.71073,24/7,False,False,True,False,False,True
+Kiryat Sharet,The orgas 6,Holon,32.011301,34.7986696,24/7,False,False,False,False,True,True
+Kiryat Ono,Levi Eshkol 23,Kiryat Ono,32.0632889,34.8619585,24/7,False,False,False,False,False,False
+New Kiryat Four,Road 60 at the entrance to Kiryat Four,Kiryat Four,31.542827,35.132228,Closed on Saturday,False,False,True,False,True,True
+Kiryat Arya,The piece 8,Petah Tikva,32.0946434,34.8500112,Closed on Saturday,False,False,False,False,True,True
+Kiryat Ata,Through fertilizers 18 Western entry into Kiryat Ata,Kiryat Ata,32.8046802,35.075422,24/7,False,False,False,False,False,True
+Kiryat Bialik,Through Acre Haifa A. Kiryat Bialik toward the north,Kiryat Bialik,32.8680631,35.0961791,24/7,False,False,True,True,False,True
+Kiryat Gat,South Boulevard 3,Kiryat Gat,31.6039349,34.7751348,Closed on Saturday,False,False,True,True,True,True
+Crimea Kiryat,Through Building Workers 8,Beer Sheva,31.2472663,34.8042915,24/7,False,False,False,True,False,True
+Kiryat Malachi,IDF,Kiryat Malachi,31.7310135,34.7537268,Closed on Saturday,False,False,False,False,False,True
+Kiryat Menachem,Via Henrietta Sald,Jerusalem,31.760549,35.169769,24/7,False,False,False,False,False,False
+Kiryat Matan,King Hassan II III in principle,Kiryat Makhon,31.8601868,34.8107521,24/7,True,False,False,True,True,True
+Kiryat Shmona,Tel Hai Boulevard,Kiryat Shmona,33.2027461,35.5690755,24/7,True,False,True,False,False,True
+Rosh Ha'ayan Afek,ALCRAFUS 1,Kafr Qasem,32.1091428,34.9624273,24/7,True,False,True,False,True,False
+Rosh Pina,Through the Galilee near Rosh Pina Police Station,Rosh Pina,32.9706019,35.5498906,24/7,False,False,False,True,False,True
+Romema,Through Pika Ruppin Junction,Haifa,32.786412,34.9981735,24/7,False,False,False,True,False,False
+Ronit,Road # 2 - Coast Road Exit from Herzliya to Tel Aviv,Herzliya,32.1566879,34.8083457,24/7,True,False,True,False,False,True
+Rockefeller,Rockefeller East Jerusalem Museum,Jerusalem,31.783721,35.237588,Unknown,False,False,False,False,False,False
+Level Rehovot,Herzl 41,Streets,31.885381,34.814749,24/7,True,False,False,True,False,False
+Ramat Gan,Jabotinsky 66,Ramat Gan,32.0864204,34.812094,Unknown,True,False,False,True,False,True
+Levels,Harfshot-Golda Meir Blos,Jerusalem,31.7998246,35.2115957,Unknown,True,False,False,False,False,False
+A great rimella,Herzl 117,Ramla,31.9242447,34.8786855,Unknown,False,False,False,False,False,False
+A small rimella,Herzl 89,Ramla,31.9247294,34.8776106,Closed on Saturday,False,False,False,False,False,True
+A cluster level,Faran 5,Jerusalem,31.8012054,35.2276064,Closed on Saturday,False,False,False,False,False,True
+Danya level,Golomb,Jerusalem,31.7582324,35.1814707,24/7,True,False,False,True,True,False
+Hobbean level,Road in Sde Ramat Hovav resources,Hobbean level,31.1043592,34.8243851,Unknown,False,False,True,False,False,False
+Reshef,Saadia Gaon 24,Tel Aviv - Jaffa,32.0678886,34.7829133,Closed on Saturday,False,False,False,False,False,True
+Reshef will build,The Sandrine (through the sea),Will build,31.8874733,34.7370652,24/7,True,False,False,True,False,True
+Sderot,The new AT-Sderot,Sderot,31.5240118,34.6062429,24/7,False,False,True,True,False,True
+Ben Zvi Boulevard,Ben Zvi Demon 46,Tel Aviv - Jaffa,32.0466846,34.7660649,24/7,True,False,False,False,True,True
+Showa,Tel Aviv-Jerusalem Root Junction,Showa,31.7988689,35.0758689,24/7,True,True,True,True,False,True
+onyx,Grenade street,onyx,32.00632,34.9607,24/7,False,False,True,False,True,True
+trough,Kibbutz Lahav Donance Junction,blade,31.3096317,34.8986347,24/7,True,True,True,True,False,True
+Masturbation,Hayarkons at the entrance to the Baptist village,Petah Tikva,32.1160698,34.904362,24/7,True,False,True,True,False,True
+Sims,Bialik Corner Electric Samson neighborhood,Ashkelon,31.6605591,34.5699346,Unknown,True,False,True,False,True,False
+The ravine gate,The Guy Gate interchange,Jerusalem,31.8157253,35.0241193,24/7,True,False,False,True,False,True
+Hasharon Gate,Taibeh Junction Route 444,Taibeh,32.2808478,35.0053699,Unknown,True,False,False,False,False,False
+Shfaram South,Wadi I will crave a southern exit to Shfaram,Shfaram,32.7982012,35.1705444,24/7,False,False,False,True,False,True
+Shfaram City,At the entrance to Shfaram to the west,Shfaram,32.8116038,35.1627453,24/7,False,False,False,False,False,True
+Sharon,Ben Yehuda in front of a Bar-Heart Media,Kfar Saba,32.1851914,34.9165706,24/7,True,True,False,True,False,True
+Jerusalem Museum Station,Israel Museum Parking,Jerusalem,31.774316,35.201434,24/7,True,False,True,False,False,True
+Tel Seven,At the entrance to Tel Seven,Tel Seven,31.2476778,34.8468164,24/7,False,False,False,False,False,False
+Talpiot,Talpiot Industrial Area,Jerusalem,31.749567,35.2109173,Closed on Saturday,False,False,False,True,False,True
+Tamara,Shfaram Road - Ahihud Iblin,Tamra,32.8429607,35.1641136,Unknown,False,False,True,False,True,True
+Ties,Route 57 at the entrance to Moshav Tnuvot,Ties,32.3134812,34.9642155,Unknown,False,False,False,True,False,False
+Will,A road road,Afula,32.5834979,35.2439415,24/7,True,True,False,True,False,True

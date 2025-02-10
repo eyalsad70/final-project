@@ -1,0 +1,244 @@
+Station NAME,City,Address,Latitude,Longitude,Services,Operating Hours,Product98,Productgas,Producturea,Iselectric,Car_wash,Store
+Abraham Matar,meitar,At the entrance to the rest,31.3261,34.92441,"Joe, Orea, Minta, Disabled,",24/6-24/6,False,False,True,False,False,True
+Edigo/Krinis,hedera,Zalman Sza 1,32.435092,34.909645,"Joe, App, Minta, Disabled,",24/7,False,False,False,False,False,True
+Olga,Olga Hill,"Depth Station Givat Olga, the coastal road toward the south",32.43892,34.89077,"Joe, App, Minta, Disabled,",24/7,False,False,False,False,False,True
+Opt,Givat Shmuel,Ben Gurion 11,32.077251,34.84486,"Disabled,",No Joe Store,False,False,False,False,False,False
+Horizons,Horizons,"Afikim Park, a",31.32344,34.62197,"Joe, App, Minta, Disabled,",24/5,False,False,False,False,False,True
+Pine,Jerusalem,"General Pierre King, Talpiot 2",31.757745,35.214284,"App, disabled,",No Joe Store,False,False,False,False,False,False
+Ayalon,Below,Kibbutz Ayalon,33.061492,35.213297,"Joe, App, Minta, Disabled,",24/7,False,False,False,False,False,True
+Eldor,Haifa,Defense Boulevard 33,32.829789,34.977051,"Joe, Orea, App, Minta, Disabled,",24/7,False,False,True,False,False,True
+Oaks,Jezreel Valley,Oaks,32.70989,35.14349,"Joe, Orea, App, Minta, Disabled,",24/7,False,False,True,False,False,True
+If the colonies,Petah Tikva,Tabor EAPurple 3,32.10848,34.8875,"Joe, Orea, App, Minta, Disabled,",06: 00-20: 00,False,False,True,False,False,True
+emir,Bnei Brak,The Yarkon 10,32.09588,34.8252,"Joe, Orea, App, Minta, Disabled,",24/6-24/6,False,False,True,False,False,True
+oiler,Netanya,Kidder Street (Ether,32.3231,34.87501,"Disabled,",No Joe Store,False,False,False,False,False,False
+alfalfa,Beit Shean,Regional factories from Beit Shean Valley,32.494661,35.521336,"Joe, Orea, App, Minta, Disabled,",06: 00-20: 00,False,False,True,False,False,True
+Evilin,Ahiblin,Chief Road inside the city of Iblin,32.82605,35.18527,"App, disabled,",No Joe Store,False,False,False,False,False,False
+Afikim,Jordan Valley,At the entrance to Kibbutz Afikim,32.67865,35.57959,"Gas, Market, Joe, App, Minta, Disabled, Energy,",24/7,False,False,False,False,False,True
+Eshel Abraham,Beer Sheva,Through Abraham Avinu Corner of Bubborn Alley 36,31.266208,34.793702,"Disabled,",No Joe Store,False,False,False,False,False,False
+Ashkelon,Ashkelon,Latter,31.664377,34.591001,"Joe, Orea, App, Minta, Disabled,",24/7,False,False,True,False,False,True
+Beer Tuvia,Beer Tuvia,A,31.72735,34.75033,"Joe, Orea, App, Minta, Disabled,",24/7,False,False,True,False,False,True
+Beer Jacob,Beer Jacob,Way of life 1,31.93643,34.83141,"Market, Joe, App, Minta, Disabled,",24/7,False,False,False,False,False,True
+Bull Ashdod,Ashdod,"PD.261, Holon Code 5810201 1",31.77558,34.66301,"Joe, App, Minta, Disabled,",24/6,False,False,False,False,False,True
+Biscuit,Kfar Saba,TAKE,32.171512,34.924475,"Joe, App, Minta, Disabled,",06: 00-2: 00,False,False,False,False,False,True
+Beit Guvrin,Yoav,Kibbutz Beit Guvrin,31.607416,34.892149,"Orea, Disabled,",No Joe Store,False,False,True,False,False,False
+Hanan House,Raveh Garden,"Route 42, near Beit Hanan Moshav",31.93941,34.77932,"Joe, Orea, App, Minta, Disabled, Energy,",24/7,False,False,True,False,False,True
+Bethlehem Galilee (176),Jezreel Valley,Zarzir interchange Route 77 between the leading junction and Yishai Junction,32.734507,35.209585,"Joe, App, Minta, Disabled,",24/7,False,False,False,False,False,True
+Allies (Ashdod),Ashdod,Bnei Allies (at the northern entrance to the city),31.81664,34.667,"Joe, Orea, App, Minta, Disabled,",06: 00-2: 00,False,False,True,False,False,True
+Bnei Brak,Bnei Brak,Kaanman (Hashomer) 96,32.07825,34.8418,"Orea, Disabled,",No Joe Store,False,False,True,False,False,False
+Clearly Corps,The Negev Gate,At the entrance to Kibbutz Clear Corps,31.558195,34.63473,"Market, Joe, App, Minta, Disabled,",24/7,False,False,False,False,False,True
+A whole daughter,Carmel beach,Road 70,32.602549,35.017976,"Joe, Orea, App, Minta, Disabled,",24/7,False,False,True,False,False,True
+French hill,Jerusalem,Ghetto Fighters Corner Corps G. French 1,31.800859,35.242501,"Joe, Orea, Minta, Disabled,",24/7,False,False,True,False,False,True
+Gypsies,Ze'ev Hill - Jerusalem,Givons Hill Wolf,31.858855,35.174782,"Orea, Disabled,",No Joe Store,False,False,True,False,False,False
+Wolf Hill,Wolf Hill,Givat Ze'ev junction,31.856776,35.172234,"Market, Joe, App, Minta, Disabled,",24/7,False,False,False,False,False,True
+Gedra,Gedra,Honest Junction,31.807187,34.766666,"Joe, Orea, App, Minta, Disabled,",24/7,False,False,True,False,False,True
+Golani south,Golani Tiberias Junction Road,Golani Junction South East to Route 77,32.776562,35.413313,"Joe, Orea, App, Minta, Disabled,",24/7,False,False,True,False,False,True
+Golani North,Lower Galilee,North of Route 77 Golani Junction,32.777024,35.412644,"Joe, App, Minta, Disabled,",24/7,False,False,False,False,False,True
+Gush Etzion,Alon Shvut,"DNNorthern Yehuda, Gush Etzion Junction, Route 60",31.6464,35.1312,"Joe, Orea, App, Minta, Disabled,",24/7,False,False,True,False,False,True
+Israeli heroes,Tel Aviv Jaffa,Yigal Alon 108,32.070896,34.793603,"Market, Joe, App, Minta, Disabled,",24/7,False,False,False,False,False,True
+You have played,Gilat Junction,Gilat Junction,31.33803,34.653194,"Joe, Orea, App, Minta, Disabled,",24/5,False,False,True,False,False,True
+Ginosar,Jordan Valley,Ginosar,32.84497,35.51656,"Joe, App, Minta, Disabled,",24/7,False,False,False,False,False,True
+Wave um to coal,Umm al -Fahm,Umm El Fahm Chief Road 365,32.529703,35.153921,"Orea, Disabled,",No Joe Store,False,False,True,False,False,False
+A wave wavy,Acre,Southern Acre (in front of football stadium),32.906864,35.087035,"Joe, Orea, App, Minta, Disabled,",24/7,False,False,True,False,False,True
+Gal Daniel _ Ashkelon Beach,Ashkelon Beach,Entry into a Bat Hadar settlement,31.646038,34.594569,"Joe, Orea, App, Minta, Disabled,",24/7,False,False,True,False,False,True
+The wave of valley,The Jordan Valley Regional Council,Valley meeting (Route 90) Jordan Valley,32.0548914,35.4694562,"Joe, Orea, App, Minta, Disabled,",24/7,False,False,True,False,False,True
+Peace Wave (Kafr Qasem),Kafr Qasem,Sultani 16,32.116842,34.970414,"Disabled,",No Joe Store,False,False,False,False,False,False
+A zrozer wave,starling,Zarzir - Road 7626 - in the entrance to the Givat Ella settlement,32.722931,35.219736,"Joe, App, Minta, Disabled,",24/7,False,False,False,False,False,True
+Gal Tiberias,Tiberia,Yehuda Levy,32.790546,35.53206,"Joe, App, Minta, Disabled,",07: 00-19: 00,False,False,False,False,False,True
+Gal Taibeh,Taibeh,Taibeh Triangle PO Box 257,32.246858,34.994581,"Orea, Disabled,",No Joe Store,False,False,True,False,False,False
+Castle wave,castle,East Castle Route 551 toward Star Yair,32.2331036,34.9739763,"Joe, Orea, App, Minta, Disabled,",24/7,False,False,True,False,False,True
+Yokneam wave,Yokneam,Yokneam Colony-Agra,32.65489,35.11723,"App, disabled,",No Joe Store,False,False,False,False,False,False
+Gal Carmiel,Carmiel,Carmiel junction Tefen,32.92954,35.29924,"Joe, App, Minta, Disabled,",24/7,False,False,False,False,False,True
+Gal Menda,Kfar Menda,TD 1080 Kfar Menda 17907,32.812001,35.257912,"Disabled,",No Joe Store,False,False,False,False,False,False
+Gal Netanya,Netanya,Ben Gurion Blvd,32.31708,34.84737,"Joe, App, Minta, Disabled,",24/7,False,False,False,False,False,True
+A wave of guarantees,date,"Road 90, Arava Junction",30.985286,35.307438,"Joe, Orea, App, Minta, Disabled, Energy,",24/7,False,False,True,False,False,True
+Ashdod first wave,Ashdod,1 ORT Street,31.81427,34.64934,"Joe, Orea, App, Minta, Disabled,",24/7,False,False,True,False,False,True
+Galilee,Herzliya,Dad Abba Stone PO Box,32.16112,34.810777,"Joe, Minta, Disabled,",24/7,False,False,False,False,False,True
+Garden Yavne,Garden Yavne,Skip 3,31.77664,34.70588,"Joe, Orea, Minta, Disabled,",24/7,False,False,True,False,False,True
+A candle garden,Gilboa,Candle Garden Junction,32.533033,35.3193335,"Market, Joe, Orea, App, Minta, Disabled, Energy,",24/7,False,False,True,False,False,True
+Gaaton,Nahariya,Through independence,32.992355,35.096383,"Joe, Orea, App, Minta, Disabled,",24/7,False,False,True,False,False,True
+Spoke,Spoke,Kibbutz Debra,32.642514,35.347883,"Joe, Orea, App, Minta, Disabled,",06: 00-21: 00,False,False,True,False,False,True
+Doron,Kfar Saba,Fathers 1,32.173965,34.890719,"Joe, Orea, App, Minta, Disabled,",24/7,False,False,True,False,False,True
+Dimona,Dimona,"Hapoalim St., AT North Dimona",31.06401,35.01672,"Joe, Orea, App, Minta, Disabled, Energy,",24/7,False,False,True,False,False,True
+Dalit to Carmel,Dalit to Carmel,Salah Nasraldin T.77 Dalit Al Carmel 30056 45,32.69629,35.05286,"Disabled,",No Joe Store,False,False,False,False,False,False
+Delek Eliad (A.D.,Eliad,At the entrance to Moshav Eliad,32.80791,35.73567,"Orea, Disabled,",No Joe Store,False,False,True,False,False,False
+Fuel Tiberias (Tiberias gates),Tiberia,Alhhhif,32.791657,35.535679,"Joe, App, Minta, Disabled,",08: 00-16: 00,False,False,False,False,False,True
+Fuel Tefen,Tefen,Fig corner.,32.9778344,35.2756424,"Joe, Orea, Minta, Disabled,",05: 00-22: 00,False,False,True,False,False,True
+Delum,Beer Sheva,Through Hebron 4,31.237578,34.792901,"Joe, Orea, App, Minta, Disabled,",24/7,False,False,True,False,False,True
+The gold palm,Rishon Lezion,Lazarov 35,31.99168,34.77528,"Joe, App, Minta, Disabled,",24/7,False,False,False,False,False,True
+sparrow,A Judah stone,"Dror Sachs, Ibn Yehuda",32.25617,34.87744,"Joe, App, Minta, Disabled,",24/7,False,False,False,False,False,True
+Through the sea (Yavne),Will build,Sanhedrin 34 (Sea Road Corner),31.88748,34.73462,"Joe, Orea, App, Minta, Disabled,",24/7,False,False,True,False,False,True
+Stadium,Nazareth Elite,Yazarel 46,32.689458,35.312644,"Joe, App, Minta, Disabled,",06: 00-2: 00,False,False,False,False,False,True
+The crystal (a nerd blessing),Netanya,The crystal 6,32.28894,34.8642,"Joe, App, Minta, Disabled, Energy,",07: 00-22: 00,False,False,False,False,False,True
+A refueling thanks,Hod Hasharon,The High Court 6,32.132513,34.897753,"Disabled,",No Joe Store,False,False,False,False,False,False
+Jubilee,Holon,Moshe Dayan PD3373 10,32.00076,34.76441,"GAS, Orea, Disabled,",No Joe Store,False,False,True,False,False,False
+The skill,Holon,Skip 47,32.0046866,34.801373,"Joe, App, Minta, Disabled,",07: 00-21: 00,False,False,False,False,False,True
+The bay,Haifa,Histadrut Boulevard 277,32.812188,35.070643,"Joe, App, Minta, Disabled,",24/7,False,False,False,False,False,True
+Eternity Tel Monde,Lev Hasharon,Southern Southern Dror entry to Tel Monde,32.25111,34.89076,"Joe, App, Minta, Disabled,",24/7,False,False,False,False,False,True
+The deer,Holon,Feld 20,32.021167,34.797288,"Joe, App, Minta, Disabled,",24/7,False,False,False,False,False,True
+Hashadon,Netanya,Hadder a,32.32295,34.87894,"Joe, App, Minta, Disabled,",06: 00-18: 00,False,False,False,False,False,True
+Kishon,Haifa,Histadrut 88 Blvd,32.794211,35.041266,"Joe, App, Minta, Disabled,",24/7,False,False,False,False,False,True
+Mount Yona-Mint,Nazareth Elite,Fertility 2,32.7151406,35.3367388,"Joe, Orea, App, Minta, Disabled,",24/7,False,False,True,False,False,True
+Mount Tamir,Jerusalem,"Jacob Eliav, Givat Shmuel 1",31.79392,35.187617,"Joe, App, Minta, Disabled,",24/7,False,False,False,False,False,True
+The wholesale market,Beer Jacob,"Nir Zvi Junction, a",31.959426,34.850628,"Joe, Orea, App, Minta, Disabled, Energy,",24/7,False,False,True,False,False,True
+Dawn,Netanya,The coastal road near Poleg interchange,32.28303,34.85767,"Joe, Orea, App, Minta, Disabled,",24/7,False,False,True,False,False,True
+Hasharon (Clanswa),Clanswa,A,32.30217,34.98176,"Joe, Orea, App, Minta, Disabled,",24/7,False,False,True,False,False,True
+The Tamar,Raanana,Nofer 2,32.19415,34.88313,"Joe, App, Minta, Disabled,",24/5,False,False,False,False,False,True
+Memory (colony),Zichron Yaacov,Nil,32.571767,34.937781,"Joe, App, Minta, Disabled,",24/7,False,False,False,False,False,True
+Singer (Yasin),Near Becca to Garbia,A singer's village,32.36183,35.03048,"Orea, App, Disabled,",No Joe Store,False,False,True,False,False,False
+Palm Beach,Nahariya,Immigration,33.01801,35.09246,"App, disabled,",No Joe Store,False,False,False,False,False,False
+Winter,Winter,Western Hurfish Village,33.02211,35.32904,"Joe, Orea, App, Minta, Disabled,",24/7,False,False,True,False,False,True
+Holes,Jeljulia,At the entrance to its incarnation (exit from Route 6 of the wooden interchange),32.145373,34.95152,"Joe, Orea, App, Minta, Disabled,",24/7,False,False,True,False,False,True
+Industry pioneers,Haifa,The pioneers of industry 40,32.813162,35.063902,"Joe, Orea, App, Minta, Disabled,",24/7,False,False,True,False,False,True
+Hatzor Galilee,Hatzor Galilee,Industrial area Hatzor Galilee,32.98229,35.55721,"GAS, Joe, App, Minta, Disabled,",24/7,False,False,False,False,False,True
+scythe,Haifa,26 scythe,32.78797,35.041963,"Joe, Orea, App, Minta, Disabled,",24/7,False,False,True,False,False,True
+Tiberias cedar,Tiberia,Plain Industrial Area D. 3,32.77933,35.49913,"Joe, App, Minta, Disabled,",24/7,False,False,False,False,False,True
+Taibeh,Taibeh,Hasharon Junction PO Box 67,32.270184,35.002437,"Disabled,",No Joe Store,False,False,False,False,False,False
+Carmel Castle,Carmel Castle,Herzl 2,32.77049,34.96496,"Joe, Orea, App, Minta, Disabled,",24/7,False,False,True,False,False,True
+The new tamra,Below,New Tamara Road 70,32.864332,35.173153,"Joe, Orea, App, Minta, Disabled,",24/7,False,False,True,False,False,True
+Tamra city,Tamara,Chief Road inside the old Tamra city,32.854858,35.18786,"Joe, App, Minta, Disabled,",24/7,False,False,False,False,False,True
+Will be awarded,Will be awarded,Entry north of Ja'a Village,32.98729,35.26032,"Joe, App, Minta, Disabled,",24/7,False,False,False,False,False,True
+Yagel,Beer Sheva,Training the settlement 8,31.22653,34.81289,"Orea, Disabled,",No Joe Store,False,False,True,False,False,False
+Hand Benjamin,Sorek stream,Yad Binyamin Session,31.79257,34.82445,"Joe, Orea, App, Minta, Disabled,",24/7,False,False,True,False,False,True
+Jewish,Jewish,Independence 42,32.02781,34.889559,"Market, Joe, App, Minta, Disabled,",24/7,False,False,False,False,False,True
+Yazramax-Mint,Ramat Gan,Whole 1,32.05343,34.81266,"Joe, App, Minta, Disabled,",24/7,False,False,False,False,False,True
+Marine,Rishon Lezion,Lishansky 6,31.98883,34.76531,"Joe, App, Minta, Disabled,",07: 00-21: 00,False,False,False,False,False,True
+The new Yokneam,Yokneam Illit,Road 70 Yokneam Illit,32.66309,35.1054,"Orea, App, Disabled,",No Joe Store,False,False,True,False,False,False
+Jirmolovsky,A room,Police Square,32.439585,34.911428,"Joe, App, Minta, Disabled,",24/7,False,False,False,False,False,True
+antimony,The Hermon Introduction Regional Council,Session Khalk DNKurzes 12387,32.904416,35.522272,"Joe, Orea, App, Minta, Disabled,",24/7,False,False,True,False,False,True
+sincerity,Beer Tuvia,A,31.80045,34.76083,"Joe, Orea, App, Minta, Disabled,",24/7,False,False,True,False,False,True
+A village of Batya,Raanana,Jerusalem St. corner of the estate,32.18554,34.8537,"Joe, App, Minta, Disabled,",24/6,False,False,False,False,False,True
+Kfar Yasif,Kfar Yasif,Yasif,32.947478,35.163786,"Joe, App, Minta, Disabled,",24/7,False,False,False,False,False,True
+A rift village,A rift village,Kfar Kari Junction,32.50125,35.06094,"Joe, App, Minta, Disabled,",24/7,False,False,False,False,False,True
+New Carmiel,Carmiel,Up masses 9,32.92626,35.32542,"Joe, App, Minta, Disabled,",06: 00-2: 00,False,False,False,False,False,True
+Next to him,The prairie house,Northern Dead Sea Kibbutz Beit Arava,31.773871,35.504208,"Orea, Disabled,",No Joe Store,False,False,True,False,False,False
+Introduction more,Judea Mate,Route 375 at the entrance to the introductory,31.719759,35.102114,"Market, Joe, Orea, App, Minta, Disabled,",24/7,False,False,True,False,False,True
+Dalia's introductions,AfiPia,Dalit to Carmel,32.695731,35.051841,"Joe, App, Minta, Disabled,",24/7,False,False,False,False,False,True
+Haifa's introductions,Haifa,Haganah Boulevard Junction through the Sea 37,32.81223,34.954701,"Joe, Orea, App, Minta, Disabled,",24/7,False,False,True,False,False,True
+First and first introductions,Rishon Lezion,Moshe cattle 32,31.978984,34.809547,"Joe, App, Minta, Disabled,",07: 00-19: 00,False,False,False,False,False,True
+Schemes,Ashkelon Beach,"Moshav Maccabiah, DNAshkelon Beach",31.619826,34.58004,"Joe, App, Minta, Disabled,",24/7,False,False,False,False,False,True
+Valley Tower,Valley Tower,The volume,32.66634,35.24243,"Joe, App, Minta, Disabled,",06: 00-18: 00,False,False,False,False,False,True
+Megiddo,Magdid Kibbutz,Megiddo junction,32.57033,35.1827,"Joe, Orea, App, Minta, Disabled, Energy,",24/7,False,False,True,False,False,True
+Real estate,South Hasharon,Entrance to Moshav Mags on Route 40 toward a router,32.050901,34.903514,"Joe, Orea, App, Minta, Disabled, Energy,",24/7,False,False,True,False,False,True
+Dan Gush leaders,area,Through the seven 19th,32.029854,34.79504,"Joe, Orea, App, Minta, Disabled,",24/7,False,False,True,False,False,True
+Intelligence Erez,intelligence,"Shilat Junction, Route 443",31.92034,35.00745,"GAS, Joe, Orea, App, Minta, Disabled, Energy,",24/7,False,False,True,False,False,True
+Forest Intelligence (101),intelligence,Central Avenue 24,31.92317,34.96666,"Joe, Orea, App, Minta, Disabled,",24/7,False,False,True,False,False,True
+Batya souvenir,Batya souvenir,Blod Mota Gur,31.8467,34.83977,"Market, Joe, App, Minta, Disabled,",24/7,False,False,False,False,False,True
+Zichron Yaacov interchange,Zichron Yaacov,Between Paradis junction and coastal road No. 2,32.590213,34.935731,"Joe, Orea, App, Minta, Disabled,",24/7,False,False,True,False,False,True
+Pads,The Upper Galilee,Entry to Kibbutz Mahmanim Mahman Junction,32.99066,35.56254,"Joe, Orea, App, Minta, Disabled,",06: 00-2: 00,False,False,True,False,False,True
+Minoate,Kafr Qasem,The Heart of the LandRosh Ha'ayin,32.106377,34.955578,"Joe, Orea, App, Minta, Disabled, Energy,",06: 00-2: 00,False,False,True,False,False,True
+Miron,Miron,Miron junction,32.987446,35.441803,"Joe, Orea, App, Minta, Disabled,",24/7,False,False,True,False,False,True
+Red Plain,Ma'aleh Red,Mount Mahwor 2,31.80458,35.32587,"Joe, Orea, App, Minta, Disabled,",24/7,False,False,True,False,False,True
+rest,Lachish,"Communities, Route No. 40",31.65148,34.76705,"Joe, App, Minta, Disabled,",24/7,False,False,False,False,False,True
+Masks,Junction Mascars Galilee Space,Via Lod (Barb) 300,32.03993,34.82301,"Orea, App, Disabled,",No Joe Store,False,False,True,False,False,False
+Masmia,Yoav,Masia Chief Road,31.758357,34.783683,"GAS, Joe, Orea, App, Minta, Disabled, Energy,",24/7,False,False,True,False,False,True
+Moving from themes,Binyamin Mate,At the entrance to a crossing from the head of Route 60,31.872692,35.259869,"Joe, Orea, App, Minta, Disabled,",24/7,False,False,True,False,False,True
+The kind of joy,Raanana,Weizman 273,32.191167,34.845071,"Joe, App, Minta, Disabled,",24/7,False,False,False,False,False,True
+Its coat - Monfort,A jaciler,The Village of its coat PD1106,33.021145,35.261442,"Orea, Disabled,",No Joe Store,False,False,True,False,False,False
+Olga meeting,A room,"TD 1184, Olga Hill, 38111",32.438811,34.890679,"GAS, Joe, Orea, App, Minta, Disabled,",24/7,False,False,True,False,False,True
+Sports meeting,Beer Sheva,Ben Gurion Blvd 16,31.254255,34.812665,"Joe, App, Minta, Disabled,",24/7,False,False,False,False,False,True
+Peace meeting,South Hasharon,Road 444 near Neve Yamin,32.169265,34.956595,"Joe, Orea, App, Minta, Disabled,",24/7,False,False,True,False,False,True
+Hasharon meeting,Petah Tikva,Jabotinsky 27,32.09055,34.8732,"Disabled,",No Joe Store,False,False,False,False,False,False
+Zvika meeting,Below,Nahariya Road Maalot,33.01519,35.16134,"Joe, Orea, App, Minta, Disabled,",24/7,False,False,True,False,False,True
+Matzah,Haifa,Rufin Haifa Road,32.788848,35.002577,"Disabled,",No Joe Store,False,False,False,False,False,False
+Looking up Eilat,Eilat,Yahel,29.56122,34.93807,"Joe, App, Minta, Disabled,",24/7,False,False,False,False,False,True
+Mitzpe Ramon,Mitzpe Ramon,Genesis 1,30.611925,34.804294,"Joe, Orea, App, Minta, Disabled, Energy,",24/7,False,False,True,False,False,True
+strait,Menashe,"Egyptian junction, Kibbutz Metzer",32.436809,35.025947,"Joe, Orea, App, Minta, Disabled,",24/7,False,False,True,False,False,True
+The fire carriages,Holon,The carriage 14,32.01546,34.80794,"Joe, Orea, App, Minta, Disabled,",07: 00-19: 00,False,False,True,False,False,True
+Resources,Ramat Negev,Field Resources Junction (Resources Junction),31.003748,34.771732,"Joe, Orea, App, Minta, Disabled,",24/7,False,False,True,False,False,True
+dead,Haifa,Mottam Industrial Center,32.787482,34.958695,"Joe, App, Minta, Disabled,",07: 00-19: 00,False,False,False,False,False,True
+Neot Hovav,Neot Hovav,"Road 40, Neot Hovav Junction",31.1366,34.80426,"Joe, Orea, App, Minta, Disabled, Energy,",24/7,False,False,True,False,False,True
+Nahalal,Jezreel Valley,Menosa Zabda village,32.70308,35.19237,"Joe, App, Minta, Disabled,",06: 00-2: 00,False,False,False,False,False,True
+Neve Zohar,date,Neve Zohar Sodom Junction,31.147599,35.369161,"Joe, Orea, App, Minta, Disabled, Energy,",24/7,False,False,True,False,False,True
+Neve Jacob,Jerusalem,"Lea Goldberg, Neve Ya'akov 1",31.8420344,35.2403115,"Joe, App, Minta, Disabled,",24/7,False,False,False,False,False,True
+Neve Sapir,Acre,Hello Galilee 1,32.920524,35.09231,"Joe, App, Minta, Disabled,",24/7,False,False,False,False,False,True
+Neve Amal,Herzliya,Via Jerusalem 31,32.17205,34.85269,"Joe, Orea, App, Minta, Disabled,",24/7,False,False,True,False,False,True
+Nachshon,Judea Mate,Nachshon junction (Route 44) between Ramla and Beit Shemesh,31.814781,34.91888,"Joe, Orea, App, Minta, Disabled,",24/7,False,False,True,False,False,True
+Nicks,Jerusalem,Herzog Corner Schneur,31.766711,35.204013,"Joe, Orea, App, Minta, Disabled,",24/7,False,False,True,False,False,True
+Nin Tabor,Nin (m.,Kfar Nin,32.638207,35.343528,"Joe, Orea, App, Minta, Disabled,",24/7,False,False,True,False,False,True
+Nina,Hod Hasharon,The hammer 12,32.155116,34.919701,"Joe, App, Minta, Disabled,",24/6-24/6,False,False,False,False,False,True
+Nir David (Garden of Three),Nir David,At the entrance to the three garden,32.507935,35.447594,"Joe, App, Minta, Disabled, Energy,",08: 00-20: 00,False,False,False,False,False,True
+Nir with,The Negev Gate,At the entrance to Kibbutz Nir with,31.52566,34.5814,"Joe, Orea, App, Minta, Disabled,",24/7,False,False,True,False,False,True
+Ness Ziona,Ness Ziona,The Rash 2,31.92235,34.79854,"Joe, Orea, App, Minta, Disabled,",24/7,False,False,True,False,False,True
+A router,A router,Ben Gurion Airport,31.9873854,34.8970521,"Joe, Orea, App, Minta, Disabled,",24/7,False,False,True,False,False,True
+Netivot,Netivot,Jerusalem 2,31.424841,34.600201,"Joe, Orea, App, Minta, Disabled,",24/7,False,False,True,False,False,True
+virtue,Petah Tikva,Marcus 5,32.10069,34.895926,"Joe, App, Minta, Disabled,",07: 00-17: 00,False,False,False,False,False,True
+Star Center,Ashdod,Jabotinsky Star Center 47,31.80999,34.65575,"Joe, App, Minta, Disabled,",24/7,False,False,False,False,False,True
+Fibers,Petah Tikva,The fibers 53,32.08529,34.85661,"Market, Joe, App, Minta, Disabled,",24/7,False,False,False,False,False,True
+Rosenfeld Pool,Nazareth Elite,Ma'ale Yitzhak 11,32.700778,35.317665,"Joe, Orea, App, Minta, Disabled,",24/7,False,False,True,False,False,True
+storm,Below,At the entrance to Kibbutz Sa'ar near Nahariya,33.02732,35.105378,"GAS, Joe, App, Minta, Disabled,",24/7,False,False,False,False,False,True
+Pearl,benign,Road 40 in front of Uza Moshav,31.588706,34.757688,"Joe, Orea, App, Minta, Disabled,",24/7,False,False,True,False,False,True
+Outs,Beer Sheva,Through Hebron 10,31.25209,34.82005,"GAS, Joe, Orea, App, Minta, Disabled,",24/7,False,False,True,False,False,True
+Bypassing her room,A room,Route 65 between Western Entry and Hadera's eastern,32.45457,34.93997,"GAS, Joe, Orea, App, Minta, Disabled, Energy,",24/7,False,False,True,False,False,True
+The bay eye,Near Acre,Gulf Ein Junction,32.90291,35.09143,"Joe, Orea, App, Minta, Disabled,",24/7,False,False,True,False,False,True
+Ein Yahav,Ein Yahav,The prairie road at the entrance to Ein Yahav Moshav,30.62093,35.19487,"Joe, Orea, App, Minta, Disabled, Energy,",24/7,False,False,True,False,False,True
+A whole city,Jerusalem,"Herzog St., Junction",31.757179,35.197236,"Joe, Orea, App, Minta, Disabled,",24/7,False,False,True,False,False,True
+Acre Crimson,Acre,At the entrance to Acre in front of the Till Beach Hotel,32.91698,35.08234,"Joe, App, Minta, Disabled, Energy,",24/7,False,False,False,False,False,True
+Hefer Valley,Hefer Valley,Creek Park Industries 2,32.404843,34.89649,"Joe, Orea, App, Minta, Disabled,",06: 00-20: 00,False,False,True,False,False,True
+Sara Valley,Beer Sheva,"Ophir Park, Jewish Kiryat",31.22,34.80312,"Joe, App, Minta, Disabled,",24/7,False,False,False,False,False,True
+Afula the valleys,Afula,The Rebed 7,32.606363,35.299304,"Joe, Orea, App, Minta, Disabled,",24/7,False,False,True,False,False,True
+Afula Yokler,Afula,Brigade 9,32.61696,35.28941,"Joe, Orea, App, Minta, Disabled, Energy,",24/7,False,False,True,False,False,True
+Arad,Arad,At the entrance to Arad,31.25427,35.20746,"Joe, Orea, App, Minta, Disabled,",24/7,False,False,True,False,False,True
+Car Park,Haifa,Histadrut Boulevard 149,32.801376,35.051116,"Joe, Orea, App, Minta, Disabled,",24/7,False,False,True,False,False,True
+Wasp Park,Judea Mate,Somewhat,31.762992,34.983741,"Joe, Orea, App, Minta, Disabled,",06: 00-20: 00,False,False,True,False,False,True
+Poleg,Netanya,Arts 5,32.27713,34.860793,"Joe, App, Minta, Disabled,",07: 00-22: 00,False,False,False,False,False,True
+Poliba,Ramla,Mount Atzmon a,31.917687,34.887749,"Joe, Orea, App, Minta, Disabled,",07: 00-19: 00,False,False,True,False,False,True
+Mountain Inn / Neve Ilan,Judea Mate,Neve Ilan (at the entrance to the market),31.803978,35.091849,"Orea, App, Disabled,",No Joe Store,False,False,True,False,False,False
+suburb,Tel Aviv Jaffa,Jerusalem Boulevard 210,32.03286,34.75109,"Joe, App, Minta, Disabled,",06: 00-2: 00,False,False,False,False,False,True
+Flans Rehovot,Streets,Through the sea 12,31.893867,34.792999,"Market, Joe, App, Minta, Disabled,",24/7,False,False,False,False,False,True
+Chimblista,Ashdod,Science 21,31.83294,34.67768,"Minta, Disabled,","A -6:00 - 22:00
+And 6:00 - 2pm",False,False,False,False,False,True
+Check a post,Haifa,Peel Check Post 5,32.78863,35.03029,"App, disabled,",No Joe Store,False,False,False,False,False,False
+Ora junction,Jerusalem,"Ora junction, Jerusalem",31.755963,35.159889,"Joe, App, Minta, Disabled,",24/7,False,False,False,False,False,True
+Rama Junction,Rama,Rama Celmon Junction Rama 1 30055,32.930497,35.367743,"Disabled,",No Joe Store,False,False,False,False,False,False
+Seaside,Eilat,The industrial zone,29.57333,34.9638,"Joe, Orea, App, Minta, Disabled,",06: 00-16: 00,False,False,True,False,False,True
+The sound of the woods,Beit Hakerem Valley,Route 85 Carmiel Acre to adjust Acre,32.91454,35.19129,"Joe, App, Minta, Disabled,",06: 00-21: 00,False,False,False,False,False,True
+Country at,Beer Sheva,Ilan Ramon 37,31.2556527,34.7578285,"Joe, Orea, App, Minta, Disabled,",24/7,False,False,True,False,False,True
+Kadesh Barnea,Copies,Lot 102,30.901775,34.451916,"Orea, App, Disabled,",No Joe Store,False,False,True,False,False,False
+Esther cinema,Ashkelon,Resurrection Givat Zion 30,31.655796,34.58432,"Joe, App, Minta, Disabled,",24/5,False,False,False,False,False,True
+Clausner (Ramla),Ramla,Clausner 16,31.92255,34.87719,"App, disabled,",No Joe Store,False,False,False,False,False,False
+Keniel,Petah Tikva,Moshe Dayan 14,32.09492,34.86245,"Joe, Orea, App, Minta, Disabled,",24/7,False,False,True,False,False,True
+Castel,Mevaseret Zion,Hatzavim Boulevard,31.79099,35.14243,"Market, Joe, App, Minta, Disabled,",24/7,False,False,False,False,False,True
+Kaplan,Ramla,Corner Moshe Aderet and Scout,31.932494,34.889269,"Joe, Orea, App, Minta, Disabled,",24/7,False,False,True,False,False,True
+harvesting,Appeal,Katzir junction in a wire,32.49207,35.08122,"Joe, Orea, App, Minta, Disabled,",24/7,False,False,True,False,False,True
+Katzrin,Katzrin,Katzrin Industrial Area,32.985699,35.707353,"Joe, Orea, App, Minta, Disabled, Energy,",24/7,False,False,True,False,False,True
+New Gat Kiryat,Kiryat Gat,Through the South 7,31.60349,34.77336,"Joe, Orea, App, Minta, Disabled,",24/7,False,False,True,False,False,True
+Kiryat Haim,Haifa,Degania Blvd 5,32.826747,35.060817,"Joe, Orea, App, Minta, Disabled,",24/7,False,False,True,False,False,True
+Kiryat Malachi,Kiryat Malachi,Packer 1,31.73391,34.75743,"Joe, Orea, App, Minta, Disabled,",06: 00-2: 00,False,False,True,False,False,True
+Kiryat Moses,Streets,The piece 4,31.887195,34.779815,"Joe, App, Minta, Disabled,",07: 00-19: 00,False,False,False,False,False,True
+Kiryat Makhon,Kiryat Matan,Blvdat Yitzhak Rabin,31.8587,34.8169,"Joe, App, Minta, Disabled,",24/7,False,False,False,False,False,True
+Kiryat Shmona,Kiryat Shmona,Tel Hai 81,33.206274,35.569389,"Joe, Orea, App, Minta, Disabled,",24/7,False,False,True,False,False,True
+Kiryat Ata,Kiryat Ata,Through Haifa 43,32.807073,35.072966,"Joe, Orea, App, Minta, Disabled,",24/7,False,False,True,False,False,True
+Rosh Pina,Rosh Pina,A commercial center,32.96781,35.548694,"Joe, App, Minta, Disabled,",24/7,False,False,False,False,False,True
+pharmacist,Tel Aviv Jaffa,Pharmacist Boulevard,32.10505,34.81186,"Joe, App, Minta, Disabled,",24/7,False,False,False,False,False,True
+level,Ramat Gan,Jabotinsky 67,32.0867501,34.8115798,"Joe, App, Minta, Disabled,",24/7,False,False,False,False,False,True
+Levels,Golan,Ramat Ramot Session,32.861574,35.65135,"Disabled,",No Joe Store,False,False,False,False,False,False
+Nazareth Ramsey,Nazareth,Nazareth -bypass road Nazareth No. 3001,32.6903181,35.2921356,"Joe, App, Minta, Disabled,",06: 00-2: 00,False,False,False,False,False,True
+Spring level,Tel Aviv Jaffa,Via Namir 170,32.105103,34.79271,"Joe, App, Minta, Disabled,",24/7,False,False,False,False,False,True
+Ramat Hasharon,Ramat Hasharon,Through Moshe Sena 210,32.13204,34.83246,"Market, Joe, Orea, App, Minta, Disabled,",24/7,False,False,True,False,False,True
+Ramat Yishai,Ramat Yishai,The cedar,32.7066,35.172167,"Joe, App, Minta, Disabled,",24/7,False,False,False,False,False,True
+Ramat Yishai Bilia,Ramat Yishai,Eucalyptus 4,32.70705,35.17407,"Joe, App, Minta, Disabled,",24/7,False,False,False,False,False,True
+Ramps,Hod Hasharon,Through Ramatim 89,32.151186,34.894384,"Joe, App, Minta, Disabled,",24/7,False,False,False,False,False,True
+Random,A lion's house,(Rentis Junction Route 446 (House of Lion,32.034797,35.012909,"Market, Joe, Minta, Disabled,",06: 00-2: 00,False,False,False,False,False,True
+Shajor,Beit Hakerem Valley,Conducting Deir to Assad,32.92738,35.27598,"Joe, App, Minta, Disabled,",24/7,False,False,False,False,False,True
+The seven stars,Herzliya,Joseph Nebo (in front of the Seven Star Mall),32.16363,34.82238,"Joe, Orea, App, Minta, Disabled,",24/7,False,False,True,False,False,True
+A morning field,A morning field,Ben -Gurion Midrash,30.874221,34.786327,"Joe, Orea, App, Minta, Disabled,",24/7,False,False,True,False,False,True
+Sde Nahum,Springs Valley,Road 71 Entrance to Nahum field,32.520796,35.484028,"Joe, Orea, App, Minta, Disabled,",24/7,False,False,True,False,False,True
+Uzia field,Beer Tuvia,At the entrance to Sde Uzia Moshav,31.7611,34.66884,"Joe, Orea, App, Minta, Disabled,",24/7,False,False,True,False,False,True
+Commons (debut),Springs Valley,Donation Field Seat (Route 90),32.44838,35.48304,"Joe, App, Minta, Disabled,",24/7,False,False,False,False,False,True
+President Boulevard,Haifa,President 34,32.812728,34.980575,"Joe, App, Minta, Disabled,",24/7,False,False,False,False,False,True
+Sheba,Ramat Gan,Tel Hashomer Hospital,32.04823,34.84067,"Joe, App, Minta, Disabled,",24/7,False,False,False,False,False,True
+Employee housing,Beer Sheva,Eliyahu Naoi (adjacent to seventh avenue big),31.243364,34.809089,"Joe, App, Minta, Disabled,",24/7,False,False,False,False,False,True
+Shlomi,Shlomi,A,33.075631,35.141085,"Joe, App, Minta, Disabled,",06: 00-2: 00,False,False,False,False,False,True
+Shankar,Petah Tikva,Shankar 8,32.0942,34.85549,"Joe, App, Minta, Disabled,",06: 00-20: 00,False,False,False,False,False,True
+Safed gates,Safed,The third Battalion St.,32.970781,35.504504,"Joe, App, Minta, Disabled,",24/7,False,False,False,False,False,True
+First gates,Rishon Lezion,Tulipman 1,31.983244,34.810579,"Joe, App, Minta, Disabled,",24/7,False,False,False,False,False,True
+Holon's hair,Holon,Levi Eshkol Boulevard 30,32.03291,34.77497,"Orea, Disabled,",No Joe Store,False,False,True,False,False,False
+Gates,Streets,Herzl 68,31.885131,34.815447,"Market, Joe, App, Minta, Disabled,",24/7,False,False,False,False,False,True
+Sheep,Hasharon Beach,Shafi Shopping Complex,32.22033,34.82883,"Joe, App, Minta, Disabled,",08: 00-21: 00,False,False,False,False,False,True
+Benign,"Benign interchange, fast lane car park standards",The fast -paced route shopping mall,32.00161,34.84342,"Joe, Minta, Disabled,",07: 00-19: 00,False,False,False,False,False,True
+Central Station Beersheba (Army),Beer Sheva,Through David wise (Central Station Beer Sheva),31.24444,34.79592,"Joe, App, Minta, Disabled,",24/7,False,False,False,False,False,True
+Tel -Isaac,Hasharon Beach,Entrance to Kibbutz Tel Yitzhak,32.254129,34.872123,"Joe, Orea, App, Minta, Disabled,",24/7,False,False,True,False,False,True
+Tel Hanan,Haifa,Bar Yehuda 138,32.773333,35.044518,"Joe, Orea, App, Minta, Disabled,",24/7,False,False,True,False,False,True
+Tel Shuk,Sons of Shimon,A trough intersection,31.30518,34.89899,"Joe, Orea, App, Minta, Disabled,",24/7,False,False,True,False,False,True
+Ptolemy Negev,The Negev Gate,In the southern exit of Sderot,31.51496,34.59689,"Joe, Orea, App, Minta, Disabled,",07: 00-22: 00,False,False,True,False,False,True
+Talpiot,Jerusalem,Dov Gruner 1,31.752,35.234094,"Joe, App, Minta, Disabled,",24/7,False,False,False,False,False,True
