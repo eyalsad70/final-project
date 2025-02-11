@@ -10,6 +10,7 @@ import common_utils.kafka_common as kfk
 from common_utils.kafka_producer import send_request_to_queue
 import common_utils.db_utils as db
 
+save_to_file = True
 
 def send_places_data_to_queue(original_message, place_type, places_data, topic_name):
     next_message = original_message
@@ -18,8 +19,17 @@ def send_places_data_to_queue(original_message, place_type, places_data, topic_n
     if places_data:       
         next_message['places'] = places_data
         print(next_message)
-    # Convert to pretty JSON
+    
+     # Convert to pretty JSON
     pretty_json = json.dumps(next_message, indent=4, ensure_ascii=False)
+    
+    if save_to_file:
+        origin = next_message[UserRequestFieldNames.ORIGIN.value].replace(" ", "_")
+        destination = next_message[UserRequestFieldNames.DESTINATION.value].replace(" ", "_")
+        file_name = f"route_{place_type}_{origin}_{destination}.json"
+        with open(file_name, "w", encoding="utf-8") as json_file:
+            json_file.write(pretty_json)       
+   
     return send_request_to_queue(pretty_json, topic_name)
 
 
