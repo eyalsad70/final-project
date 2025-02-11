@@ -1,4 +1,4 @@
-Station NAME,City,Address,Latitude,Longitude,Services,Operating Hours,Product98,Productgas,Producturea,Iselectric,Car_wash,Store
+Station NAME,City,Address,Latitude,Longitude,Services,working_hours,Product98,Productgas,Producturea,Iselectric,Car_wash,Store
 Abraham Matar,meitar,At the entrance to the rest,31.3261,34.92441,"Joe, Orea, Minta, Disabled,",24/6-24/6,False,False,True,False,False,True
 Edigo/Krinis,hedera,Zalman Sza 1,32.435092,34.909645,"Joe, App, Minta, Disabled,",24/7,False,False,False,False,False,True
 Olga,Olga Hill,"Depth Station Givat Olga, the coastal road toward the south",32.43892,34.89077,"Joe, App, Minta, Disabled,",24/7,False,False,False,False,False,True

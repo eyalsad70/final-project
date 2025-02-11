@@ -1,4 +1,4 @@
-name,Address,city,latitude,Longitude,Opening_hours,Product98,Productgas,Producturea,iselectric,Car_wash,Store
+name,Address,city,latitude,Longitude,working_hours,Product98,Productgas,Producturea,iselectric,Car_wash,Store
 Abu Kabir,Herzl 188,Tel Aviv - Jaffa,32.0460474,34.7679201,24/7,False,False,False,False,True,True
 Aviel (Superland),Maryland Blore near the Superland,Rishon Lezion,31.9806225,34.7423524,24/7,True,False,False,False,True,True
 Red Eilat,Six Days in front of transport plants,Eilat,29.5710852,34.9631727,24/7,False,True,False,True,True,True

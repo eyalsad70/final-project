@@ -15,6 +15,6 @@ sys.path.append(os.path.abspath("."))
 
 
 if __name__ == "__main__":
-   logger.info("Staring API Service")
-   poll_and_process_messages(kfk.RESULTS_TOPIC_NAME, process_message)
+   logger.info("Staring SPARK Service")
+   poll_and_process_messages(kfk.TRANSFORMER_TOPIC_NAME, process_message)
    
