@@ -12,6 +12,7 @@ KAFKA_BROKER_PORT = os.getenv('KAFKA_BROKER_PORT')
 
 KAFKA_BROKER = f"{KAFKA_BROKER_HOST}:{KAFKA_BROKER_PORT}"
 
+default_offset = 'latest'
 
 def poll_and_process_messages(topic_name, data_handler_func):
     # Create Kafka Consumer
@@ -19,7 +20,7 @@ def poll_and_process_messages(topic_name, data_handler_func):
         topic_name,
         bootstrap_servers=KAFKA_BROKER,
         value_deserializer=lambda x: json.loads(x.decode("utf-8")),
-        auto_offset_reset="earliest",
+        auto_offset_reset=default_offset,
         enable_auto_commit=True,
         group_id="json-consumer-group"
     )

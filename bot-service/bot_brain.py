@@ -36,20 +36,18 @@ class RouteBotBrain():
             menu-options (choose number):
                 1. select origin
                 2. select destination
-                3. selct when 
+                3. select when 
                 4. select break types
                 6. show and send request
                 /start to restart App
             """
     
     break_types_menu = """
-            1. direct 
-            2. fueling_all
-            3. 
-            4. cofee break
-            5. restaurant
-            6. main attractions 
-            7. kid attractions
+            1. Direct 
+            2. Fueling
+            4. Coffee break
+            5. Restaurant
+            6. Attractions       
     """
     max_breaks = 7
     
