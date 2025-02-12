@@ -11,6 +11,7 @@ import random
 
 from common_utils.local_logger import logger
 import bot_brain
+from bot_brain import UserBreakTypes, UserSelectOptions
 import user_request
 import google_routes
 from common_utils.utils import UserRequestFieldNames
@@ -61,9 +62,9 @@ class UserRouteSession():
             
         if self.bot_brain.is_bot_interaction_completed():
             json_request = self.create_json_request()
+            user:UserInfo = get_user(self.user_id)    
+            user.detailsCompleted = True
             if json_request:
-                user:UserInfo = get_user(self.user_id)    
-                user.detailsCompleted = True
                 user_request.process_user_request(json_request)    
             
         return content
@@ -106,11 +107,13 @@ class UserRouteSession():
         request[UserRequestFieldNames.ROUTE_ID.value] = self.route_id
 
         for activity in self.bot_brain.breakpoints_list:
-            if activity == 2:
+            if activity == UserBreakTypes.DIRECT.value:
+                break
+            if activity == UserBreakTypes.FUELING.value:
                 request[UserRequestFieldNames.FUEL_REQUIRED.value] = 1
-            elif activity == 4 or activity == 5:
+            elif activity == UserBreakTypes.RESTAURANTS.value:
                 request[UserRequestFieldNames.FOOD_REQUIRED.value] = 1
-            elif activity == 6 or activity == 7:
+            elif activity == UserBreakTypes.ATTRACTIONS.value:
                 request[UserRequestFieldNames.ATTRACTION_REQUIRED.value] = 1   
                 
         # check first if similar route exists in cache. call api only if not

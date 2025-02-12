@@ -6,11 +6,25 @@
     
 import json
 from datetime import datetime
+from enum import Enum
 
 # local imports
 import user_session
 from common_utils import utils
 
+class UserBreakTypes(Enum):
+    DIRECT = 1
+    FUELING = 2
+    FUELING_SPECIAL = 3
+    RESTAURANTS = 4
+    RESTAURANTS_COFFEE_ONLY = 5
+    ATTRACTIONS = 6
+    ATTRACTIONS_KIDS = 7
+    
+class UserSelectOptions(Enum):
+    CONTINUE = 'C'
+    CANCEL = 'X'
+    
 ###################################################################################################
 
 class RouteBotBrain():
@@ -42,12 +56,10 @@ class RouteBotBrain():
                 /start to restart App
             """
     
-    break_types_menu = """
-            1. Direct 
-            2. Fueling
-            4. Coffee break
-            5. Restaurant
-            6. Attractions       
+    break_types_menu = f"""
+            {UserBreakTypes.FUELING.value}. Fueling
+            {UserBreakTypes.RESTAURANTS.value}. Restaurants
+            {UserBreakTypes.ATTRACTIONS.value}. Attractions       
     """
     max_breaks = 7
     
@@ -61,11 +73,11 @@ class RouteBotBrain():
     
     new_route_action_state_machine = {
         # 'state that was finished' : "next suggestion for user"
-        'start' :'please select origin',
-        'origin_sel' : 'please select destination',
-        'destination_sel' : "please select date (dd/mm) and estimated departure time (hr:min)",
-        'time_sel' : f"please select breaks (you can choose more than one) \n {break_types_menu}",
-        'menu_sel' : f"press <s> for save and process or <c> to cancel",
+        'start' :'Select Origin',
+        'origin_sel' : 'Select Destination',
+        'destination_sel' : "Select date (dd/mm) and estimated departure time (hr:min)",             
+        'time_sel' : f"Select breaks from menu (multiple choices available) or {UserBreakTypes.DIRECT.value} for Direct \n {break_types_menu}",
+        'menu_sel' : f"Press {UserSelectOptions.CONTINUE.value} to Continue or {UserSelectOptions.CANCEL.value} to cancel",
         'finish' : 'Processing...',
         'cancel' : 'request was cancelled. press /start for new request'
     }
@@ -182,7 +194,7 @@ class RouteBotBrain():
         return False
     
     def handle_selection_completion(self, message):
-        if message.text.lower() == 's':
+        if message.text.upper() == UserSelectOptions.CONTINUE.value:
             # TBD - create JSON request, save and send
             return True
         return False

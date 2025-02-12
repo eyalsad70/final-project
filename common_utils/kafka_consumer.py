@@ -12,7 +12,8 @@ KAFKA_BROKER_PORT = os.getenv('KAFKA_BROKER_PORT')
 
 KAFKA_BROKER = f"{KAFKA_BROKER_HOST}:{KAFKA_BROKER_PORT}"
 
-default_offset = 'latest'
+default_offset = 'earliest'
+#default_offset = 'latest'
 
 def poll_and_process_messages(topic_name, data_handler_func):
     # Create Kafka Consumer

@@ -28,7 +28,7 @@ def send_message(chat_id, text):
     bot_url = f'https://api.telegram.org/bot{test_token}/'
 
     url = bot_url + f'sendMessage?chat_id={chat_id}&text={text}'
-    print(url)
+    #print(url)
     logger.info(url)
     
     # # Print the get request

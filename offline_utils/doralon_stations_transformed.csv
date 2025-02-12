@@ -1,4 +1,4 @@
-Station NAME,Services,Latitude,Longitude,Address,Product98,Productgas,Producturea,Iselectric,Car_wash,Store
+name,Services,Latitude,Longitude,Address,petrol98,Productgas,Producturea,electric_charge,car_wash,convenient_store
 Umm al -Fahm,Urea,32.558540801411,35.140286929295,Umm al -Fahm,False,False,True,False,False,False
 Umm al -Fahm Center,,32.51115367,35.14992248,Ein Jarrarm Om El Fahm,False,False,False,False,False,False
 Light Judah,"Fuel 98, gas",32.02173979,34.86487627,The 17th -light factory,True,False,False,False,False,False

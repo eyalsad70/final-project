@@ -195,10 +195,12 @@ def fetch_attractions_from_route(route_data, max_results=20):
     attractions = fetch_attractions(waypoints, route_id, max_results)
 
     # Create the JSON data
-    json_data = json.dumps(attractions, indent=4, ensure_ascii=False)
-    logger.info(f"JSON data generated successfully with {len(attractions)} attractions!")
+    # json_data = json.dumps(attractions, indent=4, ensure_ascii=False)
+    # logger.info(f"JSON data generated successfully with {len(attractions)} attractions!")
 
-    return json_data
+    # return json_data
+    return attractions
+
 
 if __name__ == "__main__":
     route_json = {

@@ -51,7 +51,7 @@ def get_filtered_route(my_route, result:dict, max_wayouts = 4):
         max_wayouts = max(max_wayouts, 1)
         interval = total_distance / max_wayouts
 
-        # Extract waypoints at 10% distance intervals
+        # Extract waypoints at distance intervals
         waypoints = []
         cumulative_distance = 0
 
@@ -62,7 +62,7 @@ def get_filtered_route(my_route, result:dict, max_wayouts = 4):
         for leg in my_route["routes"]:
             for step in leg["legs"][0]["steps"]:
                 cumulative_distance += step["distance"]["value"]
-                if cumulative_distance >= interval * len(waypoints):  # Every 10%
+                if cumulative_distance >= interval * len(waypoints):  
                     lat = step["start_location"]["lat"]
                     lng = step["start_location"]["lng"]
                     tmp_leg = dict()
