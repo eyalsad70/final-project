@@ -98,7 +98,14 @@ def fetch_attractions(waypoints, route_id, max_results=20):
                 "apiKey": API_KEY
             }
 
-            response = requests.get(places_url, params=params)
+            try:
+                response = requests.get(places_url, params=params, timeout=10)
+                response.raise_for_status()  # Raises HTTPError if status is 4xx or 5xx
+            except requests.exceptions.RequestException as e:
+                err_msg = f"ERROR: Request failed: {e}"
+                logger.error(err_msg)
+                return None
+            
             if response.status_code == 200:
                 places_data = response.json()
                 if "items" in places_data:

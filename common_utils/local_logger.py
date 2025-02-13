@@ -3,6 +3,12 @@ import logging
 import inspect
 from datetime import datetime
 
+# Custom handler
+class CustomErrorHandler(logging.Handler):
+    def emit(self, record):
+        if record.levelno >= logging.INFO:  # Only trigger on errors
+            print(record.getMessage())
+            
 class Logger:
     def __init__(self, current_file_name='route_plan_logger'):
         """
@@ -25,6 +31,8 @@ class Logger:
                 datefmt="%d-%m-%Y %H:%M:%S"
             )
             self.logger = logging.getLogger(current_file_name)
+            custom_handler = CustomErrorHandler()
+            self.logger.addHandler(custom_handler)
         except Exception as e:
             print(f"Error setting up logging: {e}")
             exit(1)
