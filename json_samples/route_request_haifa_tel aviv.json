@@ -1,0 +1,35 @@
+{
+    "user_id": 6550133750,
+    "createdAt": "10/02/2025 17:26:55",
+    "origin": "haifa",
+    "destination": "tel aviv",
+    "departure": "01/04 12:00",
+    "gas-stations": 0,
+    "restaurants": 0,
+    "attractions": 1,
+    "route_id": 655013375690,
+    "summary": "Hwy 2/Kvish HaHof",
+    "total-distance": 92248,
+    "waypoints": [
+        {
+            "lat": 32.7939505,
+            "lng": 34.9905346
+        },
+        {
+            "lat": 32.7926327,
+            "lng": 34.9611957
+        },
+        {
+            "lat": 32.2390202,
+            "lng": 34.833308
+        },
+        {
+            "lat": 32.2384244,
+            "lng": 34.8331712
+        },
+        {
+            "lat": 32.084343,
+            "lng": 34.786489
+        }
+    ]
+}

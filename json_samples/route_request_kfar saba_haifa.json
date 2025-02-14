@@ -1,0 +1,35 @@
+{
+    "user_id": 6550133750,
+    "createdAt": "11/02/2025 19:22:30",
+    "origin": "kfar saba",
+    "destination": "Haifa",
+    "departure": "01/05 10:00",
+    "gas-stations": 1,
+    "restaurants": 1,
+    "attractions": 0,
+    "route_id": 655013375169,
+    "summary": "Hwy 2/Kvish HaHof",
+    "total-distance": 86691,
+    "waypoints": [
+        {
+            "lat": 32.1784142,
+            "lng": 34.9076796
+        },
+        {
+            "lat": 32.2280998,
+            "lng": 34.831918
+        },
+        {
+            "lat": 32.7873396,
+            "lng": 34.9566602
+        },
+        {
+            "lat": 32.791029,
+            "lng": 34.9575293
+        },
+        {
+            "lat": 32.7940687,
+            "lng": 34.9930623
+        }
+    ]
+}

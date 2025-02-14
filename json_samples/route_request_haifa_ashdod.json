@@ -1,0 +1,35 @@
+{
+    "user_id": 6550133750,
+    "createdAt": "13/02/2025 10:34:28",
+    "origin": "haifa",
+    "destination": "ashdod",
+    "departure": "04/04 11:00",
+    "gas-stations": 0,
+    "restaurants": 1,
+    "attractions": 1,
+    "route_id": 655013375343,
+    "summary": "Hwy 2/Kvish HaHof and Ayalon Hwy/Route 20",
+    "total-distance": 134229,
+    "waypoints": [
+        {
+            "lat": 32.7939505,
+            "lng": 34.9905346
+        },
+        {
+            "lat": 32.7926327,
+            "lng": 34.9611957
+        },
+        {
+            "lat": 32.2390202,
+            "lng": 34.833308
+        },
+        {
+            "lat": 32.0574901,
+            "lng": 34.7853104
+        },
+        {
+            "lat": 31.8062343,
+            "lng": 34.657037
+        }
+    ]
+}

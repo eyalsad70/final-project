@@ -24,7 +24,20 @@ google_supported_place_types = ["restaurant", "cafe", "gas_station", "shopping_m
 db_tables = { "restaurant":"restaurants_res", 
               "gas_station":"gas_stations_res"
             }
-             
+
+largest_gas_stations_israel = ["paz", "delek", "dor", "sonol"]
+non_real_gas_stations = ["oak", "energy"]  # if gas station name includes this, its not a regular gas stations and may not support private cars
+
+# look only for largest vendors and avoid stations that are 'non-real'
+def is_gas_station_valid(station_name):
+    valid = any(station in station_name.lower() for station in largest_gas_stations_israel)
+    if valid:
+        valid = not any(fake_station in station_name.lower() for fake_station in non_real_gas_stations)
+    return valid
+
+                    
+    # first check if belong to one of the largest
+
 ##################################################################################
 def get_places_near_coordinates(latitude, longitude, place_type):
     if place_type not in google_supported_place_types:
@@ -105,13 +118,21 @@ def get_places_in_route(route_dict, place_type, fetch_details = False, max_place
                     place_data = db.convert_record(place_record)[0]
                     removed_value = place_data.pop("created_at", None)  # Removes creation time which is in datetime format and not needed
                     db_record_found = True
+                    place_ids.append(place_id)
             
             if not db_record_found:
                 place_data['place_id'] = place_id
-                place_ids.append(place_id)
                 name = place.get("name","NA")
-                name_eng = tr.translate_text(name).lower()
+                if name == 'Дор Алон':
+                    name_eng = "dor alon"
+                else:
+                    name_eng = tr.translate_text(name).lower()
                 place_data["name"] = name_eng if name_eng else name.lower()
+                
+                # skip non familiar gas stations
+                if place_type == 'gas_station' and not is_gas_station_valid(place_data["name"]):
+                    continue
+                place_ids.append(place_id)
                 place_data["latitude"] = place["geometry"]["location"].get("lat")
                 place_data["longitude"] = place["geometry"]["location"].get("lng")
                 place_data["rating"] = place.get("rating",1)
@@ -157,12 +178,18 @@ def get_places_in_route(route_dict, place_type, fetch_details = False, max_place
         
 
 ###################################################################################
+import message_handler
 
 if __name__ == "__main__":
     # Read JSON file
-    with open("./route_data.json", "r", encoding="utf-8") as file:
-        data = json.load(file)  # Load JSON content into a dictionary        
-        # get_places_in_route(data, "gas_station")
-        get_places_in_route(data, "restaurant", True)
-#    get_places_in_route(data, "lodging")
-
+    input_file_name = "./json_samples/route_request_jerusalem_dimona.json"
+    #input_file_name = "./json_samples/route_request_haifa_tel aviv.json"
+    with open(input_file_name, "r", encoding="utf-8") as file:
+        data = json.load(file)  # Load JSON content into a dictionary    
+        place_type = "gas_station"
+        db.connect_db()    
+        places = get_places_in_route(data, place_type)
+        db.disconnect_db()
+        #get_places_in_route(data, "restaurant", True)
+        #get_places_in_route(data, "lodging")
+        message_handler.create_json_result(data, place_type, places)

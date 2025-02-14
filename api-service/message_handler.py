@@ -12,7 +12,8 @@ import common_utils.db_utils as db
 
 save_to_file = True
 
-def send_places_data_to_queue(original_message, place_type, places_data, topic_name):
+def create_json_result(original_message, place_type, places_data):
+    """ takes user request message + places result and create json message """
     next_message = original_message
     #next_message[UserRequestFieldNames.CREATED_AT.value] = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
     next_message['place_type'] = place_type
@@ -29,7 +30,10 @@ def send_places_data_to_queue(original_message, place_type, places_data, topic_n
         file_name = f"route_{place_type}_{origin}_{destination}.json"
         with open(file_name, "w", encoding="utf-8") as json_file:
             json_file.write(pretty_json)       
-   
+    return pretty_json
+
+def send_places_data_to_queue(original_message, place_type, places_data, topic_name):
+    pretty_json = create_json_result(original_message, place_type, places_data)
     return send_request_to_queue(pretty_json, topic_name)
 
 

@@ -8,6 +8,11 @@ from common_utils.local_logger import logger
 conn = None
 cur = None
 
+def is_connected():
+    if conn and cur:
+        return True
+    return False
+
 def connect_db():
     """
     Establishes a connection to the PostgreSQL database and sets the global connection and cursor.
@@ -46,6 +51,9 @@ def get_record(table_name, filters):
     Fetches records from the given table that match the filters.
     Assumes that `conn` and `cur` are already valid.
     """
+    if not is_connected():
+        logger.error("get_record: DB is not connected")
+        return None
     where_clause = " AND ".join([f"{k} = %s" for k in filters.keys()])
     query = f"SELECT * FROM {table_name} WHERE {where_clause}" if filters else f"SELECT * FROM {table_name}"
     cur.execute(query, tuple(filters.values()))
@@ -58,6 +66,9 @@ def insert_record(table_name, data):
     Inserts a new record into the given table and returns it.
     Assumes that `conn` and `cur` are already valid.
     """
+    if not is_connected():
+        logger.error("insert_record: DB is not connected")
+        return None
     columns = ', '.join(data.keys())
     values_placeholder = ', '.join(['%s'] * len(data))
     query = f"INSERT INTO {table_name} ({columns}) VALUES ({values_placeholder}) RETURNING *"
@@ -72,6 +83,9 @@ def update_record(table_name, data, filters):
     Updates records in the given table that match the filters and returns the updated row.
     Assumes that `conn` and `cur` are already valid.
     """
+    if not is_connected():
+        logger.error("update_record: DB is not connected")
+        return None
     set_clause = ', '.join([f"{k} = %s" for k in data.keys()])
     where_clause = " AND ".join([f"{k} = %s" for k in filters.keys()])
     query = f"UPDATE {table_name} SET {set_clause} WHERE {where_clause} RETURNING *"
@@ -86,6 +100,7 @@ def delete_record(table_name, filters):
     Deletes records from the given table that match the filters and returns the deleted row.
     Assumes that `conn` and `cur` are already valid.
     """
+    
     where_clause = " AND ".join([f"{k} = %s" for k in filters.keys()])
     query = f"DELETE FROM {table_name} WHERE {where_clause} RETURNING *"
     cur.execute(query, tuple(filters.values()))

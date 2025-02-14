@@ -1,0 +1,35 @@
+{
+    "user_id": 6550133750,
+    "createdAt": "13/02/2025 18:19:56",
+    "origin": "jerusalem",
+    "destination": "dimona",
+    "departure": "09/09 09:09",
+    "gas-stations": 1,
+    "restaurants": 1,
+    "attractions": 1,
+    "route_id": 655013375298,
+    "summary": "Route 25",
+    "total-distance": 140608,
+    "waypoints": [
+        {
+            "lat": 31.7685173,
+            "lng": 35.2135326
+        },
+        {
+            "lat": 31.8142459,
+            "lng": 35.0221315
+        },
+        {
+            "lat": 31.5996633,
+            "lng": 34.8119298
+        },
+        {
+            "lat": 31.3111102,
+            "lng": 34.7881676
+        },
+        {
+            "lat": 31.0702386,
+            "lng": 35.0340353
+        }
+    ]
+}

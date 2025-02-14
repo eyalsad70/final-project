@@ -1,0 +1,166 @@
+{
+    "user_id": 6550133750,
+    "createdAt": "10/02/2025 17:26:55",
+    "origin": "haifa",
+    "destination": "tel aviv",
+    "departure": "01/04 12:00",
+    "gas-stations": 0,
+    "restaurants": 0,
+    "attractions": 1,
+    "route_id": 655013375690,
+    "summary": "Hwy 2/Kvish HaHof",
+    "total-distance": 92248,
+    "waypoints": [
+        {
+            "lat": 32.7939505,
+            "lng": 34.9905346
+        },
+        {
+            "lat": 32.7926327,
+            "lng": 34.9611957
+        },
+        {
+            "lat": 32.2390202,
+            "lng": 34.833308
+        },
+        {
+            "lat": 32.2384244,
+            "lng": 34.8331712
+        },
+        {
+            "lat": 32.084343,
+            "lng": 34.786489
+        }
+    ],
+    "place_type": "gas_station",
+    "places": [
+        {
+            "place_id": "ChIJI3deAme6HRURWvf2l3sA3kg",
+            "name": "sonol bar yehuda",
+            "address": "haifa",
+            "latitude": 32.797579,
+            "longitude": 35.019445,
+            "working_hours": null,
+            "rating": 3.7,
+            "url": "https://www.google.com/maps/place/?q=place_id:ChIJI3deAme6HRURWvf2l3sA3kg",
+            "vicinity": "haifa",
+            "wheelchair_accessible": null,
+            "petrol98": null,
+            "electric_charge": null,
+            "convenient_store": null,
+            "car_wash": null
+        },
+        {
+            "place_id": "ChIJ5UIVNfy6HRUR9fVgbS-Pc3M",
+            "name": "sonol",
+            "address": "rosh miya street, haifa",
+            "latitude": 32.791433,
+            "longitude": 34.997442,
+            "working_hours": null,
+            "rating": 3.9,
+            "url": "https://www.google.com/maps/place/?q=place_id:ChIJ5UIVNfy6HRUR9fVgbS-Pc3M",
+            "vicinity": "rosh miya street, haifa",
+            "wheelchair_accessible": null,
+            "petrol98": null,
+            "electric_charge": null,
+            "convenient_store": null,
+            "car_wash": null
+        },
+        {
+            "place_id": "ChIJ63iCVly7HRURG0mlkmuIviA",
+            "name": "delek matam",
+            "address": "andrei sakharov street 9, haifa",
+            "latitude": 32.787373,
+            "longitude": 34.958735,
+            "working_hours": null,
+            "rating": 3.4,
+            "url": "https://www.google.com/maps/place/?q=place_id:ChIJ63iCVly7HRURG0mlkmuIviA",
+            "vicinity": "andrei sakharov street 9, haifa",
+            "wheelchair_accessible": null,
+            "petrol98": null,
+            "electric_charge": null,
+            "convenient_store": null,
+            "car_wash": null
+        },
+        {
+            "place_id": "ChIJ-TlP7mi7HRURBeGXjjOetrY",
+            "name": "paz",
+            "address": "flieman street, haifa",
+            "latitude": 32.790853,
+            "longitude": 34.964081,
+            "working_hours": null,
+            "rating": 4.1,
+            "url": "https://www.google.com/maps/place/?q=place_id:ChIJ-TlP7mi7HRURBeGXjjOetrY",
+            "vicinity": "flieman street, haifa",
+            "wheelchair_accessible": null,
+            "petrol98": null,
+            "electric_charge": null,
+            "convenient_store": null,
+            "car_wash": null
+        },
+        {
+            "place_id": "ChIJY_E7_Q9HHRUR2z23rcKv8oY",
+            "name": "dor alon",
+            "address": "yakum",
+            "latitude": 32.225181,
+            "longitude": 34.829928,
+            "working_hours": null,
+            "rating": 4.1,
+            "url": "https://www.google.com/maps/place/?q=place_id:ChIJY_E7_Q9HHRUR2z23rcKv8oY",
+            "vicinity": "yakum",
+            "wheelchair_accessible": null,
+            "petrol98": null,
+            "electric_charge": null,
+            "convenient_store": null,
+            "car_wash": null
+        },
+        {
+            "place_id": "ChIJA9yQGTRHHRUR23RURamokvI",
+            "name": "dor alon yakum",
+            "address": "yakum",
+            "latitude": 32.248805,
+            "longitude": 34.835917,
+            "working_hours": null,
+            "rating": 4.1,
+            "url": "https://www.google.com/maps/place/?q=place_id:ChIJA9yQGTRHHRUR23RURamokvI",
+            "vicinity": "yakum",
+            "wheelchair_accessible": null,
+            "petrol98": null,
+            "electric_charge": null,
+            "convenient_store": null,
+            "car_wash": null
+        },
+        {
+            "place_id": "ChIJXWExN59LHRURhfje3STQGKo",
+            "name": "delek",
+            "address": "yigal alon street 108, tel aviv-yafo",
+            "latitude": 32.071439,
+            "longitude": 34.794434,
+            "working_hours": null,
+            "rating": 3.8,
+            "url": "https://www.google.com/maps/place/?q=place_id:ChIJXWExN59LHRURhfje3STQGKo",
+            "vicinity": "yigal alon street 108, tel aviv-yafo",
+            "wheelchair_accessible": null,
+            "petrol98": null,
+            "electric_charge": null,
+            "convenient_store": null,
+            "car_wash": null
+        },
+        {
+            "place_id": "ChIJRS35GaJLHRURag197c-1I8c",
+            "name": "paz hashalom",
+            "address": "hashalom road 13, tel aviv-yafo",
+            "latitude": 32.071842,
+            "longitude": 34.7973,
+            "working_hours": null,
+            "rating": 2.9,
+            "url": "https://www.google.com/maps/place/?q=place_id:ChIJRS35GaJLHRURag197c-1I8c",
+            "vicinity": "hashalom road 13, tel aviv-yafo",
+            "wheelchair_accessible": null,
+            "petrol98": null,
+            "electric_charge": null,
+            "convenient_store": null,
+            "car_wash": null
+        }
+    ]
+}
