@@ -6,7 +6,7 @@ import common_utils.kafka_common as kfk
 from common_utils.kafka_producer import send_request_to_queue
 from common_utils.utils import UserRequestFieldNames
 
-save_requests = True
+save_requests = False
 
 def process_user_request(user_request):
     # Convert to pretty JSON

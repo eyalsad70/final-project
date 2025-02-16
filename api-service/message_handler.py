@@ -10,7 +10,7 @@ import common_utils.kafka_common as kfk
 from common_utils.kafka_producer import send_request_to_queue
 import common_utils.db_utils as db
 
-save_to_file = True
+save_to_file = False
 
 def create_json_result(original_message, place_type, places_data):
     """ takes user request message + places result and create json message """
