@@ -1,5 +1,5 @@
 import sendgrid
-from sendgrid.helpers.mail import Mail, Email, To, Content
+from sendgrid.helpers.mail import Mail, Email, To, From, Content
 import os
 from common_utils.local_logger import logger
 
@@ -12,28 +12,58 @@ else:
     # Initialize SendGrid client
     sg = sendgrid.SendGridAPIClient(api_key=SENDGRID_API_KEY)
 
+from_email_str = os.getenv('SENDER_EMAIL')
+if not from_email_str:
+    logger.error("email sender not defined")
+    sg = None
+    
+default_to_email_str = os.getenv('RECEIVER_EMAIL')
 
-def send_email(from_email, to_email, subject, content):
-    if not sg:
-        return
+
+def send_email(to_email_str, subject_str, content_str):
+    if not sg or not to_email_str:
+        return 
+    
+    from_email = Email(from_email_str)
+    to_email = To(to_email_str)
+    content = Content("text/plain", content_str)
+    
     # Create the email message
-    mail = Mail(from_email, to_email, subject, content)
-
+    message = Mail(from_email, to_email, subject_str, content)
+    # message = Mail(
+    #     from_email=from_email_str,
+    #     to_emails=to_email_str,
+    #     subject=subject_str,
+    #     plain_text_content=content_str)
+    
     # Send the email
     try:
-        response = sg.send(mail)
-        print(f"Email sent successfully. Status code: {response.status_code}")
+        response = sg.send(message)
+        print(f"Response Code: {response.status_code}")
+        print(f"Response Body: {response.body}")
+        print(f"Response Headers: {response.headers}")
+        logger.info(f"Email sent successfully to {to_email_str} subject {subject_str}. Status code: {response.status_code}")
     except Exception as e:
-        print(f"Error: {str(e)}")
+        logger.error(f"send_email to {to_email_str} subject {subject_str} ; Error: {str(e)}")
 
+
+# def test():
+#     if from_email_str and default_to_email_str:
+#         from_email = Email(from_email_str)  # Verified sender email
+#         to_email = To(default_to_email_str)  # The recipient's email address
+#         subject = "route test"
+#         content = Content("text/plain", "TESTING!!!")
+#         # Create the email message
+#         mail = Mail(from_email, to_email, subject, content)
+#         response = sg.send(mail)
 
 if __name__ == "__main__":
     # Set up the email components
-    from_email = Email("eyalsad70@gmail.com")  # Verified sender email
-    to_email = To("eyals11@yahoo.com")  # The recipient's email address
-    subject = "route test"
-    content = Content("text/plain", "TESTING!!!")
-    send_email(from_email, to_email, subject, content)
+    to_email = default_to_email_str  # The recipient's email address
+    subject = "route test 101"
+    content = "TESTING!!! dssdsdsdsd"
+    send_email(to_email, subject, content)
+    #test()
     
 
 

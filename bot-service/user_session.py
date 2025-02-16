@@ -34,7 +34,7 @@ class UserInfo():
     def __init__(self, userId) -> None:
         self.user_id = userId
         self.user_name = "moshe"
-        self.email = f"moshe{userId}@gmail.com"
+        self.user_email = None
         self.createdAt = datetime.now()
         self.detailsCompleted = False
         self.latest_route_id = 0
@@ -42,8 +42,9 @@ class UserInfo():
         
         
 class UserRouteSession():
-    def __init__(self, userId, routeId = 0) -> None:
+    def __init__(self, userId, routeId = 0, email = None) -> None:
         self.user_id = userId
+        self.user_email = email
         self.route_id = routeId
         if self.route_id == 0:
             self.route_id = self.user_id * 100 + random.randint(100, 999)
@@ -97,6 +98,7 @@ class UserRouteSession():
     def create_json_request(self):
         request = dict()
         request[UserRequestFieldNames.USERID.value]= self.user_id
+        request[UserRequestFieldNames.USER_EMAIL.value]= self.user_email
         request[UserRequestFieldNames.CREATED_AT.value] = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
         request[UserRequestFieldNames.ORIGIN.value] = self.bot_brain.origin
         request[UserRequestFieldNames.DESTINATION.value] = self.bot_brain.destination
@@ -170,7 +172,7 @@ def get_user_active_route(user_id):
     user:UserInfo = get_user(user_id)    
     if user:
         if (user.latest_route_id > 0 and user.detailsCompleted == True) or not user.latest_route_id:
-            route = UserRouteSession(user_id)
+            route = UserRouteSession(user_id, 0, user.user_email)
             users_routes[route.route_id] = route
             user.latest_route_id = route.route_id
             user.detailsCompleted = False

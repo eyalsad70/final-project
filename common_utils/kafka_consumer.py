@@ -2,6 +2,8 @@
 from kafka import KafkaConsumer
 import json
 import os
+import signal
+import sys
 from common_utils.local_logger import logger
 import common_utils.kafka_common as kfk
 
@@ -12,8 +14,8 @@ KAFKA_BROKER_PORT = os.getenv('KAFKA_BROKER_PORT')
 
 KAFKA_BROKER = f"{KAFKA_BROKER_HOST}:{KAFKA_BROKER_PORT}"
 
-default_offset = 'earliest'
-#default_offset = 'latest'
+#default_offset = 'earliest'
+default_offset = 'latest'
 
 def poll_and_process_messages(topic_name, data_handler_func):
     # Create Kafka Consumer
@@ -26,7 +28,7 @@ def poll_and_process_messages(topic_name, data_handler_func):
         group_id="json-consumer-group"
     )
 
-    logger.info(f"Listening on topic {kfk.USER_REQUESTS_TOPIC_NAME} for messages...")
+    logger.info(f"Listening on topic {topic_name} for messages...")
 
     for message in consumer:
         #print(f"Received: {message.value}")

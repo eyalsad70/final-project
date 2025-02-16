@@ -37,7 +37,7 @@ def send_places_data_to_queue(original_message, place_type, places_data, topic_n
     return send_request_to_queue(pretty_json, topic_name)
 
 
-def process_message(json_message):
+def api_process_message(json_message):
     """ check for route breakpoints requested by user and call proper method to fetch breakpoint details (places)
         if user choose direct route with no breakpoints it is also handled under 'send_places_data_to_queue'
     """
@@ -91,4 +91,4 @@ if __name__ == "__main__":
     # Load the JSON file
     with open("route_request_haifa_tel aviv.json", "r", encoding="utf-8") as file:
         data = json.load(file)  # Parse JSON
-        process_message(data)
+        api_process_message(data)

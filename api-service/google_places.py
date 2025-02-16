@@ -56,6 +56,8 @@ def get_places_near_coordinates(latitude, longitude, place_type):
     if response.status_code == 200:
         places = response.json()
         return places['results']
+    else:
+        logger.warning(f"get_places_near_coordinates {latitude}:{longitude} for {place_type} result {response.status_code}")
     return None
 
 ###################################################################################
@@ -91,8 +93,8 @@ def get_places_in_route(route_dict, place_type, fetch_details = False, max_place
             logger.info(f"call google nearby places for route-id {route_dict[UserRequestFieldNames.ROUTE_ID.value]} - latitude:{lat} longitude:{lng}")
             #print(json.dumps(places_response, indent=4, ensure_ascii=False))
         else:
-            logger.error(f"Failed to get google api places for route-id {UserRequestFieldNames.ROUTE_ID.value}")
-            return None
+            logger.warning(f"Failed to get google api places for route-id {route_dict[UserRequestFieldNames.ROUTE_ID.value]}")
+            continue
 
         # Save gas stations response to file
         if save_routes:
@@ -182,7 +184,7 @@ import message_handler
 
 if __name__ == "__main__":
     # Read JSON file
-    input_file_name = "./json_samples/route_request_jerusalem_dimona.json"
+    input_file_name = "./json_samples/route_request_Haifa_Jerusalem.json"
     #input_file_name = "./json_samples/route_request_haifa_tel aviv.json"
     with open(input_file_name, "r", encoding="utf-8") as file:
         data = json.load(file)  # Load JSON content into a dictionary    

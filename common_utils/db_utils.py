@@ -58,7 +58,7 @@ def get_record(table_name, filters):
     query = f"SELECT * FROM {table_name} WHERE {where_clause}" if filters else f"SELECT * FROM {table_name}"
     cur.execute(query, tuple(filters.values()))
     records = cur.fetchall()
-    logger.info(f"Retrieved records from {table_name}: {records}")
+    logger.debug(f"Retrieved records from {table_name}: {records}")
     return records
 
 def insert_record(table_name, data):

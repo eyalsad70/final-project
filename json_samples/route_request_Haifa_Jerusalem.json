@@ -1,0 +1,36 @@
+{
+    "user_id": 6550133750,
+    "email": null,
+    "createdAt": "16/02/2025 15:40:59",
+    "origin": "Haifa",
+    "destination": "Jerusalem",
+    "departure": "01/04 10:00",
+    "gas-stations": 1,
+    "restaurants": 1,
+    "attractions": 1,
+    "route_id": 655013375867,
+    "summary": "Yitzhak Rabin Hwy/Route 6",
+    "total-distance": 150383,
+    "waypoints": [
+        {
+            "lat": 32.7939505,
+            "lng": 34.9905346
+        },
+        {
+            "lat": 32.6188718,
+            "lng": 35.0547083
+        },
+        {
+            "lat": 31.9365147,
+            "lng": 34.92852269999999
+        },
+        {
+            "lat": 31.8421179,
+            "lng": 34.9859323
+        },
+        {
+            "lat": 31.7640041,
+            "lng": 35.2052737
+        }
+    ]
+}

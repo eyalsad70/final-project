@@ -1,0 +1,188 @@
+{
+    "user_id": 6550133750,
+    "createdAt": "10/02/2025 17:26:55",
+    "origin": "haifa",
+    "destination": "tel aviv",
+    "departure": "01/04 12:00",
+    "gas-stations": 1,
+    "restaurants": 1,
+    "attractions": 1,
+    "route_id": 655013375690,
+    "summary": "Hwy 2/Kvish HaHof",
+    "total-distance": 92248,
+    "waypoints": [
+        {
+            "lat": 32.7939505,
+            "lng": 34.9905346
+        },
+        {
+            "lat": 32.7926327,
+            "lng": 34.9611957
+        },
+        {
+            "lat": 32.2390202,
+            "lng": 34.833308
+        },
+        {
+            "lat": 32.2384244,
+            "lng": 34.8331712
+        },
+        {
+            "lat": 32.084343,
+            "lng": 34.786489
+        }
+    ],
+    "place_type": "restaurant",
+    "places": [
+        {
+            "place_id": "ChIJgYF1Kga7HRURsbOeCtHEzqQ",
+            "name": "villa carmel",
+            "address": "Heinrich Heine 1, חיפה, Israel",
+            "latitude": 32.799299,
+            "longitude": 34.984053,
+            "working_hours": "Not Available",
+            "rating": 4.1,
+            "url": "https://www.google.com/maps/place/?q=place_id:ChIJgYF1Kga7HRURsbOeCtHEzqQ",
+            "vicinity": "heinrich heine 1, חיפה",
+            "wheelchair_accessible": false,
+            "serves_alcohol": false,
+            "price_level": 1,
+            "website": "http://www.villacarmel.co.il/"
+        },
+        {
+            "place_id": "ChIJH2VwFqm7HRURUybQo6l8ygc",
+            "name": "slick bar (harmel center)",
+            "address": "HaNassi Blvd 124, Haifa, Israel",
+            "latitude": 32.804466,
+            "longitude": 34.986851,
+            "working_hours": "Not Available",
+            "rating": 3.9,
+            "url": "https://www.google.com/maps/place/?q=place_id:ChIJH2VwFqm7HRURUybQo6l8ygc",
+            "vicinity": "hanassi boulevard 124, haifa",
+            "wheelchair_accessible": false,
+            "serves_alcohol": true,
+            "price_level": 2,
+            "website": "https://sleek.co.il/"
+        },
+        {
+            "place_id": "ChIJgYF1Kga7HRURsbOeCtHEzqQ",
+            "name": "villa carmel",
+            "address": "Heinrich Heine 1, חיפה, Israel",
+            "latitude": 32.799299,
+            "longitude": 34.984053,
+            "working_hours": "Not Available",
+            "rating": 4.1,
+            "url": "https://www.google.com/maps/place/?q=place_id:ChIJgYF1Kga7HRURsbOeCtHEzqQ",
+            "vicinity": "heinrich heine 1, חיפה",
+            "wheelchair_accessible": false,
+            "serves_alcohol": false,
+            "price_level": 1,
+            "website": "http://www.villacarmel.co.il/"
+        },
+        {
+            "place_id": "ChIJFSf0ORq7HRURZQRha_H07UQ",
+            "name": "brown",
+            "address": "Moriah Ave 131, Haifa, Israel",
+            "latitude": 32.787574,
+            "longitude": 34.985926,
+            "working_hours": "{\"Monday: 5:00 PM – 5:00 AM\",\"Tuesday: 5:00 PM – 5:00 AM\",\"Wednesday: 5:00 PM – 5:00 AM\",\"Thursday: 5:00 PM – 5:00 AM\",\"Friday: 5:00 PM – 5:00 AM\",\"Saturday: 5:00 PM – 5:00 AM\",\"Sunday: 5:00 PM – 5:00 AM\"}",
+            "rating": 4.3,
+            "url": "https://www.google.com/maps/place/?q=place_id:ChIJFSf0ORq7HRURZQRha_H07UQ",
+            "vicinity": "moriah avenue 131, haifa",
+            "wheelchair_accessible": false,
+            "serves_alcohol": true,
+            "price_level": 2,
+            "website": "http://www.brown-bar.com/"
+        },
+        {
+            "place_id": "ChIJLUoFsDVHHRUR9UQ9rnrkAJU",
+            "name": "parliament chickpea-an universe branch",
+            "address": "תחנת דלק דור אלון, Yakum, Israel",
+            "latitude": 32.248357,
+            "longitude": 34.836449,
+            "working_hours": "{\"Monday: 9:00 AM – 7:00 PM\",\"Tuesday: 9:00 AM – 7:00 PM\",\"Wednesday: 9:00 AM – 7:00 PM\",\"Thursday: 9:00 AM – 7:00 PM\",\"Friday: 9:00 AM – 3:30 PM\",\"Saturday: 9:00 AM – 5:00 PM\",\"Sunday: 9:00 AM – 7:00 PM\"}",
+            "rating": 4.3,
+            "url": "https://www.google.com/maps/place/?q=place_id:ChIJLUoFsDVHHRUR9UQ9rnrkAJU",
+            "vicinity": "תחנת דלק דור אלון, yakum",
+            "wheelchair_accessible": true,
+            "serves_alcohol": false,
+            "price_level": 1,
+            "website": "www.unknown"
+        },
+        {
+            "place_id": "ChIJf0I8ZhtHHRUReT7HK6kdHRg",
+            "name": "ga’ash baths and spa (merhazaot ga'ash)",
+            "address": "חמי, געש, 60951, Israel",
+            "latitude": 32.231291,
+            "longitude": 34.8266,
+            "working_hours": "{\"Monday: 8:00 AM – 6:00 PM\",\"Tuesday: 8:00 AM – 9:00 PM\",\"Wednesday: 8:00 AM – 9:00 PM\",\"Thursday: 8:00 AM – 6:00 PM\",\"Friday: 8:00 AM – 4:00 PM\",\"Saturday: 7:45 AM – 6:00 PM\",\"Sunday: 10:00 AM – 6:00 PM\"}",
+            "rating": 4.3,
+            "url": "https://www.google.com/maps/place/?q=place_id:ChIJf0I8ZhtHHRUReT7HK6kdHRg",
+            "vicinity": "חמי, געש",
+            "wheelchair_accessible": true,
+            "serves_alcohol": false,
+            "price_level": 1,
+            "website": "https://hameigaash.co.il/"
+        },
+        {
+            "place_id": "ChIJLUoFsDVHHRUR9UQ9rnrkAJU",
+            "name": "parliament chickpea-an universe branch",
+            "address": "תחנת דלק דור אלון, Yakum, Israel",
+            "latitude": 32.248357,
+            "longitude": 34.836449,
+            "working_hours": "{\"Monday: 9:00 AM – 7:00 PM\",\"Tuesday: 9:00 AM – 7:00 PM\",\"Wednesday: 9:00 AM – 7:00 PM\",\"Thursday: 9:00 AM – 7:00 PM\",\"Friday: 9:00 AM – 3:30 PM\",\"Saturday: 9:00 AM – 5:00 PM\",\"Sunday: 9:00 AM – 7:00 PM\"}",
+            "rating": 4.3,
+            "url": "https://www.google.com/maps/place/?q=place_id:ChIJLUoFsDVHHRUR9UQ9rnrkAJU",
+            "vicinity": "תחנת דלק דור אלון, yakum",
+            "wheelchair_accessible": true,
+            "serves_alcohol": false,
+            "price_level": 1,
+            "website": "www.unknown"
+        },
+        {
+            "place_id": "ChIJf0I8ZhtHHRUReT7HK6kdHRg",
+            "name": "ga’ash baths and spa (merhazaot ga'ash)",
+            "address": "חמי, געש, 60951, Israel",
+            "latitude": 32.231291,
+            "longitude": 34.8266,
+            "working_hours": "{\"Monday: 8:00 AM – 6:00 PM\",\"Tuesday: 8:00 AM – 9:00 PM\",\"Wednesday: 8:00 AM – 9:00 PM\",\"Thursday: 8:00 AM – 6:00 PM\",\"Friday: 8:00 AM – 4:00 PM\",\"Saturday: 7:45 AM – 6:00 PM\",\"Sunday: 10:00 AM – 6:00 PM\"}",
+            "rating": 4.3,
+            "url": "https://www.google.com/maps/place/?q=place_id:ChIJf0I8ZhtHHRUReT7HK6kdHRg",
+            "vicinity": "חמי, געש",
+            "wheelchair_accessible": true,
+            "serves_alcohol": false,
+            "price_level": 1,
+            "website": "https://hameigaash.co.il/"
+        },
+        {
+            "place_id": "ChIJEQS1HndMHRURU0QsYI5KxNg",
+            "name": "carlton",
+            "address": "Eliezer Peri St 10, Tel Aviv-Yafo, Israel",
+            "latitude": 32.08653,
+            "longitude": 34.769567,
+            "working_hours": "{\"Monday: Open 24 hours\",\"Tuesday: Open 24 hours\",\"Wednesday: Open 24 hours\",\"Thursday: Open 24 hours\",\"Friday: Open 24 hours\",\"Saturday: Open 24 hours\",\"Sunday: Open 24 hours\"}",
+            "rating": 4.5,
+            "url": "https://www.google.com/maps/place/?q=place_id:ChIJEQS1HndMHRURU0QsYI5KxNg",
+            "vicinity": "eliezer peri street 10, tel aviv-yafo",
+            "wheelchair_accessible": true,
+            "serves_alcohol": false,
+            "price_level": 1,
+            "website": "https://www.carlton.co.il/en"
+        },
+        {
+            "place_id": "ChIJMfnsnn5LHRURQ8EUFfgXJhI",
+            "name": "the rothschild hotel",
+            "address": "Rothschild Blvd 96, Tel Aviv-Yafo, Israel",
+            "latitude": 32.067308,
+            "longitude": 34.778123,
+            "working_hours": "{\"Monday: Open 24 hours\",\"Tuesday: Open 24 hours\",\"Wednesday: Open 24 hours\",\"Thursday: Open 24 hours\",\"Friday: Open 24 hours\",\"Saturday: Open 24 hours\",\"Sunday: Open 24 hours\"}",
+            "rating": 4.4,
+            "url": "https://www.google.com/maps/place/?q=place_id:ChIJMfnsnn5LHRURQ8EUFfgXJhI",
+            "vicinity": "rothschild boulevard 96, tel aviv-yafo",
+            "wheelchair_accessible": false,
+            "serves_alcohol": false,
+            "price_level": 1,
+            "website": "http://www.the-rothschild-hotel.com/"
+        }
+    ]
+}

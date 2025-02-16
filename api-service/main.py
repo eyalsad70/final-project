@@ -6,7 +6,7 @@ import os
 from common_utils.local_logger import logger
 import common_utils.kafka_common as kfk
 from common_utils.kafka_consumer import poll_and_process_messages
-from message_handler import process_message
+from message_handler import api_process_message
 
 # Add the parent folder to sys.path
 #sys.path.append(os.path.abspath("../common_utils"))
@@ -16,5 +16,5 @@ sys.path.append(os.path.abspath("."))
 
 if __name__ == "__main__":
    logger.info("Staring API Service")
-   poll_and_process_messages(kfk.USER_REQUESTS_TOPIC_NAME, process_message)
+   poll_and_process_messages(kfk.USER_REQUESTS_TOPIC_NAME, api_process_message)
    

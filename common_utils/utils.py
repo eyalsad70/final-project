@@ -15,6 +15,7 @@ israeli_cities = set()
 
 class UserRequestFieldNames(Enum):
     USERID = 'user_id'
+    USER_EMAIL = 'email'
     CREATED_AT = 'createdAt'
     ORIGIN = 'origin'
     DESTINATION = 'destination'
