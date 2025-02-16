@@ -10,7 +10,9 @@ from common_utils.sendgrid_mail import send_email
 
 
 def send_route_details_on_email(json_message, text_to_send):
-    email_addr = json_message.get(UserRequestFieldNames.USER_EMAIL.value, os.getenv('RECEIVER_EMAIL'))
+    email_addr = json_message.get(UserRequestFieldNames.USER_EMAIL.value, "")
+    if not email_addr:  # use default receiver if none exists (for debugging only)
+        email_addr = os.getenv('RECEIVER_EMAIL')
     if email_addr:
         route = json_message[UserRequestFieldNames.ROUTE_ID.value]  
         place_type = json_message['place_type']
@@ -123,7 +125,7 @@ def results_process_message(json_message):
 
 if __name__ == "__main__":
     # Load the JSON file
-    with open("./json_samples/route_gas_station_haifa_tel_aviv.json", "r", encoding="utf-8") as file:
+    with open("./json_samples/route_gas_station_Haifa_Jerusalem.json", "r", encoding="utf-8") as file:
 #    with open("./json_samples/route_restaurant_haifa_tel_aviv.json", "r", encoding="utf-8") as file:
 #    with open("./route_attraction_haifa_tel_aviv.json", "r", encoding="utf-8") as file:
         data = json.load(file)  # Parse JSON

@@ -1,0 +1,87 @@
+{
+    "user_id": 6550133750,
+    "email": null,
+    "createdAt": "16/02/2025 16:39:03",
+    "origin": "haifa",
+    "destination": "jerusalem",
+    "departure": "01/04 10:00",
+    "gas-stations": 1,
+    "restaurants": 0,
+    "attractions": 1,
+    "route_id": 655013375277,
+    "summary": "Yitzhak Rabin Hwy/Route 6",
+    "total-distance": 150383,
+    "waypoints": [
+        {
+            "lat": 32.7939505,
+            "lng": 34.9905346
+        },
+        {
+            "lat": 32.6188718,
+            "lng": 35.0547083
+        },
+        {
+            "lat": 31.9365147,
+            "lng": 34.92852269999999
+        },
+        {
+            "lat": 31.8421179,
+            "lng": 34.9859323
+        },
+        {
+            "lat": 31.7640041,
+            "lng": 35.2052737
+        }
+    ],
+    "place_type": "gas_station",
+    "places": [
+        {
+            "place_id": "ChIJm1gkwkS6HRURAAk7qvI-pa0",
+            "name": "paz haifa east",
+            "address": "derekh khativat golani 64, haifa",
+            "latitude": 32.804795,
+            "longitude": 35.009525,
+            "working_hours": null,
+            "rating": 4.2,
+            "url": "https://www.google.com/maps/place/?q=place_id:ChIJm1gkwkS6HRURAAk7qvI-pa0",
+            "vicinity": "derekh khativat golani 64, haifa",
+            "wheelchair_accessible": null,
+            "petrol98": null,
+            "electric_charge": null,
+            "convenient_store": null,
+            "car_wash": null
+        },
+        {
+            "place_id": "ChIJMca6neqoHRURgef-yRGeoPU",
+            "name": "sonol",
+            "address": "eliakim",
+            "latitude": 32.63849,
+            "longitude": 35.062276,
+            "working_hours": null,
+            "rating": 3.9,
+            "url": "https://www.google.com/maps/place/?q=place_id:ChIJMca6neqoHRURgef-yRGeoPU",
+            "vicinity": "eliakim",
+            "wheelchair_accessible": null,
+            "petrol98": null,
+            "electric_charge": null,
+            "convenient_store": null,
+            "car_wash": null
+        },
+        {
+            "place_id": "ChIJ0TOG2-vXAhURxIZTaxPf128",
+            "name": "delek pat",
+            "address": "ha-rav herzog street 1, jerusalem",
+            "latitude": 31.757315,
+            "longitude": 35.197972,
+            "working_hours": null,
+            "rating": 3.7,
+            "url": "https://www.google.com/maps/place/?q=place_id:ChIJ0TOG2-vXAhURxIZTaxPf128",
+            "vicinity": "ha-rav herzog street 1, jerusalem",
+            "wheelchair_accessible": null,
+            "petrol98": null,
+            "electric_charge": null,
+            "convenient_store": null,
+            "car_wash": null
+        }
+    ]
+}
