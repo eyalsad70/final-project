@@ -25,11 +25,16 @@ def send_email(to_email_str, subject_str, content_str):
         return 
     
     from_email = Email(from_email_str)
-    to_email = To(to_email_str)
+    
+    email_list = to_email_str.split(";")  # Convert to list
+    # Convert list of emails into a list of `To` objects
+    to_email_list = [To(email) for email in email_list]
+
+    #to_email = To(to_email_str)
     content = Content("text/plain", content_str)
     
     # Create the email message
-    message = Mail(from_email, to_email, subject_str, content)
+    message = Mail(from_email, to_email_list, subject_str, content)
     # message = Mail(
     #     from_email=from_email_str,
     #     to_emails=to_email_str,
