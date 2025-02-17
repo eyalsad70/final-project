@@ -62,7 +62,7 @@ def send_gas_stations_list(json_message, chat_id):
   
         services = {
             "disabled": place.get("wheelchair_accessible", False),
-            "octanl98": place.get("petrol98", False),
+            "octan98": place.get("petrol98", False),
             "electric": place.get("electric_charge", False),
             "store": place.get("convenient_store", False),
             "car_wash": place.get("car_wash", False)

@@ -75,7 +75,7 @@ class RouteBotBrain():
         # 'state that was finished' : "next suggestion for user"
         'start' :'Select Origin',
         'origin_sel' : 'Select Destination',
-        'destination_sel' : "Select date (dd/mm) and estimated departure time (hr:min)",             
+        'destination_sel' : "Select date (dd/mm) and estimated departure time (HH:mm)",             
         'time_sel' : f"Select breaks from menu (multiple choices available) or {UserBreakTypes.DIRECT.value} for Direct \n {break_types_menu}",
         'menu_sel' : f"Press {UserSelectOptions.CONTINUE.value} to Continue or {UserSelectOptions.CANCEL.value} to cancel",
         'finish' : 'Processing...',

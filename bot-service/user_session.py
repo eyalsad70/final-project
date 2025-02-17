@@ -67,7 +67,9 @@ class UserRouteSession():
             user.detailsCompleted = True
             if json_request:
                 user_request.process_user_request(json_request)    
-            
+            else:
+                content = f"route or waypoints for user {self.user_id} not found. cancelled! "
+                
         return content
 
     

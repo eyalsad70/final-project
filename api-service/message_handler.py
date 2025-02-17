@@ -89,6 +89,6 @@ def api_process_message(json_message):
 
 if __name__ == "__main__":
     # Load the JSON file
-    with open("route_request_haifa_tel aviv.json", "r", encoding="utf-8") as file:
+    with open("./json_samples/route_request_haifa_tel aviv.json", "r", encoding="utf-8") as file:
         data = json.load(file)  # Parse JSON
         api_process_message(data)

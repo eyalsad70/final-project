@@ -19,7 +19,7 @@ def get_route_raw(origin, destination):
     route_url = f"https://maps.googleapis.com/maps/api/directions/json?origin={origin}&destination={destination}&language=en&key={API_KEY}"
     route_response = requests.get(route_url).json()
     if route_response['status'] != "OK":
-        logger.error(route_response['status'])
+        logger.error(f"route from {origin} to {destination} : {route_response['status']}")
         return None, None
     
     logger.info(f"calling route url {route_url}")
@@ -43,13 +43,14 @@ def get_route_raw(origin, destination):
     return route_id, route_response
 
 ###########################################################################################
-def get_filtered_route(my_route, result:dict, max_wayouts = 4):
+def get_filtered_route(my_route, result:dict, max_wayouts = 5):
     # filter raw data into limited amount of waypoints + main road to use
     # Extract total trip distance
+    min_interval = 20000  # 20km
     try:
         total_distance = my_route["routes"][0]["legs"][0]["distance"]["value"]  # meters
         max_wayouts = max(max_wayouts, 1)
-        interval = total_distance / max_wayouts
+        interval = max(total_distance / max_wayouts, min_interval)
 
         # Extract waypoints at distance intervals
         waypoints = []
