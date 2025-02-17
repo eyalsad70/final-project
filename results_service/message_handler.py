@@ -16,7 +16,7 @@ def send_route_details_on_email(json_message, text_to_send):
     if email_addr:
         route = json_message[UserRequestFieldNames.ROUTE_ID.value]  
         place_type = json_message['place_type']
-        send_email(email_addr, f"{place_type} list for {route}", text_to_send)
+        send_email(email_addr, f"{place_type}s list for {route}", text_to_send)
 
     
 def send_route_summary(json_message, chat_id):

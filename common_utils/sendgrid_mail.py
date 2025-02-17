@@ -44,10 +44,8 @@ def send_email(to_email_str, subject_str, content_str):
     # Send the email
     try:
         response = sg.send(message)
-        print(f"Response Code: {response.status_code}")
-        print(f"Response Body: {response.body}")
-        print(f"Response Headers: {response.headers}")
         logger.info(f"Email sent successfully to {to_email_str} subject {subject_str}. Status code: {response.status_code}")
+        logger.debug(f"Response Headers: {response.headers}")
     except Exception as e:
         logger.error(f"send_email to {to_email_str} subject {subject_str} ; Error: {str(e)}")
 
