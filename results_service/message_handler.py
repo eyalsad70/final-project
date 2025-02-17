@@ -93,10 +93,10 @@ def send_attractions_list(json_message, chat_id):
         text_message = f"{idx+1}: Name={attraction_name} ; Address={address} ; Opening-hours={opening_hours} ; Category={category} ; Audience_type={audience_type}"
         full_text += text_message
         if not send_message(chat_id,text_message):
-            return False        
+            continue        
         
-        send_route_details_on_email(json_message, full_text)
-        return True
+    send_route_details_on_email(json_message, full_text)
+    return True
 
 
 def results_process_message(json_message):
