@@ -50,12 +50,22 @@ def normalize_attraction(attraction):
         "opening_hours": attraction.get("opening_hours", "N/A"),
     }
 
+import requests
+import logging
+
+logger = logging.getLogger(__name__)
+
+import requests
+import logging
+
+logger = logging.getLogger(__name__)
+
 def fetch_attractions(waypoints, route_id, max_results=20):
     """
-    Fetches up to `max_results` attractions, ensuring they are evenly distributed across waypoints.
+    Fetches up to `max_results` unique attractions, ensuring they are evenly distributed across waypoints.
     - First, searches for attractions in `attractions_res` by latitude & longitude.
     - If not found in DB, fetches from API and inserts into `attractions_res`.
-    - Stores the waypoint (`wp_latitude, wp_longitude`) to avoid future API calls.
+    - Ensures duplicates are skipped and fetches more attractions if needed.
     """
     route_id = str(route_id)  # Ensure route_id is a string
     attractions = []
@@ -65,68 +75,80 @@ def fetch_attractions(waypoints, route_id, max_results=20):
         logger.error("No waypoints available in the route.")
         return []
 
-    connect_db()  # Establish DB connection
-    # ✅ Ensure route_id exists in routes_req before inserting into attractions_res
-    ###########################check_and_insert_route(route_id)	
+    unique_attractions = set()  # ✅ Track unique attractions (lat, lng)
 
-    attraction_per_waypoint = max(1, max_results // total_waypoints)  # Ensure spreading & even distribution
-    remaining_needed = max_results  # Track remaining attractions needed
+    connect_db()  # Establish DB connection
+
+    attraction_per_waypoint = max(1, max_results // total_waypoints)  # Spread results across waypoints
+    remaining_needed = max_results  # Track remaining unique attractions needed
 
     waypoint_index = 0
     while remaining_needed > 0 and waypoint_index < total_waypoints:
         wp_lat, wp_lng = waypoints[waypoint_index]["lat"], waypoints[waypoint_index]["lng"]
+        retry_count = 0  # ✅ Prevent infinite loop
 
-        # ✅ Step 1: Fetch from DB using `wp_lat, wp_lng`
-        if remaining_needed > 0:
+        while remaining_needed > 0 and retry_count < 3:  # ✅ Retry fetching only 3 times per waypoint
+            new_attractions = []
+
+            # ✅ Step 1: Fetch from DB using `wp_lat, wp_lng`
             existing_attractions = get_record(
                 "attractions_res", {"wp_latitude": wp_lat, "wp_longitude": wp_lng}
             )
+
             for attraction in existing_attractions:
-                if remaining_needed == 0:
-                    break
+                lat_lng = (attraction["latitude"], attraction["longitude"])
+                if lat_lng in unique_attractions:
+                    continue  # Skip duplicate
+
+                unique_attractions.add(lat_lng)
                 attractions.append(normalize_attraction(attraction))
                 remaining_needed -= 1
 
-        # ✅ Step 2: Fetch from API if needed
-        if remaining_needed > 0:
+                if remaining_needed == 0:
+                    break  # Stop if max_results is reached
+
+            if remaining_needed == 0:
+                break  # Stop processing if we have enough unique attractions
+
+            # ✅ Step 2: Fetch from API if needed
             places_url = "https://discover.search.hereapi.com/v1/discover"
             params = {
                 "q": "tourist attraction",
                 "at": f"{wp_lat},{wp_lng}",
-                "limit": attraction_per_waypoint,
+                "limit": attraction_per_waypoint + retry_count,  # ✅ Increase limit on retries
                 "sort": "popularity",
                 "apiKey": API_KEY
             }
 
             try:
                 response = requests.get(places_url, params=params, timeout=10)
-                response.raise_for_status()  # Raises HTTPError if status is 4xx or 5xx
+                response.raise_for_status()
             except requests.exceptions.RequestException as e:
-                err_msg = f"ERROR: Request failed: {e}"
-                logger.error(err_msg)
-                return None
+                logger.error(f"ERROR: Request failed: {e}")
+                break  # Exit retry loop if request fails
             
             if response.status_code == 200:
                 places_data = response.json()
                 if "items" in places_data:
                     for place in places_data["items"]:
-                        if remaining_needed == 0:
-                            break
-
                         position = place.get("position", {})
                         latitude = position.get("lat", None)
                         longitude = position.get("lng", None)
+                        lat_lng = (latitude, longitude)
 
-                        # ✅ **Check if attraction already exists in DB by place coordinates**
+                        if lat_lng in unique_attractions:
+                            logger.info(f"Skipping duplicate attraction at {lat_lng}")
+                            continue  # ✅ Skip duplicate
+
+                        # ✅ **Check if attraction already exists in DB**
                         existing_duplicate = get_record(
                             "attractions_res", {"latitude": latitude, "longitude": longitude}
                         )
-
                         if existing_duplicate:
-                            logger.info(f"Skipping duplicate attraction at ({latitude}, {longitude})")
+                            logger.info(f"Skipping duplicate attraction at {lat_lng} (already in DB)")
                             continue  # ✅ Skip duplicate
 
-                        # ✅ **Fetch and insert new attraction**
+                        # ✅ **Prepare new attraction**
                         category = place.get("categories", [{}])[0].get("name", "N/A")
                         audience_type = CATEGORY_MAPPING.get(category, "General")
 
@@ -148,7 +170,7 @@ def fetch_attractions(waypoints, route_id, max_results=20):
                             "attraction_name": attraction_name,
                             "latitude": latitude,
                             "longitude": longitude,
-                            "wp_latitude": wp_lat,  # Store waypoint coordinates to avoid duplicate API calls
+                            "wp_latitude": wp_lat,
                             "wp_longitude": wp_lng,
                             "address": safe_translate(place.get("address", {}).get("label", "N/A")),
                             "category": safe_translate(category),
@@ -157,17 +179,26 @@ def fetch_attractions(waypoints, route_id, max_results=20):
                             "opening_hours": opening_hours,
                         }
 
-                        insert_record("attractions_res", new_attraction)  # Store in database
+                        insert_record("attractions_res", new_attraction)  # Store in DB
+                        unique_attractions.add(lat_lng)  # ✅ Track as unique
                         attractions.append(new_attraction)
                         remaining_needed -= 1
 
+                        if remaining_needed == 0:
+                            break  # Stop when we have enough attractions
+
+            retry_count += 1  # ✅ Prevent infinite retry loop
+
         # ✅ Move to the next waypoint
         waypoint_index += 1
-        if waypoint_index >= total_waypoints:
-            waypoint_index = 0  # Restart from the beginning if not enough attractions
+
+        # Restart from the beginning if not enough attractions are found
+        if waypoint_index >= total_waypoints and remaining_needed > 0:
+            waypoint_index = 0
 
     disconnect_db()  # ✅ Close DB connection
-    return attractions  # ✅ Final return
+    return attractions  # ✅ Return only unique attractions
+
 
 def safe_translate(text):
     """ Wrapper function for translation with error handling. """
@@ -231,7 +262,7 @@ if __name__ == "__main__":
         ]
     }
     
-    json_output = fetch_attractions_from_route(route_json, max_results=10)
+    json_output = fetch_attractions_from_route(route_json, max_results=5)
     #print(json_output)
 
 '''

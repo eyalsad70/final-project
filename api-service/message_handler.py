@@ -69,7 +69,7 @@ def api_process_message(json_message):
     # if user requested for attraction breaks
     if json_message[UserRequestFieldNames.ATTRACTION_REQUIRED.value]:
         place_type = BreakPointName.ATTRACTION.value
-        places = fetch_attractions_from_route(json_message, 4)
+        places = fetch_attractions_from_route(json_message, 5)
         if places:
             topic_name = kfk.RESULTS_TOPIC_NAME            
             was_sent = send_places_data_to_queue(json_message, place_type, places, topic_name)
