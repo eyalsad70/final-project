@@ -1,0 +1,91 @@
+{
+    "user_id": 6550133750,
+    "email": null,
+    "createdAt": "16/02/2025 16:39:03",
+    "origin": "haifa",
+    "destination": "jerusalem",
+    "departure": "01/04 10:00",
+    "gas-stations": 1,
+    "restaurants": 0,
+    "attractions": 1,
+    "route_id": 655013375277,
+    "summary": "Yitzhak Rabin Hwy/Route 6",
+    "total-distance": 150383,
+    "waypoints": [
+        {
+            "lat": 32.7939505,
+            "lng": 34.9905346
+        },
+        {
+            "lat": 32.6188718,
+            "lng": 35.0547083
+        },
+        {
+            "lat": 31.9365147,
+            "lng": 34.92852269999999
+        },
+        {
+            "lat": 31.8421179,
+            "lng": 34.9859323
+        },
+        {
+            "lat": 31.7640041,
+            "lng": 35.2052737
+        }
+    ],
+    "place_type": "attraction",
+    "places": [
+        {
+            "route_id": "724131518130",
+            "attraction_name": "Nahal Shah Kansa Lena",
+            "latitude": 32.80032,
+            "longitude": 34.98217,
+            "wp_latitude": 32.7939505,
+            "wp_longitude": 34.9905346,
+            "address": "Nahal Shah Knessa Lena, Lotus, 34381 Haifa, Israel",
+            "category": "Tourist attraction",
+            "audience_type": "General",
+            "popularity": null,
+            "opening_hours": "יום ב׳-יום א׳: 00:00 - 23:30"
+        },
+        {
+            "route_id": "724131518130",
+            "attraction_name": "Monkey Park",
+            "latitude": 31.94448,
+            "longitude": 34.93433,
+            "wp_latitude": 31.9365147,
+            "wp_longitude": 34.92852269999999,
+            "address": "Monkey Park, Petah Tikva, Israel",
+            "category": "zoo",
+            "audience_type": "General",
+            "popularity": null,
+            "opening_hours": "N/A"
+        },
+        {
+            "route_id": "724131518130",
+            "attraction_name": "Bney HaOsher",
+            "latitude": 31.83951,
+            "longitude": 34.98908,
+            "wp_latitude": 31.8421179,
+            "wp_longitude": 34.9859323,
+            "address": "Bney HaOsher, West Bank, Israel",
+            "category": "Church",
+            "audience_type": "General",
+            "popularity": null,
+            "opening_hours": "N/A"
+        },
+        {
+            "route_id": "724131518130",
+            "attraction_name": "Basket tray cm cm",
+            "latitude": 31.76063,
+            "longitude": 35.20738,
+            "wp_latitude": 31.7640041,
+            "wp_longitude": 35.2052737,
+            "address": "Tray, 3 cm basket, King Hezekiah, 93224 Jerusalem, Israel",
+            "category": "Tourist attraction",
+            "audience_type": "General",
+            "popularity": null,
+            "opening_hours": "N/A"
+        }
+    ]
+}

@@ -27,9 +27,10 @@ def send_route_summary(json_message, chat_id):
     message_text = f"route summary: from {origin} to {destination} - go through {main_route}, total-distance = {distance}km "
     return send_message(chat_id, message_text)
 
+
 def send_restaurant_list(json_message, chat_id):
     places = json_message['places']
-    full_text = ""
+    full_text = "\n"
     send_message(chat_id, "Restaurants List:\n")
     for idx, place in enumerate(places):    
         name = place.get('name', "")
@@ -42,9 +43,8 @@ def send_restaurant_list(json_message, chat_id):
         
         text_message = f"{idx+1}: Name={name} ; Address={address} ; Opening-hours={opening_hours} ; Rating={rating} ; PriceLevel={price_level} \n \
             web-site {website} \n Google-Maps {google_url} \n"
-        full_text += text_message
-        if not send_message(chat_id,text_message):
-            return False       
+        full_text += (text_message + '\n')
+        send_message(chat_id,text_message)
          
     send_route_details_on_email(json_message, full_text)
     return False
@@ -52,7 +52,7 @@ def send_restaurant_list(json_message, chat_id):
 
 def send_gas_stations_list(json_message, chat_id):
     places = json_message['places']
-    full_text = ""
+    full_text = "\n"
     send_message(chat_id, "Gas stations List:\n")
     for idx, place in enumerate(places):    
         name = place.get('name', "")
@@ -69,10 +69,9 @@ def send_gas_stations_list(json_message, chat_id):
         }                
         # Join all keys where the value is not None
         services_str = ",".join(key for key, value in services.items() if value is True)
-        text_message = f"{idx+1}: Name={name} ; Address={address} ; Opening-hours={opening_hours} Services=({services_str}) \n  {google_url} "
-        full_text += text_message
-        if not send_message(chat_id,text_message):
-            return False        
+        text_message = f"{idx+1}: Name={name} ; Address={address} ; Opening-hours={opening_hours} Services=({services_str}) \n  {google_url} \n"
+        full_text += (text_message + '\n')
+        send_message(chat_id,text_message)
     
     send_route_details_on_email(json_message, full_text)
     return True
@@ -80,8 +79,8 @@ def send_gas_stations_list(json_message, chat_id):
 
 def send_attractions_list(json_message, chat_id):
     places = json_message['places']
-    full_text = ""
-    send_message(chat_id, "Attrations List:\n")
+    full_text = "\n"
+    send_message(chat_id, "Attractions List:\n")
     
     for idx, place in enumerate(places):    
         attraction_name = place["attraction_name"]
@@ -90,10 +89,9 @@ def send_attractions_list(json_message, chat_id):
         audience_type = place["audience_type"]
         opening_hours = place["opening_hours"]
 
-        text_message = f"{idx+1}: Name={attraction_name} ; Address={address} ; Opening-hours={opening_hours} ; Category={category} ; Audience_type={audience_type}"
-        full_text += text_message
-        if not send_message(chat_id,text_message):
-            continue        
+        text_message = f"{idx+1}: Name={attraction_name} ; Address={address} ; Opening-hours={opening_hours} ; Category={category} ; Audience_type={audience_type} \n"
+        full_text += (text_message + '\n')
+        send_message(chat_id,text_message)
         
     send_route_details_on_email(json_message, full_text)
     return True
@@ -125,8 +123,13 @@ def results_process_message(json_message):
 
 if __name__ == "__main__":
     # Load the JSON file
-    with open("./json_samples/route_gas_station_Haifa_Jerusalem.json", "r", encoding="utf-8") as file:
-#    with open("./json_samples/route_restaurant_haifa_tel_aviv.json", "r", encoding="utf-8") as file:
-#    with open("./route_attraction_haifa_tel_aviv.json", "r", encoding="utf-8") as file:
-        data = json.load(file)  # Parse JSON
-        results_process_message(data)
+    file_names = [
+        "./json_samples/route_gas_station_Haifa_tel_aviv.json",
+        "./json_samples/route_restaurant_haifa_tel_aviv.json",
+        "./json_samples/route_attraction_haifa_tel_aviv.json"
+    ]    
+    for file_name in file_names:
+        with open(file_name, "r", encoding="utf-8") as file:
+            data = json.load(file)  # Parse JSON
+            results_process_message(data)
+            

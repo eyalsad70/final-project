@@ -1,0 +1,90 @@
+{
+    "user_id": 6550133750,
+    "createdAt": "10/02/2025 17:26:55",
+    "origin": "haifa",
+    "destination": "tel aviv",
+    "departure": "01/04 12:00",
+    "gas-stations": 0,
+    "restaurants": 0,
+    "attractions": 1,
+    "route_id": 655013375690,
+    "summary": "Hwy 2/Kvish HaHof",
+    "total-distance": 92248,
+    "waypoints": [
+        {
+            "lat": 32.7939505,
+            "lng": 34.9905346
+        },
+        {
+            "lat": 32.7926327,
+            "lng": 34.9611957
+        },
+        {
+            "lat": 32.2390202,
+            "lng": 34.833308
+        },
+        {
+            "lat": 32.2384244,
+            "lng": 34.8331712
+        },
+        {
+            "lat": 32.084343,
+            "lng": 34.786489
+        }
+    ],
+    "place_type": "attraction",
+    "places": [
+        {
+            "route_id": "724131518130",
+            "attraction_name": "Nahal Shah Kansa Lena",
+            "latitude": 32.80032,
+            "longitude": 34.98217,
+            "wp_latitude": 32.7939505,
+            "wp_longitude": 34.9905346,
+            "address": "Nahal Shah Knessa Lena, Lotus, 34381 Haifa, Israel",
+            "category": "Tourist attraction",
+            "audience_type": "General",
+            "popularity": null,
+            "opening_hours": "יום ב׳-יום א׳: 00:00 - 23:30"
+        },
+        {
+            "route_id": "655013375690",
+            "attraction_name": "From the Sha sect",
+            "latitude": 32.79475,
+            "longitude": 34.9648,
+            "wp_latitude": 32.7926327,
+            "wp_longitude": 34.9611957,
+            "address": "Kat Sha, 30000 Haifa, Israel",
+            "category": "Fitness or health club",
+            "audience_type": "General",
+            "popularity": null,
+            "opening_hours": "N/A"
+        },
+        {
+            "route_id": "655013375690",
+            "attraction_name": "Agmon Poleg",
+            "latitude": 32.25911,
+            "longitude": 34.84763,
+            "wp_latitude": 32.2390202,
+            "wp_longitude": 34.833308,
+            "address": "Agmon Poleg, Udim, Israel",
+            "category": "Tourist attraction",
+            "audience_type": "General",
+            "popularity": null,
+            "opening_hours": "N/A"
+        },
+        {
+            "route_id": "655013375690",
+            "attraction_name": "output",
+            "latitude": 32.08169,
+            "longitude": 34.78923,
+            "wp_latitude": 32.084343,
+            "wp_longitude": 34.786489,
+            "address": "Pelt, Weizmann, 64239 Tel Aviv-Yafo, Israel",
+            "category": "Tourist attraction",
+            "audience_type": "General",
+            "popularity": null,
+            "opening_hours": "יום א׳: 00:00 - 23:30"
+        }
+    ]
+}
