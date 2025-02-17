@@ -88,8 +88,9 @@ def send_attractions_list(json_message, chat_id):
         category = place["category"]
         audience_type = place["audience_type"]
         opening_hours = place["opening_hours"]
+        website = place["website"]
 
-        text_message = f"{idx+1}: Name={attraction_name} ; Address={address} ; Opening-hours={opening_hours} ; Category={category} ; Audience_type={audience_type} \n"
+        text_message = f"{idx+1}: Name={attraction_name} ; Address={address} ; Opening-hours={opening_hours} ; Category={category} ; Audience_type={audience_type} \n  {website} \n"
         full_text += (text_message + '\n')
         send_message(chat_id,text_message)
         
