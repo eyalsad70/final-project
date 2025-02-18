@@ -50,9 +50,14 @@ def handle_response(message):
 
     my_user:user_session.UserInfo = user_session.get_user(message.from_user.id)
     if not my_user:
-        my_user = user_session.create_user(message.from_user.id)
+        user_id = message.from_user.id
+        user_name = message.from_user.full_name
+        my_user = user_session.create_user(user_id, user_name)
         # TBD - Start bot interaction for new user, getting its details
         # for now, use stub
+        bot.reply_to(message, f"Hello {user_name}")
+        bot.reply_to(message, "press /start to begin!!")
+        return
     
     userSession, is_new_route = user_session.get_user_active_route(my_user.user_id)
     

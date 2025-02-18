@@ -31,9 +31,9 @@ class FuelQuestion(Enum):
     
 
 class UserInfo():
-    def __init__(self, userId) -> None:
+    def __init__(self, userId, userName = "") -> None:
         self.user_id = userId
-        self.user_name = "moshe"
+        self.user_name = userName
         self.user_email = None
         self.createdAt = datetime.now()
         self.detailsCompleted = False
@@ -157,11 +157,11 @@ def get_user(user_id):
     return session
 
 
-def create_user(user_id):
+def create_user(user_id, user_name = ""):
     try:  # if session exists return its object ; otherwise create new one
         user = users_db[user_id]        
     except:
-        user = UserInfo(user_id)
+        user = UserInfo(user_id, user_name)
         users_db[user_id] = user
         logger.info(f"new user session was created for user {user_id}")
             
