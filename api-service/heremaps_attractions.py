@@ -7,7 +7,7 @@ import json
 from decimal import Decimal
 from datetime import datetime
 
-# HereMaps API Key from environment variable
+# HERE Maps API Key from environment variable
 API_KEY = os.getenv('HEREMAPS_ATTRACTIONS_KEY')
 if not API_KEY:
     logger.error("Error: API Key not found! Set the 'HEREMAPS_ATTRACTIONS_KEY' environment variable.")
@@ -48,17 +48,8 @@ def normalize_attraction(attraction):
         "audience_type": attraction.get("audience_type", "General"),
         "popularity": attraction.get("popularity"),
         "opening_hours": attraction.get("opening_hours", "N/A"),
+        "website": attraction.get("website", "N/A")  # ✅ Added Website
     }
-
-import requests
-import logging
-
-logger = logging.getLogger(__name__)
-
-import requests
-import logging
-
-logger = logging.getLogger(__name__)
 
 def fetch_attractions(waypoints, route_id, max_results=20):
     """
@@ -140,6 +131,14 @@ def fetch_attractions(waypoints, route_id, max_results=20):
                             logger.info(f"Skipping duplicate attraction at {lat_lng}")
                             continue  # ✅ Skip duplicate
 
+                        # ✅ Extract Website (if available)
+                        website = "N/A"
+                        if "contacts" in place:
+                            for contact in place["contacts"]:
+                                if contact.get("www"):
+                                    website = contact["www"][0].get("value", "N/A")
+                                    break  # Take first available website
+
                         # ✅ **Check if attraction already exists in DB**
                         existing_duplicate = get_record(
                             "attractions_res", {"latitude": latitude, "longitude": longitude}
@@ -177,6 +176,7 @@ def fetch_attractions(waypoints, route_id, max_results=20):
                             "audience_type": safe_translate(audience_type),
                             "popularity": popularity_value,
                             "opening_hours": opening_hours,
+                            "website": website  # ✅ Added website column
                         }
 
                         insert_record("attractions_res", new_attraction)  # Store in DB
@@ -192,13 +192,8 @@ def fetch_attractions(waypoints, route_id, max_results=20):
         # ✅ Move to the next waypoint
         waypoint_index += 1
 
-        # Restart from the beginning if not enough attractions are found
-        if waypoint_index >= total_waypoints and remaining_needed > 0:
-            waypoint_index = 0
-
     disconnect_db()  # ✅ Close DB connection
     return attractions  # ✅ Return only unique attractions
-
 
 def safe_translate(text):
     """ Wrapper function for translation with error handling. """
