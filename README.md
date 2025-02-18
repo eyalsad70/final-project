@@ -7,11 +7,11 @@ Multiple users can use the BOT client simultanously, but keep in mind of slow re
 
 the following technologies are used to support asyncronous ETL pipeline and reliable storage of user requests and responses
 1. Google Places & HereMaps APIs are used to fetch restaurants, gas-stations & attractions in JSON format
-2. Postgres DB (running on AWS RDS) is used to save the above data (after cleaning and optionally enriching the data)
+2. Postgres DB (running on AWS RDS) is used to save the above data (after cleaning and optionally enriching the data): Tables: 
 3. MongoDB (running on AWS EC2) is storing user route requests (as it contains varying quantity of route waypoints, making it non-schematic)
 4. Python & PySpark scripts are handling the whole pipeline as explained below
 5. Kafka (running on EC2) is used as message queue (working in near real time batch process) between the python services
-6. Web scrapping is used offline to retreive gas-stations details that are not given through google api (such as petrol98 or EV-charge support, car-wash, convenient store, etc...), and save them in CSV for enrichment
+6. Web scrapping is used offline to retreive gas-stations details that are not given through google api (such as petrol98 or EV-charge support, car-wash, convenient store, etc...), and save them in CSV, then load the data (to enrich later on by PySpark) to "attractions" table in PostgreSQL DB.
 7. email service allow user to get detailed response through email (using Twillo SendGrid service)
 8. AWS Lambda is used to clean old DB entries, to make sure we are not caching old data
 
