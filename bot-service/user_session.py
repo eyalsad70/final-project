@@ -130,7 +130,8 @@ class UserRouteSession():
                 if status:
                     mongodb_adapter.insert_data(mongodb_adapter.CollectionType.MONGO_ROUTES_REQUESTS_COLLECTION, request)
                     removed_value = request.pop("_id", None)  # Removes id object added by mongo, if exists
-                else:
+                    logger.info(f"get Google route for route {self.route_id} from {self.bot_brain.origin} to {self.bot_brain.destination}")
+                else: 
                     return None
             else:    
                 logger.error(f"couldn't find google route from {self.bot_brain.origin} to {self.bot_brain.destination}. ABORTING!!!")
@@ -139,6 +140,7 @@ class UserRouteSession():
             request[UserRequestFieldNames.MAIN_ROUTE.value] = db_route[0][UserRequestFieldNames.MAIN_ROUTE.value]
             request[UserRequestFieldNames.TOTAL_DISTANCE.value] = db_route[0][UserRequestFieldNames.TOTAL_DISTANCE.value]
             request[UserRequestFieldNames.WAYPOINTS.value] = db_route[0][UserRequestFieldNames.WAYPOINTS.value]
+            logger.info(f"get DB route for route {self.route_id} from {self.bot_brain.origin} to {self.bot_brain.destination}")
 
         return request
 
