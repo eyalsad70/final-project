@@ -19,33 +19,48 @@ class CollectionType(Enum):
     MONGO_ROUTES_REQUESTS_COLLECTION = "route_requests"
     MONGO_ROUTES_DATA_COLLECTION = "routes_data"
 
-mongodb_is_up = False
+client = None
+my_db = None
 
-# Connect to MongoDB (No authentication)
-# Set a timeout of 5 seconds
-client = MongoClient(f"mongodb://{MONGO_HOST}:{MONGO_PORT}/", serverSelectionTimeoutMS=5000)
+def connect_db():
+    """
+    Establishes a connection to the mongoDB database and sets the global client and project DB.
+    """
+    global client, my_db 
+    if client is None:
+        # Connect to MongoDB (No authentication)
+        # Set a timeout of 5 seconds
+        client = MongoClient(f"mongodb://{MONGO_HOST}:{MONGO_PORT}/", serverSelectionTimeoutMS=5000)
+    try:
+        # Attempt to fetch the list of databases to test connection
+        dbs = client.list_database_names()
+        logger.info(f"Connected to MongoDB! Databases: {dbs}")
+        my_db = client[MONGO_DB]
+    except ServerSelectionTimeoutError as e:
+        logger.error(f"Failed to connect to MongoDB: {e}")
 
-try:
-    # Attempt to fetch the list of databases to test connection
-    dbs = client.list_database_names()
-    logger.info(f"Connected to MongoDB! Databases: {dbs}")
-    db = client[MONGO_DB]
-    mongodb_is_up = True
-except ServerSelectionTimeoutError as e:
-    logger.error(f"Failed to connect to MongoDB: {e}")
 
+def disconnect_db():
+    global client, my_db
+    if client:
+        client.close()
+        client = None
+        my_db = None
 
+        
 def get_collection(type:CollectionType):
-    return db[type.value]
+    return my_db[type.value]
 
 
 def insert_data(type:CollectionType, data):
-    if not mongodb_is_up:
+    if my_db is None:
+        logger.error("insert_data: MongoDB is not connected")
         return False
+    
     """Insert a document into MongoDB"""
     status = False
     try:
-        collection = db[type.value]
+        collection = my_db[type.value]
         result = collection.insert_one(data)
         logger.info(f"Data inserted to Mongo with ID: {result.inserted_id}")
         status =True
@@ -56,10 +71,11 @@ def insert_data(type:CollectionType, data):
 
 def fetch_data(type:CollectionType, query={}):
     """Fetch documents from MongoDB"""
-    if not mongodb_is_up:
+    if my_db is None:
+        logger.error("fetch_data: MongoDB is not connected")
         return None
     try:
-        collection = db[type.value]
+        collection = my_db[type.value]
         results = collection.find(query)
         return list(results)  # Convert cursor to list
     except:
@@ -68,10 +84,11 @@ def fetch_data(type:CollectionType, query={}):
 
 def entry_exists(type:CollectionType, query):
     """Check if a route with given origin & destination exists."""
-    if not mongodb_is_up:
+    if my_db is None:
+        logger.error("entry_exists: MongoDB is not connected")
         return False
     try:
-        collection = db[type.value]
+        collection = my_db[type.value]
         status = collection.find_one(query) is not None  # Returns True if found, else False
         return status
     except:
@@ -80,7 +97,8 @@ def entry_exists(type:CollectionType, query):
 
 if __name__ == "__main__":
      # Save data
-    sample_data = {"name": "Eyal", "age": 54, "city": "Tel Aviv"}
+    sample_data = {"name": "Motty", "age": 50, "city": "Haifa"}
+    connect_db()
     insert_data(CollectionType.MONGO_TEST_COLLECTION, sample_data)
     # Fetch data
     documents = fetch_data(CollectionType.MONGO_TEST_COLLECTION)
@@ -91,7 +109,8 @@ if __name__ == "__main__":
     """Check if a route with given origin & destination exists."""
     query = {"origin": "Tel Aviv", 'destination': 'Ashdod'}
     status = entry_exists(CollectionType.MONGO_ROUTES_REQUESTS_COLLECTION,query) 
-
+    disconnect_db()
+    
 
 
 

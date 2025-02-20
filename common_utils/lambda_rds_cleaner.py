@@ -10,6 +10,9 @@ DB_PASSWORD = os.getenv("DB_PASSWORD")
 DB_PORT = os.getenv("DB_PORT", "5432")  # Default PostgreSQL port
 
 def lambda_handler(event, context):
+    db_tables = ["restaurants_res", "gas_stations_res"]
+    text_body = []
+    
     try:
         # Connect to PostgreSQL RDS
         conn = psycopg2.connect(
@@ -24,15 +27,16 @@ def lambda_handler(event, context):
         # Calculate the date 5 days ago
         five_days_ago = datetime.now() - timedelta(days=5)
 
-        # Execute DELETE query
-        cur.execute("DELETE FROM restaurants_res WHERE created_at < %s;", (five_days_ago,))
-        deleted_rows = cur.rowcount  # Get number of rows deleted
+        for idx, table in enumerate(db_tables):
+            # Execute DELETE query
+            cur.execute(f"DELETE FROM {table} WHERE created_at < %s;", (five_days_ago,))
+            # Commit changes
+            conn.commit()
+            # Get the number of rows affected
+            deleted_rows = cur.rowcount
 
-        # Commit changes
-        conn.commit()
-
-        # Get the number of rows affected
-        deleted_rows = cur.rowcount
+            # Log the number of deleted records
+            text_body.append(f"Deleted {deleted_rows} old records from {table}. ")
 
         # Close connection
         cur.close()
@@ -40,7 +44,7 @@ def lambda_handler(event, context):
 
         return {
             "statusCode": 200,
-            "body": f"Deleted {deleted_rows} old records from restaurants_res."
+            "body": "\n".join(text_body)
         }    
     except Exception as e:
         return {

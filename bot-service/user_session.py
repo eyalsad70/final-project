@@ -97,8 +97,11 @@ class UserRouteSession():
         with open(file_name, "w") as fd:
             fd.write(self.bot_activities)
     
+    
     def create_json_request(self):
+        result = None
         request = dict()
+        
         request[UserRequestFieldNames.USERID.value]= self.user_id
         request[UserRequestFieldNames.USER_EMAIL.value]= self.user_email
         request[UserRequestFieldNames.CREATED_AT.value] = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
@@ -122,6 +125,7 @@ class UserRouteSession():
                 
         # check first if similar route exists in cache. call api only if not
         query = {"origin": self.bot_brain.origin, 'destination': self.bot_brain.destination}
+        mongodb_adapter.connect_db()
         db_route = mongodb_adapter.fetch_data(mongodb_adapter.CollectionType.MONGO_ROUTES_REQUESTS_COLLECTION, query)    
         if not db_route:
             id, google_route = google_routes.get_route_raw(self.bot_brain.origin, self.bot_brain.destination)
@@ -132,9 +136,11 @@ class UserRouteSession():
                     removed_value = request.pop("_id", None)  # Removes id object added by mongo, if exists
                     logger.info(f"get Google route for route {self.route_id} from {self.bot_brain.origin} to {self.bot_brain.destination}")
                 else: 
+                    mongodb_adapter.disconnect_db()
                     return None
             else:    
                 logger.error(f"couldn't find google route from {self.bot_brain.origin} to {self.bot_brain.destination}. ABORTING!!!")
+                mongodb_adapter.disconnect_db()
                 return None
         else:
             request[UserRequestFieldNames.MAIN_ROUTE.value] = db_route[0][UserRequestFieldNames.MAIN_ROUTE.value]
@@ -142,6 +148,7 @@ class UserRouteSession():
             request[UserRequestFieldNames.WAYPOINTS.value] = db_route[0][UserRequestFieldNames.WAYPOINTS.value]
             logger.info(f"get DB route for route {self.route_id} from {self.bot_brain.origin} to {self.bot_brain.destination}")
 
+        mongodb_adapter.disconnect_db()
         return request
 
 #####################################################################################################################
