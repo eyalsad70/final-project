@@ -1,0 +1,32 @@
+version: '3.2'
+
+services:
+   
+    zookeeper:
+        container_name: zookeeper
+        image: wurstmeister/zookeeper:latest
+        ports:
+            - "2181:2181"
+
+    course-kafka:
+        container_name: course-kafka
+        image: wurstmeister/kafka:2.13-2.8.1
+        environment:
+            KAFKA_ADVERTISED_HOST_NAME: course-kafka
+            KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+        ports:
+            - "9092:9092"
+        depends_on:
+            - zookeeper
+
+    kafdrop:
+        container_name: kafdrop
+        image: obsidiandynamics/kafdrop:3.30.0
+        ports:
+            - "9003:9000"
+        environment:
+            - KAFKA_BROKERCONNECT=course-kafka:9092
+        depends_on:
+            - course-kafka
+            
+   

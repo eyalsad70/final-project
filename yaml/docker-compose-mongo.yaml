@@ -1,0 +1,14 @@
+version: '3.2'
+
+services:
+
+    mongo:
+        image: nayacollege/mongo:1.0
+        container_name: mongo
+        ports:
+            - "27017:27017"
+        volumes:
+            - mongo_data:/data/db  # Attach named volume for persistence
+    
+volumes:
+  mongo_data:  # Define the named volume
