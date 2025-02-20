@@ -193,6 +193,19 @@ for PostgreSQL we are using AWS RDS but you can set up a local one
 note that environment file above must include IP, Port & credentials for those tools
 
 
+# ** Running Python Scripts**
+1. open PS Terminal and run your envirnment file (i.e. .\env_set.ps1)
+2. if you get an error run this script and repeat step 1:
+   Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+3. if you want emails to be sent run environment file for emails
+4. run script 'run_scripts.bat'
+   it will start all 4 python services and open 4 windows.
+   if one of them drops make sure that all dependencies are valid (all pip packages installed and all environment variables are set)
+   if your kafka/mongo/postgres are not up you will see ERROR in logs but no exception, and end2end flow will not work properly
 
+5. to stop all services call script 'stop_scripts.bat'
+
+   
+   
   
 Enjoy!
