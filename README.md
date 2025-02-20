@@ -1,4 +1,4 @@
-# **Route Planner 101: ETL Project with Kafka, Python, PySpark, PostgreSQL, MongoDB and Telegram Bot**
+# **Virtual Route Planner: ETL Project with Kafka, Python, PySpark, PostgreSQL, MongoDB and Telegram Bot**
 
 ## **Overview**
 Route planner app is designed to give the best route and breakpoints (optional) for users who want to plan a day trip (currently in Israel only).
@@ -59,6 +59,56 @@ Process:
 
 
 
+
+
+## **Data Processing Model**
+We divided the project into several data retrieval and processing pipelines, as shown in the above main flow diagram
+(every pipeline has a python folder with corresponding name)
+
+### **Pipeline 1 – Bot service**
+1. Handle user interaction – listen to user requests coming from Telegram server, and perform Q&A with the user till having all data for processing request.
+2. manage internal state machine for q&a per user
+3. look for a similar route in DB (mongo) and fetch relevant data. Otherwise call Google Route API to fetch route summary and breakpoints (called waypoints by api) coordinates
+4. create a json request with route request details, save in DB if needed, and send to Kafka topic 'user-requests-queue' for further processing
+
+JSON requests examples can be found under 'json_samples' folder
+
+
+### **Pipeline 2 – API service**
+1. Consume user requests from Kafka,
+2. Per breakpoint type requested by user:
+  Search for places nearby given request waypoints (in a radius of up to 5km) 
+  check in postgres DB table first:
+    attractions_res – for breakpoint type 'attraction'
+    gas_stations_res – for breakpoint type 'gas-station'
+    restaurants_res – for breakpoint type ' restaurant'
+  If not there call proper API, transform & clean data, and save in DB
+3. places collected from DB/API are added to json and sent to next kafka topic for further processing
+4. Kafka Topics:
+    Attractions & Restaurants are sent directly to 'results_queue' since API is sufficient and no further enrichment needed
+    Gas-stations are sent to 'intermediate_queue' for further enrichment as API details are poor
+
+  **APIs being used:**
+    https://maps.googleapis.com/maps/api/directions
+    https://discover.search.hereapi.com/v1/discover
+    https://maps.googleapis.com/maps/api/place/nearbysearch
+    https://maps.googleapis.com/maps/api/place/details
+
+JSON examples for attractions, gas-station & restaurant can be found under 'json_samples' folder
+
+
+
+### **Pipeline 3 – spark service**
+Consume messages from kafka topic 'intermediate_queue' 
+Enrich data (for gas-stations) with 3rd party static data saved in postgres DB table 'gas_stations'. Note that this data was created by the static pipeline 
+Send enriched places data to kafka topic 'results_queue'
+
+
+### ***Pipeline 4 - results service***
+Consume json messages from Kafka topic 'results_queue' 
+Messages contains user parameters & places found on the route
+Create textual responses (per place-type) and send to BOT
+Aggregate textual responses and send to user's email
 
 
   
