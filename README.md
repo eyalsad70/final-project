@@ -89,10 +89,15 @@ JSON requests examples can be found under 'json_samples' folder
     Gas-stations are sent to 'intermediate_queue' for further enrichment as API details are poor
 
   **APIs being used:**
+  
     https://maps.googleapis.com/maps/api/directions
+    
     https://discover.search.hereapi.com/v1/discover
+    
     https://maps.googleapis.com/maps/api/place/nearbysearch
+    
     https://maps.googleapis.com/maps/api/place/details
+
 
 JSON examples for attractions, gas-station & restaurant can be found under 'json_samples' folder
 
@@ -109,6 +114,84 @@ Consume json messages from Kafka topic 'results_queue'
 Messages contains user parameters & places found on the route
 Create textual responses (per place-type) and send to BOT
 Aggregate textual responses and send to user's email
+
+
+# **Installation**
+this project was built in VS code running **python 3.10**
+
+## **Step 1: Load project**
+set root folder on your local machine and clone this repository 
+
+## **Step 2: set local environment and install python packages**
+its recommanded to create a virtual environment (VENV) to avoid versions conflicts between your python and packages needed to be installed.
+when using **VENV** it can take all packages from **'requirements.txt'** file and install. otherwise you need to 'pip install' all packages in this file manually
+
+our package contains a folder for each of the pipelines needed to run (simultanously) and 'main' routine to be run
+
+in addition we have 'common-Utils' folder:
+  It includes all generic functions that are common and used by the different pipeline services, as follows:
+    DB adapters with all needed access APIs for both RDS-Postgres and Mongo
+    Kafka producer/consumer APIs
+    Logger – all methods are using this utility to log activities 
+    Telegram BOT APIs 
+    Google Translate facility
+    Mail adapter
+
+## **Step 3: Envirnment Variables**
+
+this project is using environment variables for credentials, keys, kafka/mongo/postgres hosts IP & Port, etc...
+for proper operations you should aquire the following, and can place them all in environment script (i.e. env_set.ps1 if running under PS terminal):
+
+  $env:TELEGRAM_BOT_TOKEN=" "    # please add your telegram Bot key
+  
+  $env:GOOGLE_PLACES_KEY=" "       # google places API (from GCP) for routes & places
+  
+  $env:HEREMAPS_ATTRACTIONS_KEY=" "   # used for attractions
+  
+  $env:KAFKA_BROKER_HOST = ""     # IP/DNS of the host running Kafka broker
+  
+  $env:KAFKA_BROKER_PORT = "9092"   
+  
+  $env:RDS_DB_HOST = ""        # RDS DNS
+  
+  $env:RDS_DB_NAME = ""
+  
+  $env:RDS_DB_USER = "postgres"
+  
+  $env:RDS_DB_PASSWORD = ""
+  
+  $env:RDS_DB_PORT = "5432"
+  
+  $env:PYTHONPATH="C:\Naya\final-project"  # **need to change to your project root folder**
+  
+  $env:MONGO_DB_HOST = ""  # IP/DNS of the host running mongoDB
+  
+  $env:MONGO_DB_PORT = 27017            # Default MongoDB port
+  
+  $env:MONGO_DB_DBNAME = "nayaProj"     # Change if needed
+
+
+
+
+## **Step 4 (optional): Email support**
+
+Our project supports email through Twillo SendGrid which requires registration (free for up to 100 emails per day). We use it since it doesn't require a personal email password (instead it verifies us via our gmail or other personal mail and gives access key).
+
+If you need email support you must register to SendGrid with personal mail and add environment script with the following:
+
+  $env:SENDGRID_MAIL_KEY = ""
+  
+  $env:SENDER_EMAIL = ""   # this is the your personal mail with which you registered in sendgrid
+  
+  $env:RECEIVER_EMAIL = "<email1>;<email2>;" # list of receiver emails (as we don't have it through BOT UI yet)
+
+
+
+## ** Step 5: Install Tools
+this repository includes YAML files for Kafka & MongoDB dockers. you may install on local machine (and run using docker desktop) or install it on AWS ECS (t3.medium should be sufficient)
+for PostgreSQL we are using AWS RDS but you can set up a local one
+note that environment file above must include IP, Port & credentials for those tools
+
 
 
   
