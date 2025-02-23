@@ -66,9 +66,10 @@ def send_gas_stations_list(json_message, chat_id):
             "electric": place.get("electric_charge", False),
             "store": place.get("convenient_store", False),
             "car_wash": place.get("car_wash", False)
-        }                
+        }     
+        print(services)           
         # Join all keys where the value is not None
-        services_str = ",".join(key for key, value in services.items() if value is True)
+        services_str = ",".join(key for key, value in services.items() if bool(value))
         text_message = f"{idx+1}: Name={name} ; Address={address} ; Opening-hours={opening_hours} Services=({services_str}) \n  {google_url} \n"
         full_text += (text_message + '\n')
         send_message(chat_id,text_message)
